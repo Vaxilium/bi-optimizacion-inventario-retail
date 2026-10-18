@@ -1,0 +1,47 @@
+{
+  "volumenes": {
+    "hechos_ventas_crudo": {
+      "filas": 2899906,
+      "mb": 29.26
+    },
+    "hechos_inventario_crudo": {
+      "filas": 2879847,
+      "mb": 29.48
+    },
+    "hechos_compras_crudo": {
+      "filas": 708672,
+      "mb": 5.34
+    },
+    "dim_producto_crudo": {
+      "filas": 403,
+      "mb": 0.01
+    },
+    "dim_sucursal_crudo": {
+      "filas": 12,
+      "mb": 0.0
+    },
+    "dim_proveedor_crudo": {
+      "filas": 38,
+      "mb": 0.0
+    },
+    "dim_fecha_crudo": {
+      "filas": 731,
+      "mb": 0.01
+    },
+    "promociones_crudo": {
+      "filas": 10237,
+      "mb": 0.04
+    }
+  },
+  "pares": 3920,
+  "dias": 731,
+  "rango_fechas": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "segundos": 18.7,
+  "tasa_quiebre_dias_con_demanda": 0.07880817104577632,
+  "dias_con_demanda": 2024955,
+  "unidades_vendidas": 44382850,
+  "unidades_perdidas": 3785161
+}

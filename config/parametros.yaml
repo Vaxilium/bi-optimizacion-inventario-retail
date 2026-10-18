@@ -29,9 +29,13 @@ generacion:
 politica_actual:
   # Politica "como esta hoy": revision semanal, pronostico media movil 4 semanas,
   # stock de seguridad heuristico (dias de cobertura fijos) y compra por caja.
-  revision_dias: 7
+  revision_dias: 7            # no perecederos: revision semanal
+  revision_dias_perecedero_corto: 1   # vida util <= 6 dias: pedido diario
+  revision_dias_perecedero_largo: 2   # vida util 7-45 dias: dia por medio
   ventana_media_movil: 28
-  dias_seguridad_cobertura: 4
+  dias_seguridad_cobertura: 2.5
+  packs_presentacion_alta: 2
+  packs_presentacion_baja: 4
   incluir_fin_de_semana_mm: true
 
 pronostico:

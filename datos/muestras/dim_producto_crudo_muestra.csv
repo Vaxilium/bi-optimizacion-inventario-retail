@@ -1,0 +1,301 @@
+producto_id,nombre_producto,categoria,subcategoria,marca,proveedor_id,contenido,perecedero,vida_util_dias,costo_unitario,precio_lista,unidad_medida
+SKU-0228,Valle Sur esponja multiuso 500 ml,Limpieza,Utensilios,Valle Sur,PRV-008,500 ml,False,671,3.8,5.2,unidad
+SKU-0099,Sol Naciente Azúcar rubia 400 g,Abarrotes,Conservas,Sol Naciente,PRV-021,400 g,False,439,1.73,2.2,unidad
+SKU-0081,Cumbre Andina Gaseosa limón 500 ml,Bebidas,Aguas y jugos,Cumbre Andina,PRV-002,500 ml,False,536,1.5,2.2,unidad
+SKU-0189,"Monte Verde Papa, saco 5 kg",Frutas y verduras,Tubérculos,Monte Verde,PRV-036,5 kg,True,11,0.99,1.4,unidad
+SKU-0382,Sol Naciente Limón 500 g,Frutas y verduras,Hierbas,Sol Naciente,PRV-036,500 g,True,4,3.85,6.1,unidad
+SKU-0027,La Pradera Queso parmesano 1 kg,Lacteos,Quesos,La Pradera,PRV-023,1 kg,False,180,5.37,7.2,unidad
+SKU-0218,Cumbre Andina Chocolate amargo 500 g,Snacks,Papas fritas,Cumbre Andina,PRV-010,500 g,False,180,2.06,3.1,unidad
+SKU-0334,Mar Azul Arroz integral 500 g,Abarrotes,Aceites y vinagres,Mar Azul,PRV-031,500 g,False,419,2.31,3.1,unidad
+SKU-0293,El Roble Galleta de vainilla 200 g,Snacks,Frutos secos,El Roble,PRV-020,200 g,False,216,1.11,1.7,unidad
+SKU-0188,Mar Azul Salsa de tomate 1 kg,Abarrotes,Aceites y vinagres,Mar Azul,PRV-031,1 kg,False,422,2.6,3.7,unidad
+SKU-0057,El Roble Vino blanco 750 ml,Bebidas,Energizantes,El Roble,PRV-022,750 ml,False,510,1.87,2.9,unidad
+SKU-0090,Sol Naciente Arroz integral 1 kg,Abarrotes,Harinas y azúcar,Sol Naciente,PRV-021,1 kg,False,424,3.26,4.4,unidad
+SKU-0061,Sol Naciente Panceta 250 g,Carnes,Embutidos,Sol Naciente,PRV-005,250 g,True,5,2.52,3.6,unidad
+SKU-0242,Monte Verde Galleta de chocolate 40 g,Snacks,Chocolates,Monte Verde,PRV-030,40 g,False,180,1.85,2.7,unidad
+SKU-0255,Cumbre Andina Queso fresco 200 g,Lacteos,Yogures,Cumbre Andina,PRV-033,200 g,True,12,2.47,3.8,unidad
+SKU-0294,Río Claro Pasta dental 90 g,Higiene personal,Cuidado de la piel,Río Claro,PRV-009,90 g,False,677,3.56,5.6,unidad
+SKU-0121,La Pradera Suavizante 1 L,Limpieza,Utensilios,La Pradera,PRV-018,1 L,False,771,1.83,2.6,unidad
+SKU-0271,El Roble Aceite de oliva 500 g,Abarrotes,Conservas,El Roble,PRV-001,500 g,False,508,2.64,3.2,unidad
+SKU-0140,El Roble Helado de vainilla 800 g,Congelados,Pescados,El Roble,PRV-007,800 g,True,159,2.92,4.9,unidad
+SKU-0207,Río Claro Limpiador de pisos 3 L,Limpieza,Desinfectantes,Río Claro,PRV-018,3 L,False,545,5.87,8.2,unidad
+SKU-0053,Horizonte Máquina de afeitar 100 ml,Higiene personal,Cuidado de la piel,Horizonte,PRV-009,100 ml,False,582,5.28,7.0,unidad
+SKU-0163,Cumbre Andina Queso gauda 200 g,Lacteos,Leches,Cumbre Andina,PRV-023,200 g,True,25,5.54,7.7,unidad
+SKU-0125,Doña Rosa Bolsas de basura 4 unid,Limpieza,Detergentes,Doña Rosa,PRV-028,4 unid,False,771,4.69,6.2,unidad
+SKU-0395,El Roble Naranja 500 g,Frutas y verduras,Tubérculos,El Roble,PRV-016,500 g,True,5,3.79,6.4,unidad
+SKU-0031,Mar Azul Fideos spaghetti 500 g,Abarrotes,Harinas y azúcar,Mar Azul,PRV-031,500 g,False,491,3.16,4.4,unidad
+SKU-0303,Horizonte Detergente en polvo 12 unid,Limpieza,Papel,Horizonte,PRV-008,12 unid,False,616,0.88,1.3,unidad
+SKU-0331,Monte Verde Salsa de tomate 400 g,Abarrotes,Harinas y azúcar,Monte Verde,PRV-001,400 g,False,446,3.17,4.1,unidad
+SKU-0119,La Pradera Cebolla 500 g,Frutas y verduras,Verduras,La Pradera,PRV-036,500 g,True,5,1.04,1.7,unidad
+SKU-0320,Monte Verde Arroz largo fino 1 kg,Abarrotes,Arroz y pastas,Monte Verde,PRV-031,1 kg,False,460,3.3,4.4,unidad
+SKU-0146,Sol Naciente Mix de frutos secos 40 g,Snacks,Frutos secos,Sol Naciente,PRV-030,40 g,True,216,3.98,6.0,unidad
+SKU-0232,Río Claro Gaseosa limón 750 ml,Bebidas,Cervezas y vinos,Río Claro,PRV-002,750 ml,False,462,0.51,0.7,unidad
+SKU-0015,Río Claro Queso fresco 250 ml,Lacteos,Leches,Río Claro,PRV-023,250 ml,True,15,1.71,2.4,unidad
+SKU-0175,Valle Sur Helado de chocolate 1 L,Congelados,Pescados,Valle Sur,PRV-017,1 L,True,205,3.12,4.3,unidad
+SKU-0223,El Roble Bolsas de basura 3 L,Limpieza,Detergentes,El Roble,PRV-008,3 L,False,598,4.73,6.1,unidad
+SKU-0389,Mar Azul Yogur natural 200 g,Lacteos,Yogures,Mar Azul,PRV-033,200 g,True,36,3.85,6.0,unidad
+SKU-0289,Doña Rosa Carne molida 1 kg,Carnes,Embutidos,Doña Rosa,PRV-035,1 kg,True,3,4.58,6.5,unidad
+SKU-0052,Cumbre Andina Aceite vegetal 1 kg,Abarrotes,Conservas,Cumbre Andina,PRV-021,1 kg,False,464,3.07,4.2,unidad
+SKU-0211,El Roble Cepillo de dientes 2 unid,Higiene personal,Cuidado bucal,El Roble,PRV-019,2 unid,False,833,3.99,6.4,unidad
+SKU-0148,Monte Verde Galleta de chocolate 40 g,Snacks,Chocolates,Monte Verde,PRV-010,40 g,True,229,1.72,2.7,unidad
+SKU-0166,Mar Azul Panceta 250 g,Carnes,Vacuno,Mar Azul,PRV-025,250 g,True,7,8.29,13.1,unidad
+SKU-0371,Río Claro Filete de vacuno 700 g,Carnes,Pollo,Río Claro,PRV-005,700 g,True,6,12.48,16.6,unidad
+SKU-0364,Monte Verde Fideos corbata 400 g,Abarrotes,Harinas y azúcar,Monte Verde,PRV-011,400 g,False,372,5.03,7.2,unidad
+SKU-0066,El Roble Detergente líquido 4 unid,Limpieza,Utensilios,El Roble,PRV-028,4 unid,False,876,2.96,3.8,unidad
+SKU-0130,El Roble Vino tinto reserva 1 L,Bebidas,Aguas y jugos,El Roble,PRV-002,1 L,False,285,5.98,7.9,unidad
+SKU-0112,Horizonte Pan marraqueta 700 g,Panaderia,Tortillas,Horizonte,PRV-034,700 g,True,11,1.05,1.7,unidad
+SKU-0368,Horizonte Bebida isotónica 1 L,Bebidas,Cervezas y vinos,Horizonte,PRV-022,1 L,False,430,5.38,7.9,unidad
+SKU-0091,Doña Rosa Jamón laminado 500 g,Carnes,Pollo,Doña Rosa,PRV-005,500 g,True,7,13.69,19.2,unidad
+SKU-0110,Mar Azul Shampoo 100 ml,Higiene personal,Cuidado bucal,Mar Azul,PRV-009,100 ml,False,830,3.41,4.7,unidad
+SKU-0029,La Pradera Cebolla 1 unid,Frutas y verduras,Verduras,La Pradera,PRV-006,1 unid,True,14,3.43,4.9,unidad
+SKU-0042,La Pradera Jugo de durazno 1 L,Bebidas,Gaseosas,La Pradera,PRV-022,1 L,False,285,1.06,1.4,unidad
+SKU-0004,Horizonte Pan multigrano 700 g,Panaderia,Pan envasado,Horizonte,PRV-034,700 g,True,3,0.79,1.1,unidad
+SKU-0023,Horizonte Fideos spaghetti 1 kg,Abarrotes,Harinas y azúcar,Horizonte,PRV-021,1 kg,False,468,2.98,3.8,unidad
+SKU-0370,Horizonte Crema corporal 500 ml,Higiene personal,Cuidado del cabello,Horizonte,PRV-019,500 ml,False,721,2.37,3.5,unidad
+SKU-0284,Mar Azul Helado de vainilla 1 kg,Congelados,Pescados,Mar Azul,PRV-027,1 kg,False,180,5.07,7.1,unidad
+SKU-0262,"La Pradera Vino tinto reserva 1,5 L",Bebidas,Aguas y jugos,La Pradera,PRV-032,"1,5 L",False,504,1.64,2.2,unidad
+SKU-0250,Doña Rosa Queso parmesano 1 L,Lacteos,Mantequillas,Doña Rosa,PRV-023,1 L,True,33,5.32,8.1,unidad
+SKU-0229,Mar Azul Pan marraqueta 500 g,Panaderia,Pan fresco,Mar Azul,PRV-014,500 g,True,5,0.64,1.0,unidad
+SKU-0058,La Pradera Queso gauda 1 L,Lacteos,Leches,La Pradera,PRV-023,1 L,False,180,3.07,4.5,unidad
+SKU-0260,Mar Azul Aceite de oliva 1 kg,Abarrotes,Conservas,Mar Azul,PRV-001,1 kg,False,382,2.53,3.4,unidad
+SKU-0179,Horizonte Yogur natural 1 kg,Lacteos,Mantequillas,Horizonte,PRV-003,1 kg,True,23,5.2,7.9,unidad
+SKU-0333,El Roble Pan de molde 500 g,Panaderia,Pan fresco,El Roble,PRV-004,500 g,True,5,1.98,3.3,unidad
+SKU-0245,Doña Rosa Agua mineral 2 L,Bebidas,Energizantes,Doña Rosa,PRV-002,2 L,False,492,3.99,5.1,unidad
+SKU-0116,Valle Sur Leche descremada 1 L,Lacteos,Leches,Valle Sur,PRV-033,1 L,True,35,0.72,1.0,unidad
+SKU-0158,Horizonte Queso parmesano 1 kg,Lacteos,Leches,Horizonte,PRV-013,1 kg,True,15,4.68,6.5,unidad
+SKU-0102,Mar Azul Pizza congelada 1 kg,Congelados,Helados,Mar Azul,PRV-027,1 kg,False,228,5.21,8.0,unidad
+SKU-0213,Río Claro Mix de frutos secos 500 g,Snacks,Galletas,Río Claro,PRV-020,500 g,True,147,3.02,5.1,unidad
+SKU-0308,Doña Rosa Aceite de oliva 1 kg,Abarrotes,Conservas,Doña Rosa,PRV-001,1 kg,False,472,1.73,2.4,unidad
+SKU-0295,Río Claro Lechuga 1 unid,Frutas y verduras,Hierbas,Río Claro,PRV-036,1 unid,True,7,2.53,3.8,unidad
+SKU-0115,Monte Verde Cebolla 2 kg,Frutas y verduras,Frutas frescas,Monte Verde,PRV-006,2 kg,True,8,0.36,0.5,unidad
+SKU-0233,Sol Naciente Jugo de durazno 500 ml,Bebidas,Cervezas y vinos,Sol Naciente,PRV-002,500 ml,False,303,0.82,1.0,unidad
+SKU-0171,Mar Azul Limón 2 kg,Frutas y verduras,Frutas frescas,Mar Azul,PRV-036,2 kg,True,8,3.59,5.1,unidad
+SKU-0373,Valle Sur Crema corporal 250 ml,Higiene personal,Cuidado bucal,Valle Sur,PRV-009,250 ml,False,552,2.51,3.8,unidad
+SKU-0239,Cumbre Andina Jugo de naranja 1 L,Bebidas,Aguas y jugos,Cumbre Andina,PRV-022,1 L,False,494,0.7,1.0,unidad
+SKU-0298,Mar Azul Filete de vacuno 250 g,Carnes,Cerdo,Mar Azul,PRV-015,250 g,True,8,13.02,18.6,unidad
+SKU-0236,Horizonte Filete de merluza 1 L,Congelados,Pescados,Horizonte,PRV-007,1 L,True,134,4.06,6.2,unidad
+SKU-0339,Río Claro Crema espesa 200 g,Lacteos,Leches,Río Claro,PRV-023,200 g,True,24,6.32,9.8,unidad
+SKU-0133,Río Claro Fideos spaghetti 2 kg,Abarrotes,Aceites y vinagres,Río Claro,PRV-031,2 kg,False,474,4.94,6.7,unidad
+SKU-0060,El Roble Aceite vegetal 1 kg,Abarrotes,Conservas,El Roble,PRV-021,1 kg,False,478,5.13,7.0,unidad
+SKU-0139,Mar Azul Agua saborizada 750 ml,Bebidas,Aguas y jugos,Mar Azul,PRV-002,750 ml,False,422,7.88,10.0,unidad
+SKU-0075,Doña Rosa Aceite de oliva 900 ml,Abarrotes,Aceites y vinagres,Doña Rosa,PRV-031,900 ml,False,521,0.95,1.2,unidad
+SKU-0080,Valle Sur Barra de cereal 500 g,Snacks,Galletas,Valle Sur,PRV-010,500 g,False,252,3.02,4.2,unidad
+SKU-0151,La Pradera Tomate 2 kg,Frutas y verduras,Frutas frescas,La Pradera,PRV-026,2 kg,True,12,2.94,4.2,unidad
+SKU-0290,Horizonte Queso gauda 500 g,Lacteos,Quesos,Horizonte,PRV-013,500 g,True,38,5.61,8.0,unidad
+SKU-0082,Sol Naciente Desodorante 250 ml,Higiene personal,Cuidado del cabello,Sol Naciente,PRV-009,250 ml,False,591,2.35,3.7,unidad
+SKU-0051,Río Claro Helado de chocolate 500 g,Congelados,Comidas preparadas,Río Claro,PRV-017,500 g,True,132,3.5,5.7,unidad
+SKU-0268,Monte Verde Detergente en polvo 1 L,Limpieza,Papel,Monte Verde,PRV-018,1 L,False,781,3.51,5.0,unidad
+SKU-0155,Río Claro Lechuga 5 kg,Frutas y verduras,Tubérculos,Río Claro,PRV-026,5 kg,True,7,0.72,1.2,unidad
+SKU-0343,Sol Naciente Atún en agua 1 kg,Abarrotes,Arroz y pastas,Sol Naciente,PRV-011,1 kg,False,462,3.96,4.9,unidad
+SKU-0205,La Pradera Fideos corbata 900 ml,Abarrotes,Arroz y pastas,La Pradera,PRV-001,900 ml,False,388,3.63,4.9,unidad
+SKU-0336,Monte Verde Tomate 2 kg,Frutas y verduras,Verduras,Monte Verde,PRV-036,2 kg,True,5,1.7,2.4,unidad
+SKU-0054,Cumbre Andina Máquina de afeitar 100 ml,Higiene personal,Cuidado bucal,Cumbre Andina,PRV-019,100 ml,False,801,0.83,1.2,unidad
+SKU-0356,Río Claro Pan de hamburguesa 8 unid,Panaderia,Tortillas,Río Claro,PRV-024,8 unid,True,6,0.44,0.7,unidad
+SKU-0142,Cumbre Andina Zanahoria 500 g,Frutas y verduras,Verduras,Cumbre Andina,PRV-016,500 g,True,4,0.39,0.5,unidad
+SKU-0363,Doña Rosa Costilla de cerdo 1 kg,Carnes,Vacuno,Doña Rosa,PRV-025,1 kg,True,8,9.16,13.0,unidad
+SKU-0372,Sol Naciente Cerveza lager 1 L,Bebidas,Cervezas y vinos,Sol Naciente,PRV-012,1 L,False,307,3.33,4.6,unidad
+SKU-0149,Río Claro Detergente líquido 500 ml,Limpieza,Desinfectantes,Río Claro,PRV-018,500 ml,False,872,3.93,5.7,unidad
+SKU-0278,Río Claro Zanahoria 1 kg,Frutas y verduras,Hierbas,Río Claro,PRV-026,1 kg,True,5,1.27,1.9,unidad
+SKU-0194,"El Roble Jugo de naranja 1,5 L",Bebidas,Energizantes,El Roble,PRV-002,"1,5 L",False,412,5.2,8.0,unidad
+SKU-0067,Cumbre Andina Aceite de oliva 500 g,Abarrotes,Aceites y vinagres,Cumbre Andina,PRV-001,500 g,False,534,3.72,5.1,unidad
+SKU-0174,Monte Verde Arroz integral 2 kg,Abarrotes,Harinas y azúcar,Monte Verde,PRV-031,2 kg,False,473,3.6,4.4,unidad
+SKU-0304,La Pradera Cabritas 40 g,Snacks,Papas fritas,La Pradera,PRV-010,40 g,False,180,2.0,3.1,unidad
+SKU-0366,Mar Azul Lechuga 1 unid,Frutas y verduras,Hierbas,Mar Azul,PRV-036,1 unid,True,12,3.27,4.7,unidad
+SKU-0386,Sol Naciente Jabón de tocador 500 ml,Higiene personal,Cuidado bucal,Sol Naciente,PRV-009,500 ml,False,727,7.19,10.6,unidad
+SKU-0085,Doña Rosa Arroz largo fino 2 kg,Abarrotes,Harinas y azúcar,Doña Rosa,PRV-011,2 kg,False,524,5.03,6.7,unidad
+SKU-0257,Sol Naciente Zanahoria 1 unid,Frutas y verduras,Verduras,Sol Naciente,PRV-016,1 unid,True,3,2.76,4.2,unidad
+SKU-0332,Mar Azul Jabón de tocador 100 ml,Higiene personal,Cuidado de la piel,Mar Azul,PRV-019,100 ml,False,675,3.78,5.0,unidad
+SKU-0100,Valle Sur Cerveza lager 2 L,Bebidas,Energizantes,Valle Sur,PRV-002,2 L,False,482,5.97,8.7,unidad
+SKU-0033,Sol Naciente Acondicionador 250 ml,Higiene personal,Afeitado,Sol Naciente,PRV-029,250 ml,False,837,4.24,5.9,unidad
+SKU-0240,El Roble Pechuga de pollo 1 kg,Carnes,Pollo,El Roble,PRV-015,1 kg,True,7,13.77,18.8,unidad
+SKU-0016,El Roble Zanahoria 5 kg,Frutas y verduras,Tubérculos,El Roble,PRV-016,5 kg,True,10,1.56,2.7,unidad
+SKU-0259,Sol Naciente Aceite de oliva 900 ml,Abarrotes,Harinas y azúcar,Sol Naciente,PRV-001,900 ml,False,495,3.78,5.0,unidad
+SKU-0203,Monte Verde Pizza congelada 500 g,Congelados,Comidas preparadas,Monte Verde,PRV-007,500 g,True,156,8.21,11.4,unidad
+SKU-0237,Río Claro Galleta de agua 300 g,Panaderia,Pan envasado,Río Claro,PRV-024,300 g,True,9,2.19,3.7,unidad
+SKU-0087,El Roble Aceite vegetal 400 g,Abarrotes,Harinas y azúcar,El Roble,PRV-011,400 g,False,394,1.39,1.8,unidad
+SKU-0038,Valle Sur Filete de vacuno 700 g,Carnes,Embutidos,Valle Sur,PRV-005,700 g,True,9,12.54,16.5,unidad
+SKU-0003,El Roble Leche descremada 1 kg,Lacteos,Yogures,El Roble,PRV-003,1 kg,True,26,3.66,5.4,unidad
+SKU-0063,Sol Naciente Gaseosa cola 2 L,Bebidas,Energizantes,Sol Naciente,PRV-022,2 L,False,510,6.18,8.9,unidad
+SKU-0338,Monte Verde Leche condensada 250 ml,Lacteos,Yogures,Monte Verde,PRV-013,250 ml,True,43,1.93,2.5,unidad
+SKU-0269,Horizonte Palta hass 1 unid,Frutas y verduras,Hierbas,Horizonte,PRV-036,1 unid,True,3,3.19,5.3,unidad
+SKU-0309,Valle Sur Pan pita 1 kg,Panaderia,Tortillas,Valle Sur,PRV-004,1 kg,True,8,0.33,0.6,unidad
+SKU-0208,La Pradera Harina sin polvo 500 g,Abarrotes,Arroz y pastas,La Pradera,PRV-021,500 g,False,391,4.76,6.8,unidad
+SKU-0156,Río Claro Chocolate con leche 250 g,Snacks,Frutos secos,Río Claro,PRV-030,250 g,False,180,0.8,1.3,unidad
+SKU-0074,Monte Verde Lomo de vacuno 2 kg,Carnes,Vacuno,Monte Verde,PRV-015,2 kg,True,10,9.26,13.0,unidad
+SKU-0337,Valle Sur Lomo de vacuno 250 g,Carnes,Embutidos,Valle Sur,PRV-025,250 g,True,10,8.0,11.5,unidad
+SKU-0105,La Pradera Galleta de chocolate 500 g,Snacks,Papas fritas,La Pradera,PRV-020,500 g,False,180,0.88,1.3,unidad
+SKU-0306,Cumbre Andina Pan multigrano 300 g,Panaderia,Tortillas,Cumbre Andina,PRV-034,300 g,True,6,1.79,2.5,unidad
+SKU-0376,La Pradera Cepillo de dientes 90 g,Higiene personal,Cuidado bucal,La Pradera,PRV-029,90 g,False,831,5.85,9.4,unidad
+SKU-0279,Horizonte Jabón de tocador 500 ml,Higiene personal,Cuidado del cabello,Horizonte,PRV-029,500 ml,False,649,4.92,7.9,unidad
+SKU-0017,Cumbre Andina Panceta 500 g,Carnes,Vacuno,Cumbre Andina,PRV-025,500 g,True,9,3.63,4.9,unidad
+SKU-0165,Cumbre Andina esponja multiuso 500 ml,Limpieza,Papel,Cumbre Andina,PRV-018,500 ml,False,587,4.18,5.7,unidad
+SKU-0089,Horizonte Tomate 500 g,Frutas y verduras,Hierbas,Horizonte,PRV-036,500 g,True,9,0.7,0.9,unidad
+SKU-0347,Mar Azul Aceite vegetal 1 kg,Abarrotes,Arroz y pastas,Mar Azul,PRV-031,1 kg,False,365,3.09,4.0,unidad
+SKU-0103,Río Claro Desodorante 2 unid,Higiene personal,Cuidado del cabello,Río Claro,PRV-019,2 unid,False,568,2.62,3.5,unidad
+SKU-0164,Cumbre Andina Pan pita 1 kg,Panaderia,Pan fresco,Cumbre Andina,PRV-004,1 kg,True,2,2.23,3.2,unidad
+SKU-0071,Mar Azul Fideos corbata 1 kg,Abarrotes,Conservas,Mar Azul,PRV-021,1 kg,False,409,3.08,4.1,unidad
+SKU-0134,Valle Sur Helado de chocolate 1 L,Congelados,Verduras congeladas,Valle Sur,PRV-007,1 L,False,201,5.34,8.2,unidad
+SKU-0295,Río Claro Lechuga 1 unid,Frutas y verduras,Hierbas,Río Claro,PRV-036,1 unid,True,7,2.53,3.8,unidad
+SKU-0398,Valle Sur Azúcar rubia 2 kg,Abarrotes,Aceites y vinagres,Valle Sur,PRV-021,2 kg,False,491,3.69,5.0,unidad
+SKU-0141,Sol Naciente Lavaloza 1 L,Limpieza,Utensilios,Sol Naciente,PRV-008,1 L,False,834,4.89,6.8,unidad
+SKU-0266,El Roble Jabón de tocador 100 ml,Higiene personal,Afeitado,El Roble,PRV-009,100 ml,False,802,4.47,6.8,unidad
+SKU-0019,Mar Azul Bollo de mantequilla 1 kg,Panaderia,Tortillas,Mar Azul,PRV-034,1 kg,True,10,2.96,4.4,unidad
+SKU-0311,Sol Naciente Pan dulce 700 g,Panaderia,Pan fresco,Sol Naciente,PRV-004,700 g,True,4,2.3,3.9,unidad
+SKU-0021,El Roble Atún en agua 2 kg,Abarrotes,Aceites y vinagres,El Roble,PRV-011,2 kg,False,506,3.5,4.4,unidad
+SKU-0056,Sol Naciente Almendras 150 g,Snacks,Galletas,Sol Naciente,PRV-010,150 g,False,180,1.4,2.1,unidad
+SKU-0329,Horizonte Cebolla 5 kg,Frutas y verduras,Tubérculos,Horizonte,PRV-006,5 kg,True,10,0.38,0.6,unidad
+SKU-0342,"Sol Naciente Papa, saco 1 unid",Frutas y verduras,Tubérculos,Sol Naciente,PRV-006,1 unid,True,11,3.17,5.2,unidad
+SKU-0288,Sol Naciente Toalla de papel 1 L,Limpieza,Papel,Sol Naciente,PRV-008,1 L,False,868,3.42,4.4,unidad
+SKU-0244,Cumbre Andina Gaseosa limón 500 ml,Bebidas,Energizantes,Cumbre Andina,PRV-012,500 ml,False,331,2.95,4.3,unidad
+SKU-0359,Río Claro Zanahoria 500 g,Frutas y verduras,Tubérculos,Río Claro,PRV-016,500 g,True,15,2.7,3.8,unidad
+SKU-0160,Horizonte Cerveza lager 500 ml,Bebidas,Cervezas y vinos,Horizonte,PRV-032,500 ml,False,429,6.04,8.2,unidad
+SKU-0256,La Pradera Filete de vacuno 700 g,Carnes,Cerdo,La Pradera,PRV-015,700 g,True,6,3.27,5.1,unidad
+SKU-0098,Valle Sur Chocolate con leche 40 g,Snacks,Galletas,Valle Sur,PRV-030,40 g,False,180,1.36,2.3,unidad
+SKU-0321,La Pradera Azúcar rubia 2 kg,Abarrotes,Harinas y azúcar,La Pradera,PRV-031,2 kg,False,398,3.86,5.1,unidad
+SKU-0123,Cumbre Andina Harina sin polvo 900 ml,Abarrotes,Aceites y vinagres,Cumbre Andina,PRV-001,900 ml,False,534,1.53,2.0,unidad
+SKU-0114,Sol Naciente Naranja 500 g,Frutas y verduras,Frutas frescas,Sol Naciente,PRV-016,500 g,True,9,2.92,4.2,unidad
+SKU-0195,Mar Azul Lechuga 2 kg,Frutas y verduras,Tubérculos,Mar Azul,PRV-036,2 kg,True,7,2.47,3.4,unidad
+SKU-0265,Mar Azul Galleta de vainilla 200 g,Snacks,Galletas,Mar Azul,PRV-020,200 g,False,241,3.29,5.2,unidad
+SKU-0109,El Roble Bollo de mantequilla 300 g,Panaderia,Pan fresco,El Roble,PRV-004,300 g,True,8,0.97,1.4,unidad
+SKU-0178,Cumbre Andina Aceite de oliva 900 ml,Abarrotes,Conservas,Cumbre Andina,PRV-031,900 ml,False,481,4.86,6.0,unidad
+SKU-0095,Valle Sur Tomate 5 kg,Frutas y verduras,Tubérculos,Valle Sur,PRV-036,5 kg,True,6,3.56,4.9,unidad
+SKU-0241,Monte Verde Arvejas congeladas 800 g,Congelados,Pescados,Monte Verde,PRV-017,800 g,False,200,4.29,5.9,unidad
+SKU-0126,Mar Azul Costilla de cerdo 500 g,Carnes,Embutidos,Mar Azul,PRV-025,500 g,True,10,11.49,18.3,unidad
+SKU-0243,Cumbre Andina Jugo de durazno 2 L,Bebidas,Cervezas y vinos,Cumbre Andina,PRV-002,2 L,False,398,2.39,3.2,unidad
+SKU-0388,Valle Sur Suavizante 3 L,Limpieza,Desinfectantes,Valle Sur,PRV-028,3 L,False,579,2.78,3.8,unidad
+SKU-0092,Doña Rosa Pan multigrano 1 kg,Panaderia,Pan envasado,Doña Rosa,PRV-034,1 kg,True,5,0.39,0.6,unidad
+SKU-0385,La Pradera Crema espesa 1 kg,Lacteos,Yogures,La Pradera,PRV-003,1 kg,False,180,2.46,3.7,unidad
+SKU-0362,Monte Verde Arvejas congeladas 800 g,Congelados,Pescados,Monte Verde,PRV-007,800 g,False,195,4.79,7.1,unidad
+SKU-0379,Horizonte Aceite de oliva 2 kg,Abarrotes,Conservas,Horizonte,PRV-021,2 kg,False,366,4.9,6.0,unidad
+SKU-0201,Río Claro Pata de pollo 1 kg,Carnes,Embutidos,Río Claro,PRV-025,1 kg,True,5,5.24,8.0,unidad
+SKU-0182,Monte Verde Pan marraqueta 700 g,Panaderia,Pan envasado,Monte Verde,PRV-034,700 g,True,10,1.22,1.7,unidad
+SKU-0335,Monte Verde Papas fritas 150 g,Snacks,Chocolates,Monte Verde,PRV-020,150 g,False,268,1.54,2.2,unidad
+SKU-0025,La Pradera Fideos spaghetti 900 ml,Abarrotes,Harinas y azúcar,La Pradera,PRV-001,900 ml,False,504,2.34,3.3,unidad
+SKU-0361,Horizonte Helado de chocolate 800 g,Congelados,Helados,Horizonte,PRV-017,800 g,False,190,5.23,7.5,unidad
+SKU-0247,Valle Sur Leche entera 250 ml,Lacteos,Leches,Valle Sur,PRV-033,250 ml,True,43,3.85,5.3,unidad
+SKU-0127,Horizonte Jugo de durazno 500 ml,Bebidas,Gaseosas,Horizonte,PRV-022,500 ml,False,367,7.0,8.8,unidad
+SKU-0328,Río Claro Bolsas de basura 500 ml,Limpieza,Utensilios,Río Claro,PRV-028,500 ml,False,549,5.94,7.5,unidad
+SKU-0079,Mar Azul Cebolla 5 kg,Frutas y verduras,Hierbas,Mar Azul,PRV-006,5 kg,True,3,3.74,6.4,unidad
+SKU-0264,Mar Azul Pan de hamburguesa 500 g,Panaderia,Tortillas,Mar Azul,PRV-034,500 g,True,7,2.17,3.0,unidad
+SKU-0221,Monte Verde Leche descremada 250 ml,Lacteos,Leches,Monte Verde,PRV-003,250 ml,True,40,3.58,4.9,unidad
+SKU-0299,Mar Azul Pan pita 300 g,Panaderia,Pan envasado,Mar Azul,PRV-024,300 g,True,10,1.63,2.2,unidad
+SKU-0314,Río Claro Jugo de durazno 750 ml,Bebidas,Cervezas y vinos,Río Claro,PRV-002,750 ml,False,284,1.55,2.3,unidad
+SKU-0390,Monte Verde Bebida isotónica 1 L,Bebidas,Aguas y jugos,Monte Verde,PRV-032,1 L,False,502,3.32,4.7,unidad
+SKU-0285,La Pradera Agua mineral 2 L,Bebidas,Gaseosas,La Pradera,PRV-002,2 L,False,540,2.7,3.6,unidad
+SKU-0062,Cumbre Andina Bollo de mantequilla 1 kg,Panaderia,Masas dulces,Cumbre Andina,PRV-024,1 kg,True,2,2.6,3.6,unidad
+SKU-0281,Río Claro Harina sin polvo 500 g,Abarrotes,Arroz y pastas,Río Claro,PRV-011,500 g,False,501,3.54,5.0,unidad
+SKU-0094,Monte Verde Jamón laminado 700 g,Carnes,Pollo,Monte Verde,PRV-035,700 g,True,3,10.86,17.3,unidad
+SKU-0325,Cumbre Andina Mantequilla 1 kg,Lacteos,Yogures,Cumbre Andina,PRV-033,1 kg,True,24,3.9,5.3,unidad
+SKU-0217,Doña Rosa Cepillo de dientes 250 ml,Higiene personal,Afeitado,Doña Rosa,PRV-029,250 ml,False,663,4.42,6.9,unidad
+SKU-0070,La Pradera Lavaloza 3 L,Limpieza,Papel,La Pradera,PRV-018,3 L,False,759,2.33,3.4,unidad
+SKU-0037,Monte Verde Atún en agua 500 g,Abarrotes,Harinas y azúcar,Monte Verde,PRV-001,500 g,False,496,2.85,3.8,unidad
+SKU-0041,Monte Verde Lomo de vacuno 2 kg,Carnes,Cerdo,Monte Verde,PRV-015,2 kg,True,10,2.82,4.5,unidad
+SKU-0161,El Roble Cloro 4 unid,Limpieza,Detergentes,El Roble,PRV-028,4 unid,False,672,1.31,1.7,unidad
+SKU-0307,Río Claro Leche condensada 250 ml,Lacteos,Yogures,Río Claro,PRV-033,250 ml,True,41,2.34,3.6,unidad
+SKU-0012,Mar Azul Vino blanco 500 ml,Bebidas,Gaseosas,Mar Azul,PRV-002,500 ml,False,515,1.61,2.0,unidad
+SKU-0145,Río Claro Acondicionador 90 g,Higiene personal,Cuidado bucal,Río Claro,PRV-019,90 g,False,856,5.8,9.5,unidad
+SKU-0341,Sol Naciente Queso fresco 1 kg,Lacteos,Mantequillas,Sol Naciente,PRV-003,1 kg,False,180,3.24,4.3,unidad
+SKU-0282,Horizonte Pan multigrano 8 unid,Panaderia,Masas dulces,Horizonte,PRV-034,8 unid,True,10,0.56,0.9,unidad
+SKU-0327,La Pradera Salsa de tomate 2 kg,Abarrotes,Aceites y vinagres,La Pradera,PRV-021,2 kg,False,419,3.28,4.2,unidad
+SKU-0128,La Pradera Leche descremada 200 g,Lacteos,Quesos,La Pradera,PRV-033,200 g,False,180,5.84,7.6,unidad
+SKU-0222,Monte Verde Manzana fuji 2 kg,Frutas y verduras,Verduras,Monte Verde,PRV-006,2 kg,True,12,1.4,1.9,unidad
+SKU-0185,Valle Sur Pizza congelada 800 g,Congelados,Comidas preparadas,Valle Sur,PRV-007,800 g,True,146,8.89,14.5,unidad
+SKU-0047,Cumbre Andina Plátano 500 g,Frutas y verduras,Frutas frescas,Cumbre Andina,PRV-016,500 g,True,10,4.13,6.3,unidad
+SKU-0238,Horizonte Cebolla 2 kg,Frutas y verduras,Verduras,Horizonte,PRV-026,2 kg,True,9,0.42,0.6,unidad
+SKU-0301,El Roble Tomate 1 kg,Frutas y verduras,Frutas frescas,El Roble,PRV-036,1 kg,True,14,1.76,2.6,unidad
+SKU-0360,Doña Rosa Arroz integral 900 ml,Abarrotes,Aceites y vinagres,Doña Rosa,PRV-031,900 ml,False,510,3.41,4.6,unidad
+SKU-0177,El Roble Leche descremada 500 g,Lacteos,Leches,El Roble,PRV-023,500 g,True,24,2.6,4.0,unidad
+SKU-0129,Monte Verde Crema corporal 90 g,Higiene personal,Cuidado del cabello,Monte Verde,PRV-009,90 g,False,839,7.03,9.3,unidad
+SKU-0144,Sol Naciente Agua saborizada 750 ml,Bebidas,Gaseosas,Sol Naciente,PRV-012,750 ml,False,305,4.39,6.3,unidad
+SKU-0008,Sol Naciente Chuleta de cerdo 250 g,Carnes,Embutidos,Sol Naciente,PRV-035,250 g,True,9,8.84,13.5,unidad
+SKU-0397,Mar Azul Yogur de frutilla 1 kg,Lacteos,Yogures,Mar Azul,PRV-003,1 kg,False,180,1.97,2.9,unidad
+SKU-0246,Mar Azul Lavaloza 3 L,Limpieza,Desinfectantes,Mar Azul,PRV-008,3 L,False,729,3.88,4.9,unidad
+SKU-0351,Valle Sur Pan de hamburguesa 500 g,Panaderia,Pan fresco,Valle Sur,PRV-004,500 g,True,8,1.06,1.4,unidad
+SKU-0180,Doña Rosa Plátano 5 kg,Frutas y verduras,Tubérculos,Doña Rosa,PRV-006,5 kg,True,5,0.88,1.3,unidad
+SKU-0173,Doña Rosa Limpiador de pisos 3 L,Limpieza,Utensilios,Doña Rosa,PRV-028,3 L,False,892,4.88,6.4,unidad
+SKU-0297,Sol Naciente Vino tinto reserva 500 ml,Bebidas,Gaseosas,Sol Naciente,PRV-012,500 ml,False,502,6.83,10.2,unidad
+SKU-0009,Mar Azul Agua mineral 750 ml,Bebidas,Gaseosas,Mar Azul,PRV-002,750 ml,False,457,0.62,0.8,unidad
+SKU-0157,Río Claro Manzana fuji 5 kg,Frutas y verduras,Verduras,Río Claro,PRV-006,5 kg,True,5,2.35,3.6,unidad
+SKU-0028,El Roble Aceite de oliva 400 g,Abarrotes,Harinas y azúcar,El Roble,PRV-031,400 g,False,503,3.15,4.4,unidad
+SKU-0296,La Pradera Harina sin polvo 1 kg,Abarrotes,Conservas,La Pradera,PRV-011,1 kg,False,451,3.87,4.9,unidad
+SKU-0354,Horizonte Papel higiénico 1 L,Limpieza,Papel,Horizonte,PRV-008,1 L,False,540,4.75,6.0,unidad
+SKU-0059,La Pradera Leche condensada 1 L,Lacteos,Yogures,La Pradera,PRV-013,1 L,True,42,6.03,8.4,unidad
+SKU-0206,Valle Sur Empanadas congeladas 1 L,Congelados,Comidas preparadas,Valle Sur,PRV-027,1 L,True,168,8.42,13.5,unidad
+SKU-0065,Horizonte Detergente líquido 12 unid,Limpieza,Utensilios,Horizonte,PRV-018,12 unid,False,612,3.52,4.7,unidad
+SKU-0083,Sol Naciente Fideos spaghetti 2 kg,Abarrotes,Conservas,Sol Naciente,PRV-021,2 kg,False,439,0.98,1.3,unidad
+SKU-0399,Monte Verde Arroz integral 900 ml,Abarrotes,Arroz y pastas,Monte Verde,PRV-001,900 ml,False,370,1.5,1.9,unidad
+SKU-0214,La Pradera Jugo de naranja 500 ml,Bebidas,Aguas y jugos,La Pradera,PRV-002,500 ml,False,293,0.87,1.3,unidad
+SKU-0254,La Pradera Toalla de papel 1 L,Limpieza,Desinfectantes,La Pradera,PRV-008,1 L,False,720,0.91,1.3,unidad
+SKU-0154,El Roble Aceite vegetal 500 g,Abarrotes,Conservas,El Roble,PRV-011,500 g,False,519,2.46,3.1,unidad
+SKU-0049,Mar Azul Naranja 5 kg,Frutas y verduras,Verduras,Mar Azul,PRV-036,5 kg,True,3,1.58,2.1,unidad
+SKU-0209,Horizonte Cebolla 5 kg,Frutas y verduras,Tubérculos,Horizonte,PRV-026,5 kg,True,13,2.7,3.8,unidad
+SKU-0249,Horizonte Salsa de tomate 500 g,Abarrotes,Arroz y pastas,Horizonte,PRV-031,500 g,False,393,3.51,4.3,unidad
+SKU-0032,Valle Sur Agua mineral 750 ml,Bebidas,Aguas y jugos,Valle Sur,PRV-002,750 ml,False,350,5.9,7.7,unidad
+SKU-0002,Mar Azul Vino blanco 750 ml,Bebidas,Cervezas y vinos,Mar Azul,PRV-002,750 ml,False,473,5.61,7.2,unidad
+SKU-0172,Monte Verde Limón 1 unid,Frutas y verduras,Frutas frescas,Monte Verde,PRV-036,1 unid,True,5,0.4,0.7,unidad
+SKU-0272,Río Claro Galleta de chocolate 250 g,Snacks,Frutos secos,Río Claro,PRV-010,250 g,False,180,3.6,5.0,unidad
+SKU-0014,Horizonte Mix de frutos secos 150 g,Snacks,Papas fritas,Horizonte,PRV-020,150 g,False,232,0.95,1.6,unidad
+SKU-0369,Cumbre Andina Salsa de tomate 900 ml,Abarrotes,Aceites y vinagres,Cumbre Andina,PRV-001,900 ml,False,417,1.53,1.9,unidad
+SKU-0010,Doña Rosa Almendras 500 g,Snacks,Chocolates,Doña Rosa,PRV-030,500 g,True,182,0.83,1.2,unidad
+SKU-0147,Valle Sur Suavizante 1 L,Limpieza,Papel,Valle Sur,PRV-018,1 L,False,760,4.76,6.3,unidad
+SKU-0275,Monte Verde Detergente líquido 3 L,Limpieza,Desinfectantes,Monte Verde,PRV-008,3 L,False,761,2.12,2.7,unidad
+SKU-0267,Monte Verde Naranja 2 kg,Frutas y verduras,Frutas frescas,Monte Verde,PRV-006,2 kg,True,11,1.56,2.1,unidad
+SKU-0374,Valle Sur Arvejas congeladas 1 kg,Congelados,Verduras congeladas,Valle Sur,PRV-027,1 kg,False,232,6.95,10.2,unidad
+SKU-0096,Valle Sur Bebida isotónica 2 L,Bebidas,Aguas y jugos,Valle Sur,PRV-022,2 L,False,483,4.29,5.4,unidad
+SKU-0035,Monte Verde Plátano 1 kg,Frutas y verduras,Frutas frescas,Monte Verde,PRV-006,1 kg,True,8,0.85,1.2,unidad
+SKU-0097,Horizonte Fideos corbata 500 g,Abarrotes,Aceites y vinagres,Horizonte,PRV-031,500 g,False,385,1.55,2.1,unidad
+SKU-0391,Mar Azul Salsa de tomate 900 ml,Abarrotes,Aceites y vinagres,Mar Azul,PRV-031,900 ml,False,457,3.76,5.0,unidad
+SKU-0355,Cumbre Andina Gaseosa limón 1 L,Bebidas,Gaseosas,Cumbre Andina,PRV-032,1 L,False,455,0.91,1.2,unidad
+SKU-0352,La Pradera Yogur de frutilla 500 g,Lacteos,Quesos,La Pradera,PRV-023,500 g,True,18,4.89,6.4,unidad
+SKU-0322,Mar Azul Pan dulce 700 g,Panaderia,Masas dulces,Mar Azul,PRV-034,700 g,True,7,1.31,2.0,unidad
+SKU-0365,Valle Sur Carne molida 700 g,Carnes,Embutidos,Valle Sur,PRV-025,700 g,True,3,9.19,14.8,unidad
+SKU-0117,El Roble Atún en agua 900 ml,Abarrotes,Arroz y pastas,El Roble,PRV-011,900 ml,False,499,0.87,1.2,unidad
+SKU-0169,Horizonte Toalla de papel 500 ml,Limpieza,Papel,Horizonte,PRV-028,500 ml,False,746,3.58,4.6,unidad
+SKU-0046,Monte Verde Cloro 3 L,Limpieza,Desinfectantes,Monte Verde,PRV-018,3 L,False,580,5.16,7.3,unidad
+SKU-0162,Monte Verde Harina sin polvo 400 g,Abarrotes,Arroz y pastas,Monte Verde,PRV-021,400 g,False,389,3.55,5.0,unidad
+SKU-0224,Doña Rosa Pechuga de pollo 1 kg,Carnes,Cerdo,Doña Rosa,PRV-025,1 kg,True,10,11.32,15.8,unidad
+SKU-0319,Doña Rosa Desodorante 2 unid,Higiene personal,Cuidado bucal,Doña Rosa,PRV-009,2 unid,False,689,4.32,6.5,unidad
+SKU-0118,Mar Azul Papas fritas 200 g,Snacks,Frutos secos,Mar Azul,PRV-020,200 g,False,234,1.34,2.0,unidad
+SKU-0078,Doña Rosa Limpiador de pisos 1 L,Limpieza,Utensilios,Doña Rosa,PRV-028,1 L,False,799,3.11,4.1,unidad
+SKU-0317,Doña Rosa Shampoo 500 ml,Higiene personal,Cuidado del cabello,Doña Rosa,PRV-029,500 ml,False,546,4.93,8.1,unidad
+SKU-0064,Doña Rosa Galleta de vainilla 200 g,Snacks,Frutos secos,Doña Rosa,PRV-030,200 g,False,257,0.91,1.3,unidad
+SKU-0231,Sol Naciente Helado de chocolate 1 kg,Congelados,Pescados,Sol Naciente,PRV-007,1 kg,True,128,6.38,10.0,unidad
+SKU-0187,Río Claro Limón 500 g,Frutas y verduras,Tubérculos,Río Claro,PRV-036,500 g,True,14,1.83,2.5,unidad
+SKU-0270,Monte Verde Pan pita 500 g,Panaderia,Pan fresco,Monte Verde,PRV-014,500 g,True,9,2.58,4.3,unidad
+SKU-0200,Valle Sur Acondicionador 2 unid,Higiene personal,Cuidado de la piel,Valle Sur,PRV-019,2 unid,False,743,3.38,5.4,unidad
+SKU-0274,Sol Naciente Limpiador de pisos 4 unid,Limpieza,Papel,Sol Naciente,PRV-028,4 unid,False,723,5.51,7.8,unidad
+SKU-0122,Doña Rosa Plátano 1 unid,Frutas y verduras,Hierbas,Doña Rosa,PRV-016,1 unid,True,15,2.62,4.3,unidad
+SKU-0375,Cumbre Andina Acondicionador 2 unid,Higiene personal,Cuidado de la piel,Cumbre Andina,PRV-019,2 unid,False,554,4.6,6.7,unidad
+SKU-0348,Río Claro Pan de molde 300 g,Panaderia,Pan envasado,Río Claro,PRV-004,300 g,True,3,2.84,3.9,unidad
+SKU-0159,Valle Sur Barra de cereal 500 g,Snacks,Galletas,Valle Sur,PRV-020,500 g,False,200,1.61,2.6,unidad
+SKU-0086,Monte Verde Jugo de naranja 1 L,Bebidas,Cervezas y vinos,Monte Verde,PRV-022,1 L,False,524,7.01,9.4,unidad
+SKU-0226,"Mar Azul Agua saborizada 1,5 L",Bebidas,Energizantes,Mar Azul,PRV-012,"1,5 L",False,365,4.18,5.5,unidad
+SKU-0263,Doña Rosa Fideos spaghetti 2 kg,Abarrotes,Harinas y azúcar,Doña Rosa,PRV-011,2 kg,False,398,1.91,2.7,unidad
+SKU-0324,Valle Sur Jugo de naranja 1 L,Bebidas,Aguas y jugos,Valle Sur,PRV-012,1 L,False,403,1.6,2.2,unidad
+SKU-0077,Río Claro Agua saborizada 750 ml,Bebidas,Aguas y jugos,Río Claro,PRV-022,750 ml,False,378,7.88,11.6,unidad
+SKU-0315,Sol Naciente Almendras 40 g,Snacks,Papas fritas,Sol Naciente,PRV-030,40 g,False,249,2.37,3.3,unidad
+SKU-0302,Doña Rosa Crema espesa 1 kg,Lacteos,Quesos,Doña Rosa,PRV-003,1 kg,False,180,1.97,2.6,unidad
+SKU-0088,"Horizonte Papa, saco 500 g",Frutas y verduras,Hierbas,Horizonte,PRV-026,500 g,True,13,2.95,4.7,unidad
+SKU-0375,Cumbre Andina Acondicionador 2 unid,Higiene personal,Cuidado de la piel,Cumbre Andina,PRV-019,2 unid,False,554,4.6,6.7,unidad
+SKU-0183,La Pradera Cabritas 150 g,Snacks,Galletas,La Pradera,PRV-030,150 g,False,248,2.97,4.1,unidad
+SKU-0106,Monte Verde Pechuga de pollo 700 g,Carnes,Cerdo,Monte Verde,PRV-005,700 g,True,3,4.53,6.7,unidad
+SKU-0050,Horizonte Detergente en polvo 4 unid,Limpieza,Utensilios,Horizonte,PRV-018,4 unid,False,547,3.52,5.0,unidad
+SKU-0006,El Roble Pasta dental 250 ml,Higiene personal,Afeitado,El Roble,PRV-009,250 ml,False,874,6.41,9.5,unidad
+SKU-0018,Mar Azul Detergente líquido 500 ml,Limpieza,Desinfectantes,Mar Azul,PRV-028,500 ml,False,760,1.58,2.0,unidad
+SKU-0235,Río Claro Jabón de tocador 250 ml,Higiene personal,Cuidado del cabello,Río Claro,PRV-029,250 ml,False,598,4.57,6.6,unidad
+SKU-0323,Mar Azul Limpiador de pisos 1 L,Limpieza,Desinfectantes,Mar Azul,PRV-028,1 L,False,698,3.05,4.1,unidad
+SKU-0107,La Pradera Leche condensada 1 kg,Lacteos,Leches,La Pradera,PRV-033,1 kg,True,16,3.7,5.7,unidad
+SKU-0135,Doña Rosa Pan integral 1 kg,Panaderia,Masas dulces,Doña Rosa,PRV-034,1 kg,True,12,0.42,0.7,unidad
+SKU-0378,Mar Azul Jugo de naranja 2 L,Bebidas,Gaseosas,Mar Azul,PRV-012,2 L,False,362,7.69,9.6,unidad
+SKU-0227,"Sol Naciente Agua saborizada 1,5 L",Bebidas,Gaseosas,Sol Naciente,PRV-032,"1,5 L",False,490,7.05,9.2,unidad
+SKU-0215,Sol Naciente Detergente líquido 3 L,Limpieza,Detergentes,Sol Naciente,PRV-028,3 L,False,777,5.92,8.3,unidad
+SKU-0191,Sol Naciente Aceite de oliva 2 kg,Abarrotes,Harinas y azúcar,Sol Naciente,PRV-001,2 kg,False,419,5.19,6.9,unidad
+SKU-0357,Doña Rosa Atún en agua 1 kg,Abarrotes,Harinas y azúcar,Doña Rosa,PRV-031,1 kg,False,528,0.78,1.0,unidad
+SKU-0283,Valle Sur Chocolate con leche 250 g,Snacks,Papas fritas,Valle Sur,PRV-030,250 g,False,253,1.37,2.1,unidad
+SKU-0030,Mar Azul Arroz largo fino 900 ml,Abarrotes,Conservas,Mar Azul,PRV-001,900 ml,False,457,4.69,5.8,unidad
+SKU-0170,El Roble Detergente líquido 500 ml,Limpieza,Utensilios,El Roble,PRV-018,500 ml,False,545,5.63,7.7,unidad
+SKU-0181,Sol Naciente Fideos spaghetti 500 g,Abarrotes,Aceites y vinagres,Sol Naciente,PRV-031,500 g,False,515,5.35,7.2,unidad
+SKU-0101,Doña Rosa Aceite de oliva 1 kg,Abarrotes,Harinas y azúcar,Doña Rosa,PRV-001,1 kg,False,452,4.07,5.5,unidad
+SKU-0198,La Pradera Pizza congelada 1 L,Congelados,Comidas preparadas,La Pradera,PRV-007,1 L,False,180,8.03,11.8,unidad
+SKU-0210,El Roble Tortilla de trigo 300 g,Panaderia,Masas dulces,El Roble,PRV-034,300 g,True,8,1.0,1.5,unidad
+SKU-0136,El Roble Cloro 3 L,Limpieza,Detergentes,El Roble,PRV-018,3 L,False,727,3.23,4.2,unidad
