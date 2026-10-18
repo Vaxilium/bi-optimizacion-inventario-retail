@@ -98,6 +98,8 @@ def generar(modo_rapido: bool = False) -> dict:
     for nombre, tabla in tablas_crudo.items():
         ruta = guardar_parquet(tabla, RUTA_CRUDO / f"{nombre}.parquet")
         tamanos[nombre] = {"filas": int(len(tabla)), "mb": round(ruta.stat().st_size / 1e6, 2)}
+    operativos = dims["params_producto"][["producto_id", "pack", "rotacion_clase"]]
+    guardar_parquet(operativos, RUTA_CRUDO / "params_producto.parquet")
     guardar_parquet(verdad, RUTA_VERDAD / "verdad_demanda.parquet")
     dims["params_producto"].to_csv(RUTA_VERDAD / "verdad_producto.csv", index=False)
     _muestras(tablas_crudo)
