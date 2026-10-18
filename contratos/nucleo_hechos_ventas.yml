@@ -1,0 +1,28 @@
+tabla: nucleo_hechos_ventas
+descripcion: Venta diaria por sucursal y SKU (demanda observada, censurada por quiebre).
+grano: una fila por fecha, sucursal y producto.
+columnas:
+  - {nombre: fecha, tipo: DATE, nulo: false}
+  - {nombre: fecha_id, tipo: INTEGER, nulo: false}
+  - {nombre: sucursal_id, tipo: VARCHAR, nulo: false}
+  - {nombre: producto_id, tipo: VARCHAR, nulo: false}
+  - {nombre: venta_unidades, tipo: INTEGER, nulo: false}
+  - {nombre: precio_unitario, tipo: DOUBLE, nulo: false}
+  - {nombre: venta_valorizada, tipo: DOUBLE, nulo: false}
+  - {nombre: costo_total, tipo: DOUBLE, nulo: false}
+  - {nombre: margen_bruto, tipo: DOUBLE, nulo: false}
+  - {nombre: en_promocion, tipo: BOOLEAN, nulo: false}
+  - {nombre: indicador_quiebre, tipo: BOOLEAN, nulo: false}
+unicidad: [fecha, sucursal_id, producto_id]
+rangos:
+  fecha: {min: "2024-01-01", max: "2025-12-31"}
+  venta_unidades: {min: 0, max: 5000}
+  precio_unitario: {min: 0.01, max: 1000}
+  venta_valorizada: {min: 0, max: 5000000}
+  costo_total: {min: 0, max: 5000000}
+  margen_bruto: {min: -2000000, max: 5000000}
+claves_foraneas:
+  - {columnas: [sucursal_id], tabla: dim_sucursal, columna: sucursal_id}
+  - {columnas: [producto_id], tabla: dim_producto, columna: producto_id}
+  - {columnas: [fecha], tabla: dim_fecha, columna: fecha}
+filas_minimas: 1000

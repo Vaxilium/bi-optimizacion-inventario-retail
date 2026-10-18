@@ -1,0 +1,22 @@
+tabla: dim_promociones
+descripcion: Eventos promocionales por SKU y sucursal.
+grano: una fila por promocion, SKU y sucursal.
+columnas:
+  - {nombre: promocion_id, tipo: VARCHAR, nulo: false}
+  - {nombre: producto_id, tipo: VARCHAR, nulo: false}
+  - {nombre: sucursal_id, tipo: VARCHAR, nulo: false}
+  - {nombre: fecha_inicio, tipo: DATE, nulo: false}
+  - {nombre: fecha_fin, tipo: DATE, nulo: false}
+  - {nombre: tipo_promocion, tipo: VARCHAR, nulo: false}
+  - {nombre: descuento_pct, tipo: DOUBLE, nulo: false}
+  - {nombre: precio_promocional, tipo: DOUBLE, nulo: false}
+  - {nombre: uplift_esperado, tipo: DOUBLE, nulo: false}
+unicidad: [promocion_id, producto_id, sucursal_id]
+rangos:
+  fecha_inicio: {min: "2024-01-01", max: "2025-12-30"}
+  descuento_pct: {min: 0, max: 0.8}
+  precio_promocional: {min: 0.01, max: 2000}
+claves_foraneas:
+  - {columnas: [producto_id], tabla: dim_producto, columna: producto_id}
+  - {columnas: [sucursal_id], tabla: dim_sucursal, columna: sucursal_id}
+filas_minimas: 10

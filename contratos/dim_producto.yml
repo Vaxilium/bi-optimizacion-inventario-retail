@@ -1,0 +1,24 @@
+tabla: dim_producto
+descripcion: Maestro de productos (SKU) con atributos, costo y precio de lista.
+grano: una fila por producto.
+columnas:
+  - {nombre: producto_id, tipo: VARCHAR, nulo: false}
+  - {nombre: nombre_producto, tipo: VARCHAR, nulo: false}
+  - {nombre: categoria, tipo: VARCHAR, nulo: false}
+  - {nombre: subcategoria, tipo: VARCHAR, nulo: false}
+  - {nombre: marca, tipo: VARCHAR, nulo: false}
+  - {nombre: proveedor_id, tipo: VARCHAR, nulo: false}
+  - {nombre: contenido, tipo: VARCHAR, nulo: false}
+  - {nombre: perecedero, tipo: BOOLEAN, nulo: false}
+  - {nombre: vida_util_dias, tipo: INTEGER, nulo: false}
+  - {nombre: costo_unitario, tipo: DOUBLE, nulo: false}
+  - {nombre: precio_lista, tipo: DOUBLE, nulo: false}
+  - {nombre: unidad_medida, tipo: VARCHAR, nulo: false}
+unicidad: [producto_id]
+rangos:
+  vida_util_dias: {min: 1, max: 1000}
+  costo_unitario: {min: 0.01, max: 1000}
+  precio_lista: {min: 0.01, max: 2000}
+claves_foraneas:
+  - {columnas: [proveedor_id], tabla: dim_proveedor, columna: proveedor_id}
+filas_minimas: 10

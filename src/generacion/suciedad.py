@@ -49,13 +49,13 @@ def ensuciar_ventas(df: pd.DataFrame, cfg: dict[str, Any], rng: np.random.Genera
 def ensuciar_inventario(df: pd.DataFrame, cfg: dict[str, Any], rng: np.random.Generator) -> pd.DataFrame:
     n = len(df)
     df = df.copy()
-    filas = rng.choice(n, size=int(n * 0.0030), replace=False)
+    filas = rng.choice(n, size=int(n * 0.0060), replace=False)
     df.loc[df.index[filas], "stock_cierre_unidades"] = np.nan
-    filas = rng.choice(n, size=int(n * 0.0010), replace=False)
+    filas = rng.choice(n, size=int(n * 0.0015), replace=False)
     df.loc[df.index[filas], "stock_cierre_unidades"] = -np.abs(
         rng.uniform(1, 20, size=len(filas))
     )
-    duplicados = df.iloc[rng.choice(n, size=int(n * 0.0050), replace=False)]
+    duplicados = df.iloc[rng.choice(n, size=int(n * 0.0120), replace=False)]
     df = pd.concat([df, duplicados], ignore_index=True)
     return df.sample(frac=1.0, random_state=(int(cfg["proyecto"]["semilla"]) + 1) % 2**31).reset_index(drop=True)
 
@@ -63,13 +63,13 @@ def ensuciar_inventario(df: pd.DataFrame, cfg: dict[str, Any], rng: np.random.Ge
 def ensuciar_compras(df: pd.DataFrame, cfg: dict[str, Any], rng: np.random.Generator) -> pd.DataFrame:
     n = len(df)
     df = df.copy()
-    filas = rng.choice(n, size=int(n * 0.0020), replace=False)
+    filas = rng.choice(n, size=int(n * 0.0040), replace=False)
     df.loc[df.index[filas], "lead_time_dias"] = np.nan
-    filas = rng.choice(n, size=int(n * 0.0010), replace=False)
+    filas = rng.choice(n, size=int(n * 0.0020), replace=False)
     df.loc[df.index[filas], "unidades_pedido"] = -np.abs(
         rng.integers(1, 100, size=len(filas))
     )
-    duplicados = df.iloc[rng.choice(n, size=int(n * 0.0040), replace=False)]
+    duplicados = df.iloc[rng.choice(n, size=int(n * 0.0100), replace=False)]
     df = pd.concat([df, duplicados], ignore_index=True)
     return df.sample(frac=1.0, random_state=(int(cfg["proyecto"]["semilla"]) + 2) % 2**31).reset_index(drop=True)
 

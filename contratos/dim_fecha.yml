@@ -1,0 +1,24 @@
+tabla: dim_fecha
+descripcion: Calendario con feriados, quincenas y temporadas.
+grano: una fila por fecha.
+columnas:
+  - {nombre: fecha, tipo: DATE, nulo: false}
+  - {nombre: fecha_id, tipo: INTEGER, nulo: false}
+  - {nombre: anio, tipo: INTEGER, nulo: false}
+  - {nombre: mes, tipo: INTEGER, nulo: false}
+  - {nombre: dia, tipo: INTEGER, nulo: false}
+  - {nombre: trimestre, tipo: INTEGER, nulo: false}
+  - {nombre: dia_semana, tipo: INTEGER, nulo: false}
+  - {nombre: nombre_dia, tipo: VARCHAR, nulo: false}
+  - {nombre: semana_iso, tipo: INTEGER, nulo: false}
+  - {nombre: es_fin_de_semana, tipo: BOOLEAN, nulo: false}
+  - {nombre: es_feriado, tipo: BOOLEAN, nulo: false}
+  - {nombre: nombre_feriado, tipo: VARCHAR, nulo: true}
+  - {nombre: es_quincena, tipo: BOOLEAN, nulo: false}
+  - {nombre: temporada, tipo: VARCHAR, nulo: false}
+unicidad: [fecha]
+rangos:
+  fecha: {min: "2024-01-01", max: "2025-12-31"}
+  mes: {min: 1, max: 12}
+  dia_semana: {min: 1, max: 7}
+filas_minimas: 30

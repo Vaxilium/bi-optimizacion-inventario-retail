@@ -1,0 +1,1856 @@
+{
+  "volumenes": {
+    "stg_compras": {
+      "capa": "staging",
+      "filas": 704438,
+      "mb": 3.9
+    },
+    "stg_dim_fecha": {
+      "capa": "staging",
+      "filas": 731,
+      "mb": 0.01
+    },
+    "stg_dim_producto": {
+      "capa": "staging",
+      "filas": 400,
+      "mb": 0.01
+    },
+    "stg_dim_proveedor": {
+      "capa": "staging",
+      "filas": 36,
+      "mb": 0.0
+    },
+    "stg_dim_sucursal": {
+      "capa": "staging",
+      "filas": 12,
+      "mb": 0.0
+    },
+    "stg_inventario": {
+      "capa": "staging",
+      "filas": 2844060,
+      "mb": 22.38
+    },
+    "stg_promo_dias": {
+      "capa": "staging",
+      "filas": 50780,
+      "mb": 0.32
+    },
+    "stg_promociones": {
+      "capa": "staging",
+      "filas": 10237,
+      "mb": 0.09
+    },
+    "stg_ventas": {
+      "capa": "staging",
+      "filas": 2842661,
+      "mb": 25.48
+    },
+    "dim_fecha": {
+      "capa": "nucleo",
+      "filas": 731,
+      "mb": 0.01
+    },
+    "dim_producto": {
+      "capa": "nucleo",
+      "filas": 400,
+      "mb": 0.01
+    },
+    "dim_promociones": {
+      "capa": "nucleo",
+      "filas": 10237,
+      "mb": 0.09
+    },
+    "dim_proveedor": {
+      "capa": "nucleo",
+      "filas": 36,
+      "mb": 0.0
+    },
+    "dim_sucursal": {
+      "capa": "nucleo",
+      "filas": 12,
+      "mb": 0.0
+    },
+    "nucleo_hechos_compras": {
+      "capa": "nucleo",
+      "filas": 704438,
+      "mb": 3.91
+    },
+    "nucleo_hechos_inventario": {
+      "capa": "nucleo",
+      "filas": 2844060,
+      "mb": 22.38
+    },
+    "nucleo_hechos_ventas": {
+      "capa": "nucleo",
+      "filas": 2842661,
+      "mb": 25.41
+    },
+    "mart_categoria_dia": {
+      "capa": "marts",
+      "filas": 7310,
+      "mb": 0.06
+    },
+    "mart_categoria_mes": {
+      "capa": "marts",
+      "filas": 240,
+      "mb": 0.02
+    },
+    "mart_kpi_mensual": {
+      "capa": "marts",
+      "filas": 24,
+      "mb": 0.01
+    },
+    "mart_promociones_efecto": {
+      "capa": "marts",
+      "filas": 8342,
+      "mb": 0.2
+    },
+    "mart_quiebres_producto_mes": {
+      "capa": "marts",
+      "filas": 9600,
+      "mb": 0.17
+    },
+    "mart_sku_resumen": {
+      "capa": "marts",
+      "filas": 400,
+      "mb": 0.05
+    },
+    "mart_sucursal_mes": {
+      "capa": "marts",
+      "filas": 288,
+      "mb": 0.02
+    },
+    "mart_ventas_sucursal_dia": {
+      "capa": "marts",
+      "filas": 8772,
+      "mb": 0.11
+    }
+  },
+  "calidad": {
+    "hechos_ventas": {
+      "filas_crudas": 2899906,
+      "filas_afectadas": 77120,
+      "tasa_afectadas": 0.0266,
+      "filas_limpias": 2842661,
+      "filas_descartadas": 57245,
+      "reglas": [
+        {
+          "problema": "Duplicados de clave (fecha, sucursal, SKU)",
+          "accion": "Se conserva una fila por clave, priorizando precio no nulo.",
+          "filas": 35246
+        },
+        {
+          "problema": "Códigos de producto inconsistentes",
+          "accion": "Normalización con UPPER(TRIM()).",
+          "filas": 13052
+        },
+        {
+          "problema": "Claves nulas",
+          "accion": "Se descartan las filas sin fecha, sucursal o producto.",
+          "filas": 2893
+        },
+        {
+          "problema": "Venta en unidades nula",
+          "accion": "Se descarta la fila.",
+          "filas": 10119
+        },
+        {
+          "problema": "Precio unitario nulo",
+          "accion": "Se imputa con precio promocional o precio de lista.",
+          "filas": 7255
+        },
+        {
+          "problema": "Cantidades negativas",
+          "accion": "Se descartan (no se modelan devoluciones en este proyecto).",
+          "filas": 7259
+        },
+        {
+          "problema": "Fechas fuera del periodo",
+          "accion": "Se descartan fechas anteriores a 2024 o posteriores a 2025.",
+          "filas": 2898
+        },
+        {
+          "problema": "Claves foráneas inválidas",
+          "accion": "Se descartan filas con sucursal o producto inexistente.",
+          "filas": 0
+        }
+      ]
+    },
+    "hechos_inventario": {
+      "filas_crudas": 2899906,
+      "filas_afectadas": 55846,
+      "tasa_afectadas": 0.0193,
+      "filas_limpias": 2844060,
+      "filas_descartadas": 55846,
+      "reglas": [
+        {
+          "problema": "Duplicados de clave (fecha, sucursal, SKU)",
+          "accion": "Se conserva una fila por clave.",
+          "filas": 34386
+        },
+        {
+          "problema": "Códigos de producto inconsistentes",
+          "accion": "Normalización con UPPER(TRIM()).",
+          "filas": 0
+        },
+        {
+          "problema": "Stock nulo o negativo",
+          "accion": "Se descarta la fila (stock negativo es error de sistema).",
+          "filas": 21709
+        },
+        {
+          "problema": "Fechas fuera del periodo",
+          "accion": "Se descartan fechas fuera del periodo.",
+          "filas": 0
+        },
+        {
+          "problema": "Claves foráneas inválidas",
+          "accion": "Se descartan filas con sucursal o producto inexistente.",
+          "filas": 0
+        }
+      ]
+    },
+    "hechos_compras": {
+      "filas_crudas": 712907,
+      "filas_afectadas": 11286,
+      "tasa_afectadas": 0.0158,
+      "filas_limpias": 704438,
+      "filas_descartadas": 8469,
+      "reglas": [
+        {
+          "problema": "Duplicados de clave (pedido, sucursal, SKU)",
+          "accion": "Se conserva una fila por clave.",
+          "filas": 7058
+        },
+        {
+          "problema": "Lead time nulo",
+          "accion": "Se imputa con el lead time medio del proveedor.",
+          "filas": 2851
+        },
+        {
+          "problema": "Unidades no positivas",
+          "accion": "Se descarta la fila.",
+          "filas": 1424
+        },
+        {
+          "problema": "Fechas fuera del periodo",
+          "accion": "Se descartan pedidos fuera del periodo.",
+          "filas": 0
+        },
+        {
+          "problema": "Claves foráneas inválidas",
+          "accion": "Se descartan filas con sucursal o producto inexistente.",
+          "filas": 0
+        }
+      ]
+    },
+    "dim_producto": {
+      "filas_crudas": 403,
+      "filas_afectadas": 3,
+      "tasa_afectadas": 0.0074,
+      "filas_limpias": 400,
+      "filas_descartadas": 3,
+      "reglas": [
+        {
+          "problema": "Identificadores duplicados",
+          "accion": "Se conserva una fila por identificador.",
+          "filas": 3
+        },
+        {
+          "problema": "Espacios inconsistentes en textos",
+          "accion": "Se aplica TRIM() a los campos de texto.",
+          "filas": 0
+        }
+      ]
+    },
+    "dim_sucursal": {
+      "filas_crudas": 12,
+      "filas_afectadas": 2,
+      "tasa_afectadas": 0.1667,
+      "filas_limpias": 12,
+      "filas_descartadas": 0,
+      "reglas": [
+        {
+          "problema": "Identificadores duplicados",
+          "accion": "Se conserva una fila por identificador.",
+          "filas": 0
+        },
+        {
+          "problema": "Espacios inconsistentes en textos",
+          "accion": "Se aplica TRIM() a los campos de texto.",
+          "filas": 2
+        }
+      ]
+    },
+    "dim_proveedor": {
+      "filas_crudas": 38,
+      "filas_afectadas": 2,
+      "tasa_afectadas": 0.0526,
+      "filas_limpias": 36,
+      "filas_descartadas": 2,
+      "reglas": [
+        {
+          "problema": "Identificadores duplicados",
+          "accion": "Se conserva una fila por identificador.",
+          "filas": 2
+        },
+        {
+          "problema": "Espacios inconsistentes en textos",
+          "accion": "Se aplica TRIM() a los campos de texto.",
+          "filas": 0
+        }
+      ]
+    }
+  },
+  "contratos": {
+    "tablas": 8,
+    "chequeos": 257,
+    "fallidos": 0,
+    "detalle": [
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "existencia",
+        "ok": true,
+        "detalle": "14 columnas"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo fecha",
+        "ok": true,
+        "detalle": "DATE vs DATE"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad fecha",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo fecha_id",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad fecha_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo anio",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad anio",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo mes",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad mes",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo dia",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad dia",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo trimestre",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad trimestre",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo dia_semana",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad dia_semana",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo nombre_dia",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad nombre_dia",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo semana_iso",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad semana_iso",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo es_fin_de_semana",
+        "ok": true,
+        "detalle": "BOOLEAN vs BOOLEAN"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad es_fin_de_semana",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo es_feriado",
+        "ok": true,
+        "detalle": "BOOLEAN vs BOOLEAN"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad es_feriado",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo nombre_feriado",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo es_quincena",
+        "ok": true,
+        "detalle": "BOOLEAN vs BOOLEAN"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad es_quincena",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "tipo temporada",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "nulabilidad temporada",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "volumen",
+        "ok": true,
+        "detalle": "731 filas (min 30)"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "unicidad",
+        "ok": true,
+        "detalle": "0 claves duplicadas de (fecha)"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "rango fecha (minimo)",
+        "ok": true,
+        "detalle": "2024-01-01 vs 2024-01-01"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "rango fecha (maximo)",
+        "ok": true,
+        "detalle": "2025-12-31 vs 2025-12-31"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "rango mes (minimo)",
+        "ok": true,
+        "detalle": "1 vs 1"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "rango mes (maximo)",
+        "ok": true,
+        "detalle": "12 vs 12"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "rango dia_semana (minimo)",
+        "ok": true,
+        "detalle": "1 vs 1"
+      },
+      {
+        "tabla": "dim_fecha",
+        "chequeo": "rango dia_semana (maximo)",
+        "ok": true,
+        "detalle": "7 vs 7"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "existencia",
+        "ok": true,
+        "detalle": "12 columnas"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo producto_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad producto_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo nombre_producto",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad nombre_producto",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo categoria",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad categoria",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo subcategoria",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad subcategoria",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo marca",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad marca",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo proveedor_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad proveedor_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo contenido",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad contenido",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo perecedero",
+        "ok": true,
+        "detalle": "BOOLEAN vs BOOLEAN"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad perecedero",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo vida_util_dias",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad vida_util_dias",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo costo_unitario",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad costo_unitario",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo precio_lista",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad precio_lista",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "tipo unidad_medida",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "nulabilidad unidad_medida",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "volumen",
+        "ok": true,
+        "detalle": "400 filas (min 10)"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "unicidad",
+        "ok": true,
+        "detalle": "0 claves duplicadas de (producto_id)"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "rango vida_util_dias (minimo)",
+        "ok": true,
+        "detalle": "2 vs 1"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "rango vida_util_dias (maximo)",
+        "ok": true,
+        "detalle": "899 vs 1000"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "rango costo_unitario (minimo)",
+        "ok": true,
+        "detalle": "0.33 vs 0.01"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "rango costo_unitario (maximo)",
+        "ok": true,
+        "detalle": "13.77 vs 1000"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "rango precio_lista (minimo)",
+        "ok": true,
+        "detalle": "0.5 vs 0.01"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "rango precio_lista (maximo)",
+        "ok": true,
+        "detalle": "20.0 vs 2000"
+      },
+      {
+        "tabla": "dim_producto",
+        "chequeo": "fk proveedor_id -> dim_proveedor",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "existencia",
+        "ok": true,
+        "detalle": "9 columnas"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "tipo promocion_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "nulabilidad promocion_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "tipo producto_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "nulabilidad producto_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "tipo sucursal_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "nulabilidad sucursal_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "tipo fecha_inicio",
+        "ok": true,
+        "detalle": "DATE vs DATE"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "nulabilidad fecha_inicio",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "tipo fecha_fin",
+        "ok": true,
+        "detalle": "DATE vs DATE"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "nulabilidad fecha_fin",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "tipo tipo_promocion",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "nulabilidad tipo_promocion",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "tipo descuento_pct",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "nulabilidad descuento_pct",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "tipo precio_promocional",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "nulabilidad precio_promocional",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "tipo uplift_esperado",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "nulabilidad uplift_esperado",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "volumen",
+        "ok": true,
+        "detalle": "10237 filas (min 10)"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "unicidad",
+        "ok": true,
+        "detalle": "0 claves duplicadas de (promocion_id, producto_id, sucursal_id)"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "rango fecha_inicio (minimo)",
+        "ok": true,
+        "detalle": "2024-01-11 vs 2024-01-01"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "rango fecha_inicio (maximo)",
+        "ok": true,
+        "detalle": "2025-12-18 vs 2025-12-30"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "rango descuento_pct (minimo)",
+        "ok": true,
+        "detalle": "0.1 vs 0"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "rango descuento_pct (maximo)",
+        "ok": true,
+        "detalle": "0.5 vs 0.8"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "rango precio_promocional (minimo)",
+        "ok": true,
+        "detalle": "0.3 vs 0.01"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "rango precio_promocional (maximo)",
+        "ok": true,
+        "detalle": "16.9 vs 2000"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "fk producto_id -> dim_producto",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "dim_promociones",
+        "chequeo": "fk sucursal_id -> dim_sucursal",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "existencia",
+        "ok": true,
+        "detalle": "8 columnas"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "tipo proveedor_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "nulabilidad proveedor_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "tipo nombre_proveedor",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "nulabilidad nombre_proveedor",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "tipo categoria_principal",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "nulabilidad categoria_principal",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "tipo lead_time_medio_dias",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "nulabilidad lead_time_medio_dias",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "tipo lead_time_sd_dias",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "nulabilidad lead_time_sd_dias",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "tipo fiabilidad",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "nulabilidad fiabilidad",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "tipo unidad_minima_pedido",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "nulabilidad unidad_minima_pedido",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "tipo condicion_pago",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "nulabilidad condicion_pago",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "volumen",
+        "ok": true,
+        "detalle": "36 filas (min 2)"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "unicidad",
+        "ok": true,
+        "detalle": "0 claves duplicadas de (proveedor_id)"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "rango lead_time_medio_dias (minimo)",
+        "ok": true,
+        "detalle": "1.2 vs 0.5"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "rango lead_time_medio_dias (maximo)",
+        "ok": true,
+        "detalle": "17.2 vs 40"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "rango lead_time_sd_dias (minimo)",
+        "ok": true,
+        "detalle": "0.3 vs 0"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "rango lead_time_sd_dias (maximo)",
+        "ok": true,
+        "detalle": "3.1 vs 10"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "rango fiabilidad (minimo)",
+        "ok": true,
+        "detalle": "0.85 vs 0"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "rango fiabilidad (maximo)",
+        "ok": true,
+        "detalle": "0.99 vs 1"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "rango unidad_minima_pedido (minimo)",
+        "ok": true,
+        "detalle": "6 vs 1"
+      },
+      {
+        "tabla": "dim_proveedor",
+        "chequeo": "rango unidad_minima_pedido (maximo)",
+        "ok": true,
+        "detalle": "24 vs 100"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "existencia",
+        "ok": true,
+        "detalle": "9 columnas"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "tipo sucursal_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "nulabilidad sucursal_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "tipo nombre_sucursal",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "nulabilidad nombre_sucursal",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "tipo ciudad",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "nulabilidad ciudad",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "tipo region",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "nulabilidad region",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "tipo tipo_tienda",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "nulabilidad tipo_tienda",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "tipo tamano",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "nulabilidad tamano",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "tipo superficie_m2",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "nulabilidad superficie_m2",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "tipo factor_demanda",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "nulabilidad factor_demanda",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "tipo fecha_apertura",
+        "ok": true,
+        "detalle": "DATE vs DATE"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "nulabilidad fecha_apertura",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "volumen",
+        "ok": true,
+        "detalle": "12 filas (min 2)"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "unicidad",
+        "ok": true,
+        "detalle": "0 claves duplicadas de (sucursal_id)"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "rango superficie_m2 (minimo)",
+        "ok": true,
+        "detalle": "975 vs 100"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "rango superficie_m2 (maximo)",
+        "ok": true,
+        "detalle": "2184 vs 5000"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "rango factor_demanda (minimo)",
+        "ok": true,
+        "detalle": "0.641 vs 0.3"
+      },
+      {
+        "tabla": "dim_sucursal",
+        "chequeo": "rango factor_demanda (maximo)",
+        "ok": true,
+        "detalle": "1.516 vs 2.0"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "existencia",
+        "ok": true,
+        "detalle": "11 columnas"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo fecha_pedido",
+        "ok": true,
+        "detalle": "DATE vs DATE"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad fecha_pedido",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo fecha_pedido_id",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad fecha_pedido_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo sucursal_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad sucursal_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo producto_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad producto_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo proveedor_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad proveedor_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo unidades_pedido",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad unidades_pedido",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo lead_time_dias",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad lead_time_dias",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo fecha_recepcion",
+        "ok": true,
+        "detalle": "DATE vs DATE"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad fecha_recepcion",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo estado",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad estado",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "tipo unidades_recibidas",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "nulabilidad unidades_recibidas",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "volumen",
+        "ok": true,
+        "detalle": "704438 filas (min 100)"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "unicidad",
+        "ok": true,
+        "detalle": "0 claves duplicadas de (fecha_pedido, sucursal_id, producto_id)"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "rango fecha_pedido (minimo)",
+        "ok": true,
+        "detalle": "2024-01-01 vs 2024-01-01"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "rango fecha_pedido (maximo)",
+        "ok": true,
+        "detalle": "2025-12-30 vs 2025-12-31"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "rango unidades_pedido (minimo)",
+        "ok": true,
+        "detalle": "4 vs 1"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "rango unidades_pedido (maximo)",
+        "ok": true,
+        "detalle": "4692 vs 50000"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "rango lead_time_dias (minimo)",
+        "ok": true,
+        "detalle": "1 vs 1"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "rango lead_time_dias (maximo)",
+        "ok": true,
+        "detalle": "28 vs 40"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "rango unidades_recibidas (minimo)",
+        "ok": true,
+        "detalle": "0 vs 0"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "rango unidades_recibidas (maximo)",
+        "ok": true,
+        "detalle": "4692 vs 50000"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "fk sucursal_id -> dim_sucursal",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "fk producto_id -> dim_producto",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "nucleo_hechos_compras",
+        "chequeo": "fk proveedor_id -> dim_proveedor",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "existencia",
+        "ok": true,
+        "detalle": "8 columnas"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "tipo fecha",
+        "ok": true,
+        "detalle": "DATE vs DATE"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "nulabilidad fecha",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "tipo fecha_id",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "nulabilidad fecha_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "tipo sucursal_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "nulabilidad sucursal_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "tipo producto_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "nulabilidad producto_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "tipo stock_cierre_unidades",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "nulabilidad stock_cierre_unidades",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "tipo stock_valorizado",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "nulabilidad stock_valorizado",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "tipo merma_unidades",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "nulabilidad merma_unidades",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "tipo merma_valorizada",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "nulabilidad merma_valorizada",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "volumen",
+        "ok": true,
+        "detalle": "2844060 filas (min 1000)"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "unicidad",
+        "ok": true,
+        "detalle": "0 claves duplicadas de (fecha, sucursal_id, producto_id)"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango fecha (minimo)",
+        "ok": true,
+        "detalle": "2024-01-01 vs 2024-01-01"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango fecha (maximo)",
+        "ok": true,
+        "detalle": "2025-12-31 vs 2025-12-31"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango stock_cierre_unidades (minimo)",
+        "ok": true,
+        "detalle": "0.0 vs 0"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango stock_cierre_unidades (maximo)",
+        "ok": true,
+        "detalle": "5094.0 vs 100000"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango stock_valorizado (minimo)",
+        "ok": true,
+        "detalle": "0.0 vs 0"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango stock_valorizado (maximo)",
+        "ok": true,
+        "detalle": "40140.72 vs 1000000"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango merma_unidades (minimo)",
+        "ok": true,
+        "detalle": "0.0 vs 0"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango merma_unidades (maximo)",
+        "ok": true,
+        "detalle": "17.29 vs 10000"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango merma_valorizada (minimo)",
+        "ok": true,
+        "detalle": "0.0 vs 0"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "rango merma_valorizada (maximo)",
+        "ok": true,
+        "detalle": "113.7 vs 1000000"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "fk sucursal_id -> dim_sucursal",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "fk producto_id -> dim_producto",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "nucleo_hechos_inventario",
+        "chequeo": "fk fecha -> dim_fecha",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "existencia",
+        "ok": true,
+        "detalle": "11 columnas"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo fecha",
+        "ok": true,
+        "detalle": "DATE vs DATE"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad fecha",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo fecha_id",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad fecha_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo sucursal_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad sucursal_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo producto_id",
+        "ok": true,
+        "detalle": "VARCHAR vs VARCHAR"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad producto_id",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo venta_unidades",
+        "ok": true,
+        "detalle": "INTEGER vs INTEGER"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad venta_unidades",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo precio_unitario",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad precio_unitario",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo venta_valorizada",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad venta_valorizada",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo costo_total",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad costo_total",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo margen_bruto",
+        "ok": true,
+        "detalle": "DOUBLE vs DOUBLE"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad margen_bruto",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo en_promocion",
+        "ok": true,
+        "detalle": "BOOLEAN vs BOOLEAN"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad en_promocion",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "tipo indicador_quiebre",
+        "ok": true,
+        "detalle": "BOOLEAN vs BOOLEAN"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "nulabilidad indicador_quiebre",
+        "ok": true,
+        "detalle": "0 nulos"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "volumen",
+        "ok": true,
+        "detalle": "2842661 filas (min 1000)"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "unicidad",
+        "ok": true,
+        "detalle": "0 claves duplicadas de (fecha, sucursal_id, producto_id)"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango fecha (minimo)",
+        "ok": true,
+        "detalle": "2024-01-01 vs 2024-01-01"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango fecha (maximo)",
+        "ok": true,
+        "detalle": "2025-12-31 vs 2025-12-31"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango venta_unidades (minimo)",
+        "ok": true,
+        "detalle": "0 vs 0"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango venta_unidades (maximo)",
+        "ok": true,
+        "detalle": "799 vs 5000"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango precio_unitario (minimo)",
+        "ok": true,
+        "detalle": "0.3 vs 0.01"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango precio_unitario (maximo)",
+        "ok": true,
+        "detalle": "20.0 vs 1000"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango venta_valorizada (minimo)",
+        "ok": true,
+        "detalle": "0.0 vs 0"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango venta_valorizada (maximo)",
+        "ok": true,
+        "detalle": "7990.0 vs 5000000"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango costo_total (minimo)",
+        "ok": true,
+        "detalle": "0.0 vs 0"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango costo_total (maximo)",
+        "ok": true,
+        "detalle": "6296.12 vs 5000000"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango margen_bruto (minimo)",
+        "ok": true,
+        "detalle": "-1109.68 vs -2000000"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "rango margen_bruto (maximo)",
+        "ok": true,
+        "detalle": "1803.2 vs 5000000"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "fk sucursal_id -> dim_sucursal",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "fk producto_id -> dim_producto",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      },
+      {
+        "tabla": "nucleo_hechos_ventas",
+        "chequeo": "fk fecha -> dim_fecha",
+        "ok": true,
+        "detalle": "0 huerfanas"
+      }
+    ]
+  },
+  "tasa_afectadas_global": 0.022148808598943803,
+  "segundos": 11.9
+}

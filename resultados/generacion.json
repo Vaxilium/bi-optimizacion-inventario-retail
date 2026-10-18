@@ -5,12 +5,12 @@
       "mb": 29.26
     },
     "hechos_inventario_crudo": {
-      "filas": 2879847,
-      "mb": 29.48
+      "filas": 2899906,
+      "mb": 29.71
     },
     "hechos_compras_crudo": {
-      "filas": 708672,
-      "mb": 5.34
+      "filas": 712907,
+      "mb": 5.38
     },
     "dim_producto_crudo": {
       "filas": 403,
@@ -39,7 +39,7 @@
     "2024-01-01",
     "2025-12-31"
   ],
-  "segundos": 18.7,
+  "segundos": 18.3,
   "tasa_quiebre_dias_con_demanda": 0.07880817104577632,
   "dias_con_demanda": 2024955,
   "unidades_vendidas": 44382850,

@@ -1,0 +1,18 @@
+tabla: dim_sucursal
+descripcion: Maestro de sucursales de la cadena.
+grano: una fila por sucursal.
+columnas:
+  - {nombre: sucursal_id, tipo: VARCHAR, nulo: false}
+  - {nombre: nombre_sucursal, tipo: VARCHAR, nulo: false}
+  - {nombre: ciudad, tipo: VARCHAR, nulo: false}
+  - {nombre: region, tipo: VARCHAR, nulo: false}
+  - {nombre: tipo_tienda, tipo: VARCHAR, nulo: false}
+  - {nombre: tamano, tipo: VARCHAR, nulo: false}
+  - {nombre: superficie_m2, tipo: INTEGER, nulo: false}
+  - {nombre: factor_demanda, tipo: DOUBLE, nulo: false}
+  - {nombre: fecha_apertura, tipo: DATE, nulo: false}
+unicidad: [sucursal_id]
+rangos:
+  superficie_m2: {min: 100, max: 5000}
+  factor_demanda: {min: 0.3, max: 2.0}
+filas_minimas: 2

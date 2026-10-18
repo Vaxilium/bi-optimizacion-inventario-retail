@@ -1,0 +1,19 @@
+tabla: dim_proveedor
+descripcion: Maestro de proveedores con lead time y confiabilidad.
+grano: una fila por proveedor.
+columnas:
+  - {nombre: proveedor_id, tipo: VARCHAR, nulo: false}
+  - {nombre: nombre_proveedor, tipo: VARCHAR, nulo: false}
+  - {nombre: categoria_principal, tipo: VARCHAR, nulo: false}
+  - {nombre: lead_time_medio_dias, tipo: DOUBLE, nulo: false}
+  - {nombre: lead_time_sd_dias, tipo: DOUBLE, nulo: false}
+  - {nombre: fiabilidad, tipo: DOUBLE, nulo: false}
+  - {nombre: unidad_minima_pedido, tipo: INTEGER, nulo: false}
+  - {nombre: condicion_pago, tipo: VARCHAR, nulo: false}
+unicidad: [proveedor_id]
+rangos:
+  lead_time_medio_dias: {min: 0.5, max: 40}
+  lead_time_sd_dias: {min: 0, max: 10}
+  fiabilidad: {min: 0, max: 1}
+  unidad_minima_pedido: {min: 1, max: 100}
+filas_minimas: 2

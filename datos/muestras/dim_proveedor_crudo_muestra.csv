@@ -20,7 +20,7 @@ PRV-001,Distribuidora Andina,Abarrotes,13.1,1.2,0.88,12,contado
 PRV-013,Congelados Mar Azul,Lacteos,3.3,0.4,0.97,12,30 dias
 PRV-030,Huertos del Mirador,Snacks,12.9,2.3,0.95,18,45 dias
 PRV-017,Mayorista El Roble,Congelados,12.4,3.1,0.99,18,contado
-PRV-032,Papelera Andina,Bebidas,11.0,2.3,0.99,24,contado
+PRV-013,Congelados Mar Azul,Lacteos,3.3,0.4,0.97,12,30 dias
 PRV-007,Importadora Horizonte,Congelados,7.4,3.0,0.87,6,contado
 PRV-008,Frutícola Río Claro,Limpieza,6.3,2.8,0.94,12,30 dias
 PRV-033,Química del Hogar,Lacteos,2.3,0.9,0.93,18,contado
@@ -30,7 +30,7 @@ PRV-032,Papelera Andina,Bebidas,11.0,2.3,0.99,24,contado
 PRV-009,Cárnicos del Valle,Higiene personal,16.9,1.8,0.99,8,30 dias
 PRV-034,Cosmética Natural,Panaderia,1.7,0.5,0.87,18,30 dias
 PRV-015,Higiene Total,Carnes,1.2,0.6,0.87,24,30 dias
-PRV-028,Viñedos de Altura,Limpieza,15.2,1.1,0.96,8,45 dias
+PRV-006,Agroindustrial Verde,Frutas y verduras,3.7,1.0,0.89,6,45 dias
 PRV-029,Ganadería Serrana,Higiene personal,14.7,1.4,0.94,12,30 dias
 PRV-024,Cadena Fría Sur,Panaderia,3.7,1.0,0.96,24,contado
 PRV-020,Comercial Bahía,Snacks,11.8,2.5,0.87,6,contado

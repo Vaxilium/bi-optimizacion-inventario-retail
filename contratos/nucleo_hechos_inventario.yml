@@ -1,0 +1,24 @@
+tabla: nucleo_hechos_inventario
+descripcion: Stock de cierre diario por sucursal y SKU, con merma valorizada.
+grano: una fila por fecha, sucursal y producto.
+columnas:
+  - {nombre: fecha, tipo: DATE, nulo: false}
+  - {nombre: fecha_id, tipo: INTEGER, nulo: false}
+  - {nombre: sucursal_id, tipo: VARCHAR, nulo: false}
+  - {nombre: producto_id, tipo: VARCHAR, nulo: false}
+  - {nombre: stock_cierre_unidades, tipo: DOUBLE, nulo: false}
+  - {nombre: stock_valorizado, tipo: DOUBLE, nulo: false}
+  - {nombre: merma_unidades, tipo: DOUBLE, nulo: false}
+  - {nombre: merma_valorizada, tipo: DOUBLE, nulo: false}
+unicidad: [fecha, sucursal_id, producto_id]
+rangos:
+  fecha: {min: "2024-01-01", max: "2025-12-31"}
+  stock_cierre_unidades: {min: 0, max: 100000}
+  stock_valorizado: {min: 0, max: 1000000}
+  merma_unidades: {min: 0, max: 10000}
+  merma_valorizada: {min: 0, max: 1000000}
+claves_foraneas:
+  - {columnas: [sucursal_id], tabla: dim_sucursal, columna: sucursal_id}
+  - {columnas: [producto_id], tabla: dim_producto, columna: producto_id}
+  - {columnas: [fecha], tabla: dim_fecha, columna: fecha}
+filas_minimas: 1000
