@@ -9,7 +9,7 @@ from typing import Any
 import yaml
 
 from src.comun.config import RUTA_CONTRATOS, RUTA_DOCS, RUTA_RESULTADOS
-from src.comun.resultados import formato_moneda, formato_pct
+from src.comun.resultados import formato_pct
 
 DESCRIPCIONES = {
     "fecha": "Fecha calendario del hecho o atributo.",

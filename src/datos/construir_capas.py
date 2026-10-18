@@ -21,6 +21,7 @@ from src.comun.config import (
     RUTA_ALMACEN, RUTA_CRUDO, RUTA_MARTS, RUTA_MUESTRAS, RUTA_NUCLEO,
     RUTA_SQL, RUTA_STAGING, asegurar_directorios, cargar_parametros,
 )
+from src.comun.sql import ejecutar_archivo
 from src.datos.calidad import construir_bitacora
 from src.datos.documentar import generar_documento_datos, guardar_resumen_capa
 from src.datos.validar_contratos import validar_contratos
@@ -106,17 +107,7 @@ def _registrar_crudo(con: duckdb.DuckDBPyConnection) -> None:
 
 def _ejecutar_sql(con: duckdb.DuckDBPyConnection, carpeta: Path) -> None:
     for archivo in sorted(carpeta.glob("*.sql")):
-        contenido = archivo.read_text(encoding="utf-8")
-        for sentencia in contenido.split(";"):
-            codigo = "\n".join(
-                linea for linea in sentencia.splitlines()
-                if not linea.strip().startswith("--")
-            ).strip()
-            if codigo:
-                try:
-                    con.execute(codigo)
-                except duckdb.Error as exc:
-                    raise RuntimeError(f"Error en {archivo.name}: {exc}\n{codigo[:300]}") from exc
+        ejecutar_archivo(con, archivo)
 
 
 def _materializar(con: duckdb.DuckDBPyConnection, carpeta: Path, nombres: list[str]) -> None:

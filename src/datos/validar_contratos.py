@@ -7,7 +7,6 @@ nulabilidad, unicidad, rangos, integridad referencial o volumen minimo.
 from __future__ import annotations
 
 import json
-from pathlib import Path
 from typing import Any
 
 import duckdb

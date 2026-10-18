@@ -15,7 +15,6 @@ from __future__ import annotations
 import argparse
 import json
 import time
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -130,7 +129,6 @@ def _construir_hechos(
     n_pares, n_dias = sim["venta"].shape
     n_dias = len(fechas)
     venta = sim["venta"][:, corte:]
-    perdida = sim["perdida"][:, corte:]
     stock = sim["stock_cierre"][:, corte:]
     merma = sim["merma"][:, corte:]
     quiebre = sim["quiebre"][:, corte:]

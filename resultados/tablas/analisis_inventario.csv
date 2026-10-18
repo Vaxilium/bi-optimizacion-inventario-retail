@@ -1,0 +1,401 @@
+producto_id,nombre_producto,categoria,clase_abc,segmento_rotacion,capital,rotacion_anual,dias_cobertura,cobertura_objetivo,cobertura_mediana,gmroi_anual,tasa_quiebre,margen_perdido_estimado,capital_exceso,diagnostico
+SKU-0030,Mar Azul Arroz largo fino 900 ml,Abarrotes,C,Baja,5178.36,0.49,742.2,25,6.8,0.11,0.0,0.0,5003.93,Exceso
+SKU-0129,Monte Verde Crema corporal 90 g,Higiene personal,C,Baja,3882.49,1.13,322.8,25,6.8,0.35,0.0,0.0,3581.8,Exceso
+SKU-0069,Sol Naciente Harina sin polvo 2 kg,Abarrotes,C,Baja,3558.82,2.08,175.7,25,6.8,0.44,0.0,0.0,3052.44,Exceso
+SKU-0285,La Pradera Agua mineral 2 L,Bebidas,C,Baja,3045.59,0.93,391.9,25,6.8,0.31,0.0,0.0,2851.31,Exceso
+SKU-0354,Horizonte Papel higiénico 1 L,Limpieza,C,Baja,2879.42,0.9,405.2,25,6.8,0.23,0.0,0.0,2701.77,Exceso
+SKU-0031,Mar Azul Fideos spaghetti 500 g,Abarrotes,C,Baja,2786.96,1.38,264.8,25,6.8,0.54,0.0,0.0,2523.84,Exceso
+SKU-0193,Monte Verde Empanadas congeladas 800 g,Congelados,C,Baja,2350.34,0.43,855.1,25,6.8,0.24,0.0,0.0,2281.62,Exceso
+SKU-0149,Río Claro Detergente líquido 500 ml,Limpieza,C,Baja,2734.22,2.66,137.2,25,6.8,1.17,0.0,0.0,2236.0,Exceso
+SKU-0154,El Roble Aceite vegetal 500 g,Abarrotes,C,Baja,2478.87,1.88,194.4,25,6.8,0.47,0.0,0.0,2160.09,Exceso
+SKU-0316,Valle Sur Harina sin polvo 500 g,Abarrotes,C,Baja,2966.84,4.04,90.4,25,6.8,1.15,0.0,0.0,2146.36,Exceso
+SKU-0052,Cumbre Andina Aceite vegetal 1 kg,Abarrotes,C,Baja,3312.14,5.74,63.6,25,6.8,2.06,0.008,108.0,2010.2,Exceso
+SKU-0128,La Pradera Leche descremada 200 g,Lacteos,C,Baja,2888.11,4.48,81.5,25,6.8,1.25,0.0,0.0,2002.19,Exceso
+SKU-0308,Doña Rosa Aceite de oliva 1 kg,Abarrotes,C,Baja,2015.21,0.3,1227.1,25,6.8,0.11,0.0,0.0,1974.15,Exceso
+SKU-0273,Cumbre Andina Arroz integral 400 g,Abarrotes,C,Baja,1965.69,0.57,643.4,25,6.8,0.13,0.0,0.0,1889.31,Exceso
+SKU-0368,Horizonte Bebida isotónica 1 L,Bebidas,C,Baja,2089.76,2.54,143.9,25,6.8,1.18,0.0,0.0,1726.7,Exceso
+SKU-0027,La Pradera Queso parmesano 1 kg,Lacteos,C,Baja,2643.49,5.1,71.6,25,6.8,1.7,0.0,0.0,1720.48,Exceso
+SKU-0321,La Pradera Azúcar rubia 2 kg,Abarrotes,C,Baja,3446.63,7.62,47.9,25,6.8,2.25,0.0176,274.0,1647.76,Exceso
+SKU-0146,Sol Naciente Mix de frutos secos 40 g,Snacks,C,Baja,1824.59,3.33,109.7,25,6.8,1.68,0.0,0.0,1408.78,Exceso
+SKU-0274,Sol Naciente Limpiador de pisos 4 unid,Limpieza,C,Baja,1553.22,1.8,203.3,25,6.8,0.71,0.0,0.0,1362.22,Exceso
+SKU-0158,Horizonte Queso parmesano 1 kg,Lacteos,C,Baja,1217.16,0.51,719.2,25,6.8,0.19,0.0,0.0,1174.85,Exceso
+SKU-0230,Valle Sur Shampoo 90 g,Higiene personal,C,Baja,2550.32,7.96,45.9,25,6.8,2.52,0.0335,429.0,1161.26,Exceso
+SKU-0263,Doña Rosa Fideos spaghetti 2 kg,Abarrotes,C,Baja,1449.9,3.01,121.2,25,6.8,1.22,0.001,3.0,1150.83,Exceso
+SKU-0003,El Roble Leche descremada 1 kg,Lacteos,C,Baja,1489.86,3.33,109.7,25,6.8,1.57,0.0,0.0,1150.33,Exceso
+SKU-0099,Sol Naciente Azúcar rubia 400 g,Abarrotes,C,Baja,1382.81,2.96,123.2,25,6.8,0.8,0.0029,6.0,1102.21,Exceso
+SKU-0293,El Roble Galleta de vainilla 200 g,Snacks,C,Baja,1089.22,0.96,381.0,25,6.8,0.5,0.0,0.0,1017.75,Exceso
+SKU-0211,El Roble Cepillo de dientes 2 unid,Higiene personal,C,Baja,1564.83,5.14,71.1,25,6.8,3.09,0.0,0.0,1014.61,Exceso
+SKU-0265,Mar Azul Galleta de vainilla 200 g,Snacks,C,Baja,1470.86,4.59,79.6,25,6.8,2.66,0.0,0.0,1008.91,Exceso
+SKU-0011,Río Claro Filete de merluza 400 g,Congelados,B,Baja,3103.96,16.59,22.0,15,6.8,10.73,0.0224,1507.0,987.62,Adecuado
+SKU-0098,Valle Sur Chocolate con leche 40 g,Snacks,C,Baja,1076.74,1.42,256.9,25,6.8,0.98,0.0,0.0,971.96,Exceso
+SKU-0304,La Pradera Cabritas 40 g,Snacks,C,Baja,1446.93,4.96,73.5,25,6.8,2.69,0.0,0.0,954.78,Exceso
+SKU-0234,El Roble Azúcar rubia 1 kg,Abarrotes,C,Baja,983.47,0.52,707.1,25,6.8,0.19,0.0,0.0,948.7,Exceso
+SKU-0093,Doña Rosa Detergente en polvo 4 unid,Limpieza,C,Baja,2431.64,9.02,40.4,25,6.8,2.96,0.0005,7.0,926.91,Exceso
+SKU-0162,Monte Verde Harina sin polvo 400 g,Abarrotes,C,Baja,1735.82,6.92,52.7,25,6.8,2.73,0.0172,162.0,912.38,Exceso
+SKU-0131,Cumbre Andina Panceta 500 g,Carnes,C,Baja,2583.53,9.47,38.5,25,6.8,3.32,0.0136,224.0,905.91,Exceso
+SKU-0110,Mar Azul Shampoo 100 ml,Higiene personal,C,Baja,1099.83,2.6,140.1,25,6.8,0.94,0.006,13.0,903.57,Exceso
+SKU-0353,La Pradera Atún en agua 1 kg,Abarrotes,C,Baja,1568.57,6.58,55.4,25,6.8,1.82,0.0,0.0,860.73,Exceso
+SKU-0375,Cumbre Andina Acondicionador 2 unid,Higiene personal,C,Baja,917.17,1.09,333.8,25,6.8,0.47,0.0,0.0,848.48,Exceso
+SKU-0344,Horizonte Harina sin polvo 500 g,Abarrotes,C,Baja,2213.14,9.07,40.2,25,6.8,2.57,0.0004,5.0,836.81,Exceso
+SKU-0051,Río Claro Helado de chocolate 500 g,Congelados,C,Baja,1250.77,4.91,74.3,25,6.8,3.07,0.0143,107.0,829.92,Exceso
+SKU-0114,Sol Naciente Naranja 500 g,Frutas y verduras,C,Baja,963.26,2.37,153.8,25,6.8,1.01,0.0013,3.0,806.68,Exceso
+SKU-0073,"Monte Verde Gaseosa limón 1,5 L",Bebidas,B,Baja,3314.97,18.58,19.6,15,6.8,6.4,0.0238,1022.0,778.0,Adecuado
+SKU-0118,Mar Azul Papas fritas 200 g,Snacks,C,Baja,760.92,0.73,497.6,25,6.8,0.35,0.0,0.0,722.69,Exceso
+SKU-0186,Monte Verde Leche entera 200 g,Lacteos,C,Baja,868.83,3.46,105.5,25,6.8,1.27,0.0,0.0,662.95,Exceso
+SKU-0075,Doña Rosa Aceite de oliva 900 ml,Abarrotes,C,Baja,860.49,3.78,96.6,25,6.8,0.97,0.0,0.0,637.8,Exceso
+SKU-0194,"El Roble Jugo de naranja 1,5 L",Bebidas,C,Baja,3147.28,11.65,31.3,25,6.8,6.07,0.0098,376.0,633.48,Adecuado
+SKU-0082,Sol Naciente Desodorante 250 ml,Higiene personal,C,Baja,892.62,4.71,77.6,25,6.8,2.64,0.0124,58.0,605.05,Exceso
+SKU-0056,Sol Naciente Almendras 150 g,Snacks,C,Baja,728.31,2.69,135.8,25,6.8,1.34,0.0035,7.0,594.23,Exceso
+SKU-0326,Río Claro Pulpo congelado 500 g,Congelados,C,Baja,872.66,5.27,69.2,25,6.8,3.25,0.0141,79.0,557.39,Exceso
+SKU-0177,El Roble Leche descremada 500 g,Lacteos,C,Baja,978.23,6.41,56.9,25,6.8,3.39,0.0008,6.0,548.43,Exceso
+SKU-0399,Monte Verde Arroz integral 900 ml,Abarrotes,C,Baja,1115.67,7.79,46.8,25,6.8,2.0,0.0042,19.0,519.69,Exceso
+SKU-0228,Valle Sur esponja multiuso 500 ml,Limpieza,C,Baja,1001.67,7.29,50.1,25,6.8,2.65,0.0009,5.0,501.83,Exceso
+SKU-0025,La Pradera Fideos spaghetti 900 ml,Abarrotes,C,Baja,1420.1,10.15,35.9,25,6.8,4.11,0.0024,28.0,431.17,Adecuado
+SKU-0240,El Roble Pechuga de pollo 1 kg,Carnes,C,Baja,1993.17,11.54,31.6,25,6.8,4.16,0.0105,167.0,416.3,Adecuado
+SKU-0206,Valle Sur Empanadas congeladas 1 L,Congelados,B,Baja,2472.81,20.28,18.0,15,6.8,12.1,0.0393,2391.0,412.13,Adecuado
+SKU-0033,Sol Naciente Acondicionador 250 ml,Higiene personal,C,Baja,754.85,6.8,53.7,25,6.8,2.66,0.0257,102.0,403.43,Exceso
+SKU-0083,Sol Naciente Fideos spaghetti 2 kg,Abarrotes,C,Baja,657.76,5.86,62.2,25,6.8,1.82,0.01,24.0,393.39,Exceso
+SKU-0018,Mar Azul Detergente líquido 500 ml,Limpieza,C,Baja,407.61,0.58,627.8,25,6.8,0.14,0.0,0.0,391.38,Exceso
+SKU-0117,El Roble Atún en agua 900 ml,Abarrotes,C,Baja,479.6,3.45,105.9,25,6.8,1.26,0.0,0.0,366.38,Exceso
+SKU-0134,Valle Sur Helado de chocolate 1 L,Congelados,C,Baja,1867.29,12.2,29.9,25,6.8,6.51,0.0693,1620.0,306.01,Adecuado
+SKU-0289,Doña Rosa Carne molida 1 kg,Carnes,C,Baja,749.44,9.11,40.1,25,6.8,3.66,0.001,5.0,282.21,Exceso
+SKU-0042,La Pradera Jugo de durazno 1 L,Bebidas,C,Baja,488.2,6.19,59.0,25,6.8,1.88,0.0,0.0,281.34,Exceso
+SKU-0053,Horizonte Máquina de afeitar 100 ml,Higiene personal,C,Baja,1001.45,10.54,34.6,25,6.8,3.39,0.1083,749.0,277.86,Adecuado
+SKU-0323,Mar Azul Limpiador de pisos 1 L,Limpieza,C,Baja,440.0,5.4,67.6,25,6.8,1.83,0.0132,21.0,277.28,Exceso
+SKU-0256,La Pradera Filete de vacuno 700 g,Carnes,C,Baja,388.59,5.49,66.5,25,6.8,2.88,0.0016,4.0,242.5,Exceso
+SKU-0366,Mar Azul Lechuga 1 unid,Frutas y verduras,C,Baja,351.24,4.93,74.0,25,6.8,2.14,0.0018,3.0,232.58,Exceso
+SKU-0104,Sol Naciente Leche entera 500 g,Lacteos,C,Baja,372.94,5.94,61.4,25,6.8,2.16,0.0,0.0,221.09,Exceso
+SKU-0284,Mar Azul Helado de vainilla 1 kg,Congelados,C,Baja,732.33,10.38,35.2,25,6.8,4.07,0.0546,322.0,212.21,Adecuado
+SKU-0311,Sol Naciente Pan dulce 700 g,Panaderia,C,Baja,237.9,1.59,230.2,25,6.8,1.09,0.0,0.0,212.06,Exceso
+SKU-0339,Río Claro Crema espesa 200 g,Lacteos,B,Baja,2474.71,22.27,16.4,15,6.8,12.17,0.0021,125.0,211.26,Adecuado
+SKU-0048,Cumbre Andina Cebolla 500 g,Frutas y verduras,C,Baja,285.76,3.98,91.7,25,6.8,2.03,0.0018,2.0,207.85,Exceso
+SKU-0393,Sol Naciente Gel de ducha 2 unid,Higiene personal,C,Baja,401.49,7.39,49.4,25,6.8,3.43,0.0362,99.0,198.31,Exceso
+SKU-0213,Río Claro Mix de frutos secos 500 g,Snacks,C,Baja,972.14,12.24,29.8,25,6.8,8.35,0.0113,184.0,156.59,Adecuado
+SKU-0236,Horizonte Filete de merluza 1 L,Congelados,C,Baja,635.84,11.71,31.2,25,6.8,6.1,0.0034,26.0,126.35,Adecuado
+SKU-0342,"Sol Naciente Papa, saco 1 unid",Frutas y verduras,C,Baja,568.61,12.25,29.8,25,6.8,7.82,0.0173,152.0,91.59,Adecuado
+SKU-0302,Doña Rosa Crema espesa 1 kg,Lacteos,C,Baja,565.96,12.48,29.3,25,6.8,3.82,0.001,5.0,83.06,Adecuado
+SKU-0219,Doña Rosa Crema corporal 100 ml,Higiene personal,C,Baja,252.58,10.66,34.2,25,6.8,6.09,0.0658,203.0,67.95,Adecuado
+SKU-0333,El Roble Pan de molde 500 g,Panaderia,C,Baja,229.99,10.99,33.2,25,6.8,7.31,0.0066,22.0,56.8,Adecuado
+SKU-0087,El Roble Aceite vegetal 400 g,Abarrotes,C,Baja,623.49,13.46,27.1,25,6.8,3.64,0.0113,51.0,48.31,Adecuado
+SKU-0400,El Roble Bebida isotónica 500 ml,Bebidas,C,Baja,1061.47,14.06,26.0,25,6.8,6.44,0.1096,1515.0,40.83,Adecuado
+SKU-0142,Cumbre Andina Zanahoria 500 g,Frutas y verduras,C,Baja,72.21,8.97,40.7,25,6.8,2.51,0.0,0.0,27.85,Exceso
+SKU-0139,Mar Azul Agua saborizada 750 ml,Bebidas,A,Alta,86326.51,66.42,5.5,10,6.8,17.37,0.1231,407936.0,0.0,Adecuado
+SKU-0100,Valle Sur Cerveza lager 2 L,Bebidas,A,Alta,40811.48,65.28,5.6,10,6.8,29.27,0.1209,319391.0,0.0,Adecuado
+SKU-0032,Valle Sur Agua mineral 750 ml,Bebidas,A,Alta,41122.52,67.38,5.4,10,6.8,20.22,0.1209,222067.0,0.0,Adecuado
+SKU-0166,Mar Azul Panceta 250 g,Carnes,A,Alta,17341.88,129.4,2.8,10,6.8,73.55,0.027,69201.0,0.0,Adecuado
+SKU-0020,La Pradera Empanadas congeladas 400 g,Congelados,A,Alta,38181.35,65.73,5.6,10,6.8,22.76,0.1486,293793.0,0.0,Adecuado
+SKU-0208,La Pradera Harina sin polvo 500 g,Abarrotes,A,Alta,31605.1,65.07,5.6,10,6.8,27.74,0.0808,151067.0,0.0,Adecuado
+SKU-0086,Monte Verde Jugo de naranja 1 L,Bebidas,A,Alta,27237.79,67.4,5.4,10,6.8,21.99,0.0584,73013.0,0.0,Adecuado
+SKU-0036,La Pradera Harina sin polvo 1 kg,Abarrotes,A,Alta,26410.18,65.07,5.6,10,6.8,16.01,0.0638,56496.0,0.0,Adecuado
+SKU-0008,Sol Naciente Chuleta de cerdo 250 g,Carnes,A,Alta,11018.99,126.73,2.9,10,6.8,65.25,0.0172,24763.0,0.0,Adecuado
+SKU-0013,Valle Sur Naranja 500 g,Frutas y verduras,A,Alta,10869.01,126.75,2.9,10,6.8,42.61,0.0298,28036.0,0.0,Adecuado
+SKU-0094,Monte Verde Jamón laminado 700 g,Carnes,A,Alta,3260.94,355.71,1.0,10,6.8,204.2,0.1712,229450.0,0.0,Riesgo
+SKU-0241,Monte Verde Arvejas congeladas 800 g,Congelados,A,Alta,20183.02,65.81,5.5,10,6.8,24.59,0.1428,160178.0,0.0,Adecuado
+SKU-0292,Río Claro Costilla de cerdo 250 g,Carnes,A,Alta,3951.9,317.92,1.1,10,6.8,117.72,0.0999,93462.0,0.0,Riesgo
+SKU-0138,Sol Naciente Arroz integral 1 kg,Abarrotes,A,Alta,21407.63,66.09,5.5,10,6.8,13.55,0.0467,28019.0,0.0,Adecuado
+SKU-0160,Horizonte Cerveza lager 500 ml,Bebidas,A,Alta,18616.32,66.22,5.5,10,6.8,22.74,0.1162,108329.0,0.0,Adecuado
+SKU-0224,Doña Rosa Pechuga de pollo 1 kg,Carnes,A,Alta,9629.03,121.7,3.0,10,6.8,46.26,0.041,36941.0,0.0,Adecuado
+SKU-0198,La Pradera Pizza congelada 1 L,Congelados,A,Alta,16820.85,64.39,5.7,10,6.8,29.57,0.1148,125704.0,0.0,Adecuado
+SKU-0188,Mar Azul Salsa de tomate 1 kg,Abarrotes,A,Alta,16307.11,67.43,5.4,10,6.8,27.52,0.1222,121639.0,0.0,Adecuado
+SKU-0072,Río Claro Arvejas congeladas 1 L,Congelados,A,Alta,13290.3,60.7,6.0,10,6.8,38.37,0.1418,163123.0,0.0,Adecuado
+SKU-0389,Mar Azul Yogur natural 200 g,Lacteos,A,Alta,6906.29,118.98,3.1,10,6.8,64.98,0.0322,29169.0,0.0,Adecuado
+SKU-0039,Cumbre Andina Panceta 1 kg,Carnes,A,Alta,5392.2,156.82,2.3,10,6.8,78.36,0.0119,10024.0,0.0,Adecuado
+SKU-0317,Doña Rosa Shampoo 500 ml,Higiene personal,A,Alta,11101.54,64.89,5.6,10,6.8,41.52,0.049,46604.0,0.0,Adecuado
+SKU-0215,Sol Naciente Detergente líquido 3 L,Limpieza,A,Alta,13324.51,63.01,5.8,10,6.8,25.05,0.0453,31163.0,0.0,Adecuado
+SKU-0386,Sol Naciente Jabón de tocador 500 ml,Higiene personal,A,Alta,12062.85,62.73,5.8,10,6.8,29.37,0.0829,62554.0,0.0,Adecuado
+SKU-0102,Mar Azul Pizza congelada 1 kg,Congelados,A,Alta,11242.5,63.77,5.7,10,6.8,33.62,0.1124,92851.0,0.0,Adecuado
+SKU-0153,Sol Naciente Detergente en polvo 4 unid,Limpieza,A,Alta,12229.18,63.58,5.7,10,6.8,23.9,0.091,57181.0,0.0,Adecuado
+SKU-0021,El Roble Atún en agua 2 kg,Abarrotes,A,Alta,13192.25,64.0,5.7,10,6.8,16.28,0.0513,22830.0,0.0,Adecuado
+SKU-0144,Sol Naciente Agua saborizada 750 ml,Bebidas,A,Alta,10836.53,67.61,5.4,10,6.8,29.18,0.1129,78013.0,0.0,Adecuado
+SKU-0184,La Pradera Lomo de vacuno 700 g,Carnes,A,Alta,5696.26,124.23,2.9,10,6.8,59.76,0.0209,14209.0,0.0,Adecuado
+SKU-0175,Valle Sur Helado de chocolate 1 L,Congelados,A,Alta,11711.59,65.5,5.6,10,6.8,23.37,0.1468,91264.0,0.0,Adecuado
+SKU-0174,Monte Verde Arroz integral 2 kg,Abarrotes,A,Alta,13522.95,63.53,5.7,10,6.8,13.22,0.094,36340.0,0.0,Adecuado
+SKU-0059,La Pradera Leche condensada 1 L,Lacteos,A,Alta,5840.53,114.83,3.2,10,6.8,44.77,0.0198,10358.0,0.0,Adecuado
+SKU-0247,Valle Sur Leche entera 250 ml,Lacteos,A,Alta,5827.95,117.14,3.1,10,6.8,40.45,0.0237,11450.0,0.0,Adecuado
+SKU-0040,Río Claro Fideos spaghetti 900 ml,Abarrotes,A,Alta,10371.49,62.77,5.8,10,6.8,24.6,0.0798,43276.0,0.0,Adecuado
+SKU-0076,Sol Naciente Jugo de naranja 750 ml,Bebidas,A,Alta,11028.77,62.99,5.8,10,6.8,18.02,0.0917,39289.0,0.0,Adecuado
+SKU-0379,Horizonte Aceite de oliva 2 kg,Abarrotes,A,Alta,10629.16,63.37,5.8,10,6.8,14.08,0.0787,25045.0,0.0,Adecuado
+SKU-0037,Monte Verde Atún en agua 500 g,Abarrotes,A,Alta,8807.25,64.89,5.6,10,6.8,21.14,0.0424,16258.0,0.0,Adecuado
+SKU-0028,El Roble Aceite de oliva 400 g,Abarrotes,A,Alta,8471.0,62.18,5.9,10,6.8,24.16,0.0783,34084.0,0.0,Adecuado
+SKU-0330,Río Claro Galleta de chocolate 40 g,Snacks,A,Alta,6927.59,62.13,5.9,10,6.8,39.1,0.117,70110.0,0.0,Adecuado
+SKU-0277,Mar Azul Bollo de mantequilla 300 g,Panaderia,A,Alta,3711.72,122.91,3.0,10,6.8,60.9,0.0069,3108.0,0.0,Adecuado
+SKU-0043,El Roble Lasagna congelada 500 g,Congelados,A,Alta,6902.52,64.12,5.7,10,6.8,34.68,0.1174,61764.0,0.0,Adecuado
+SKU-0147,Valle Sur Suavizante 1 L,Limpieza,A,Alta,7900.46,65.09,5.6,10,6.8,20.55,0.0393,13095.0,0.0,Adecuado
+SKU-0281,Río Claro Harina sin polvo 500 g,Abarrotes,A,Alta,7456.14,61.24,6.0,10,6.8,24.43,0.0485,18301.0,0.0,Adecuado
+SKU-0297,Sol Naciente Vino tinto reserva 500 ml,Bebidas,A,Alta,7329.01,53.81,6.8,10,6.8,26.29,0.0709,28801.0,0.0,Adecuado
+SKU-0218,Cumbre Andina Chocolate amargo 500 g,Snacks,A,Alta,6204.68,62.85,5.8,10,6.8,31.05,0.1942,89819.0,0.0,Adecuado
+SKU-0044,Río Claro Harina sin polvo 500 g,Abarrotes,A,Alta,7909.2,58.75,6.2,10,6.8,13.78,0.0679,15592.0,0.0,Adecuado
+SKU-0126,Mar Azul Costilla de cerdo 500 g,Carnes,A,Alta,3231.62,110.35,3.3,10,6.8,65.31,0.0357,15113.0,0.0,Adecuado
+SKU-0007,La Pradera Palta hass 5 kg,Frutas y verduras,A,Alta,2897.56,123.18,3.0,10,6.8,69.17,0.031,12561.0,0.0,Adecuado
+SKU-0226,"Mar Azul Agua saborizada 1,5 L",Bebidas,A,Alta,7063.69,58.0,6.3,10,6.8,17.94,0.0906,24586.0,0.0,Adecuado
+SKU-0168,Río Claro Jamón laminado 700 g,Carnes,A,Alta,1970.61,194.26,1.9,10,6.8,76.9,0.0617,18745.0,0.0,Riesgo
+SKU-0227,"Sol Naciente Agua saborizada 1,5 L",Bebidas,A,Alta,6532.17,62.63,5.8,10,6.8,18.97,0.1062,28684.0,0.0,Adecuado
+SKU-0024,Horizonte Arroz largo fino 400 g,Abarrotes,A,Alta,6036.95,65.7,5.6,10,6.8,21.18,0.1008,28009.0,0.0,Adecuado
+SKU-0065,Horizonte Detergente líquido 12 unid,Limpieza,A,Alta,5804.38,64.36,5.7,10,6.8,21.45,0.062,16108.0,0.0,Adecuado
+SKU-0217,Doña Rosa Cepillo de dientes 250 ml,Higiene personal,A,Alta,5083.21,62.51,5.8,10,6.8,35.01,0.0496,18218.0,0.0,Adecuado
+SKU-0047,Cumbre Andina Plátano 500 g,Frutas y verduras,A,Alta,2732.48,119.78,3.0,10,6.8,61.45,0.0201,6801.0,0.0,Adecuado
+SKU-0071,Mar Azul Fideos corbata 1 kg,Abarrotes,A,Alta,6313.42,59.48,6.1,10,6.8,18.83,0.0721,18159.0,0.0,Adecuado
+SKU-0360,Doña Rosa Arroz integral 900 ml,Abarrotes,A,Alta,6020.38,60.13,6.1,10,6.8,20.72,0.0796,21092.0,0.0,Adecuado
+SKU-0034,Sol Naciente Crema corporal 100 ml,Higiene personal,A,Alta,6308.71,58.5,6.2,10,6.8,18.48,0.0871,21812.0,0.0,Adecuado
+SKU-0315,Sol Naciente Almendras 40 g,Snacks,A,Alta,5387.2,65.01,5.6,10,6.8,24.81,0.0981,28339.0,0.0,Adecuado
+SKU-0268,Monte Verde Detergente en polvo 1 L,Limpieza,A,Alta,5382.09,62.05,5.9,10,6.8,25.82,0.0427,12226.0,0.0,Adecuado
+SKU-0203,Monte Verde Pizza congelada 500 g,Congelados,A,Alta,5435.83,61.21,6.0,10,6.8,23.78,0.1158,32736.0,0.0,Adecuado
+SKU-0097,Horizonte Fideos corbata 500 g,Abarrotes,A,Alta,5542.23,61.22,6.0,10,6.8,21.09,0.086,21526.0,0.0,Adecuado
+SKU-0207,Río Claro Limpiador de pisos 3 L,Limpieza,A,Alta,5171.07,62.42,5.8,10,6.8,24.3,0.0577,15054.0,0.0,Adecuado
+SKU-0123,Cumbre Andina Harina sin polvo 900 ml,Abarrotes,A,Alta,5327.24,64.53,5.7,10,6.8,19.19,0.036,7525.0,0.0,Adecuado
+SKU-0096,Valle Sur Bebida isotónica 2 L,Bebidas,A,Alta,5879.96,60.06,6.1,10,6.8,15.26,0.0503,9307.0,0.0,Adecuado
+SKU-0367,Doña Rosa Tortilla de trigo 500 g,Panaderia,A,Alta,2221.45,145.68,2.5,10,6.8,52.48,0.0156,3642.0,0.0,Adecuado
+SKU-0320,Monte Verde Arroz largo fino 1 kg,Abarrotes,A,Alta,5530.15,59.2,6.2,10,6.8,19.26,0.0783,17708.0,0.0,Adecuado
+SKU-0077,Río Claro Agua saborizada 750 ml,Bebidas,A,Baja,5990.19,48.61,7.5,10,6.8,22.46,0.1722,51811.0,0.0,Adecuado
+SKU-0127,Horizonte Jugo de durazno 500 ml,Bebidas,A,Alta,6055.19,56.35,6.5,10,6.8,13.66,0.0466,7995.0,0.0,Adecuado
+SKU-0010,Doña Rosa Almendras 500 g,Snacks,A,Alta,4268.14,68.71,5.3,10,6.8,30.15,0.1237,35300.0,0.0,Adecuado
+SKU-0314,Río Claro Jugo de durazno 750 ml,Bebidas,A,Alta,4280.18,66.21,5.5,10,6.8,31.68,0.1341,40671.0,0.0,Adecuado
+SKU-0080,Valle Sur Barra de cereal 500 g,Snacks,A,Alta,4739.5,62.65,5.8,10,6.8,23.87,0.1573,40935.0,0.0,Adecuado
+SKU-0181,Sol Naciente Fideos spaghetti 500 g,Abarrotes,A,Alta,5302.63,57.45,6.4,10,6.8,19.16,0.0804,17417.0,0.0,Adecuado
+SKU-0255,Cumbre Andina Queso fresco 200 g,Lacteos,A,Alta,2163.14,118.01,3.1,10,6.8,62.7,0.0254,6942.0,0.0,Adecuado
+SKU-0223,El Roble Bolsas de basura 3 L,Limpieza,A,Alta,4901.8,60.55,6.0,10,6.8,16.88,0.0819,14513.0,0.0,Adecuado
+SKU-0398,Valle Sur Azúcar rubia 2 kg,Abarrotes,A,Alta,5163.81,54.23,6.7,10,6.8,19.14,0.0499,10222.0,0.0,Adecuado
+SKU-0136,El Roble Cloro 3 L,Limpieza,A,Alta,4797.05,61.33,6.0,10,6.8,17.22,0.0652,11252.0,0.0,Adecuado
+SKU-0107,La Pradera Leche condensada 1 kg,Lacteos,A,Alta,2310.24,105.36,3.5,10,6.8,55.97,0.019,4939.0,0.0,Adecuado
+SKU-0133,Río Claro Fideos spaghetti 2 kg,Abarrotes,A,Baja,5490.83,50.54,7.2,10,6.8,17.12,0.2036,44723.0,0.0,Adecuado
+SKU-0169,Horizonte Toalla de papel 500 ml,Limpieza,A,Alta,4516.78,63.1,5.8,10,6.8,17.85,0.0741,12591.0,0.0,Adecuado
+SKU-0063,Sol Naciente Gaseosa cola 2 L,Bebidas,A,Alta,4079.04,61.39,5.9,10,6.8,26.42,0.0612,13772.0,0.0,Adecuado
+SKU-0090,Sol Naciente Arroz integral 1 kg,Abarrotes,A,Alta,4785.03,56.04,6.5,10,6.8,18.81,0.0621,11715.0,0.0,Adecuado
+SKU-0171,Mar Azul Limón 2 kg,Frutas y verduras,A,Alta,2101.86,117.83,3.1,10,6.8,49.56,0.0249,5210.0,0.0,Adecuado
+SKU-0005,Mar Azul Acondicionador 90 g,Higiene personal,A,Alta,3661.64,65.54,5.6,10,6.8,29.1,0.0611,13599.0,0.0,Adecuado
+SKU-0085,Doña Rosa Arroz largo fino 2 kg,Abarrotes,A,Baja,4875.78,51.99,7.0,10,6.8,16.96,0.0407,6918.0,0.0,Adecuado
+SKU-0122,Doña Rosa Plátano 1 unid,Frutas y verduras,A,Alta,1784.23,114.26,3.2,10,6.8,71.56,0.0284,7285.0,0.0,Adecuado
+SKU-0390,Monte Verde Bebida isotónica 1 L,Bebidas,A,Alta,4085.11,57.12,6.4,10,6.8,23.74,0.0959,19996.0,0.0,Adecuado
+SKU-0295,Río Claro Lechuga 1 unid,Frutas y verduras,A,Alta,1742.68,122.14,3.0,10,6.8,59.92,0.0286,6011.0,0.0,Adecuado
+SKU-0381,La Pradera Desodorante 2 unid,Higiene personal,A,Alta,3941.52,60.6,6.0,10,6.8,18.23,0.1258,20057.0,0.0,Adecuado
+SKU-0195,Mar Azul Lechuga 2 kg,Frutas y verduras,A,Alta,1797.99,126.38,2.9,10,6.8,46.18,0.036,6039.0,0.0,Adecuado
+SKU-0345,Monte Verde Palta hass 500 g,Frutas y verduras,B,Alta,1856.65,109.33,3.3,15,6.8,56.6,0.0248,5259.0,0.0,Adecuado
+SKU-0210,El Roble Tortilla de trigo 300 g,Panaderia,B,Alta,1644.59,122.96,3.0,15,6.8,60.71,0.0074,1480.0,0.0,Adecuado
+SKU-0377,Río Claro Naranja 1 unid,Frutas y verduras,B,Alta,1307.77,163.65,2.2,15,6.8,66.35,0.0282,4923.0,0.0,Adecuado
+SKU-0233,Sol Naciente Jugo de durazno 500 ml,Bebidas,B,Alta,3708.03,66.47,5.5,15,6.8,14.13,0.1165,13455.0,0.0,Riesgo
+SKU-0214,La Pradera Jugo de naranja 500 ml,Bebidas,B,Alta,2859.28,65.72,5.6,15,6.8,31.91,0.1117,22362.0,0.0,Riesgo
+SKU-0204,Cumbre Andina Limpiador de pisos 12 unid,Limpieza,B,Baja,3876.58,50.79,7.2,15,6.8,19.47,0.2421,44243.0,0.0,Riesgo
+SKU-0068,Doña Rosa Panceta 500 g,Carnes,B,Alta,2285.65,79.59,4.6,15,6.8,36.46,0.0139,2311.0,0.0,Adecuado
+SKU-0016,El Roble Zanahoria 5 kg,Frutas y verduras,B,Alta,1307.8,117.06,3.1,15,6.8,85.54,0.0129,2885.0,0.0,Adecuado
+SKU-0331,Monte Verde Salsa de tomate 400 g,Abarrotes,B,Alta,3649.7,55.28,6.6,15,6.8,15.39,0.0518,6067.0,0.0,Riesgo
+SKU-0038,Valle Sur Filete de vacuno 700 g,Carnes,B,Alta,2201.79,88.67,4.1,15,6.8,27.24,0.0396,4789.0,0.0,Adecuado
+SKU-0396,Río Claro Jugo de durazno 2 L,Bebidas,B,Baja,3953.8,49.67,7.3,15,6.8,14.51,0.2014,26818.0,0.0,Riesgo
+SKU-0384,Horizonte Pechuga de pollo 2 kg,Carnes,B,Alta,2805.46,61.88,5.9,15,6.8,27.99,0.5789,79929.0,0.0,Riesgo
+SKU-0119,La Pradera Cebolla 500 g,Frutas y verduras,B,Alta,1023.6,150.79,2.4,15,6.8,95.31,0.0116,2260.0,0.0,Adecuado
+SKU-0336,Monte Verde Tomate 2 kg,Frutas y verduras,B,Alta,1200.09,149.49,2.4,15,6.8,60.12,0.0147,2135.0,0.0,Adecuado
+SKU-0109,El Roble Bollo de mantequilla 300 g,Panaderia,B,Alta,1376.83,123.47,3.0,15,6.8,53.16,0.0309,4584.0,0.0,Adecuado
+SKU-0376,La Pradera Cepillo de dientes 90 g,Higiene personal,B,Alta,2629.26,56.77,6.4,15,6.8,32.77,0.0983,18347.0,0.0,Riesgo
+SKU-0260,Mar Azul Aceite de oliva 1 kg,Abarrotes,B,Alta,2809.34,62.37,5.9,15,6.8,21.2,0.0463,5687.0,0.0,Adecuado
+SKU-0009,Mar Azul Agua mineral 750 ml,Bebidas,B,Alta,2752.72,66.49,5.5,15,6.8,18.51,0.127,14425.0,0.0,Riesgo
+SKU-0002,Mar Azul Vino blanco 750 ml,Bebidas,B,Alta,2854.67,62.09,5.9,15,6.8,17.6,0.1282,14247.0,0.0,Riesgo
+SKU-0392,El Roble Naranja 1 unid,Frutas y verduras,B,Alta,1203.9,121.87,3.0,15,6.8,65.05,0.026,4116.0,0.0,Adecuado
+SKU-0180,Doña Rosa Plátano 5 kg,Frutas y verduras,B,Alta,427.19,352.09,1.0,15,6.8,167.03,0.2137,32699.0,0.0,Riesgo
+SKU-0395,El Roble Naranja 500 g,Frutas y verduras,B,Alta,1117.05,117.91,3.1,15,6.8,80.1,0.0219,3918.0,0.0,Adecuado
+SKU-0349,Horizonte Queso fresco 250 ml,Lacteos,B,Alta,1655.06,95.18,3.8,15,6.8,36.38,0.0155,1868.0,0.0,Adecuado
+SKU-0066,El Roble Detergente líquido 4 unid,Limpieza,B,Alta,2740.85,61.89,5.9,15,6.8,17.34,0.0457,4483.0,0.0,Adecuado
+SKU-0245,Doña Rosa Agua mineral 2 L,Bebidas,B,Alta,3066.3,54.9,6.6,15,6.8,14.72,0.0826,7942.0,0.0,Riesgo
+SKU-0347,Mar Azul Aceite vegetal 1 kg,Abarrotes,B,Baja,3177.61,51.06,7.1,15,6.8,14.81,0.06,5906.0,0.0,Riesgo
+SKU-0191,Sol Naciente Aceite de oliva 2 kg,Abarrotes,B,Baja,3276.81,48.32,7.6,15,6.8,15.37,0.0362,3745.0,0.0,Adecuado
+SKU-0222,Monte Verde Manzana fuji 2 kg,Frutas y verduras,B,Alta,1241.76,122.77,3.0,15,6.8,43.39,0.0235,2549.0,0.0,Adecuado
+SKU-0248,Río Claro Chuleta de cerdo 2 kg,Carnes,B,Alta,1273.0,104.39,3.5,15,6.8,54.57,0.026,3593.0,0.0,Adecuado
+SKU-0259,Sol Naciente Aceite de oliva 900 ml,Abarrotes,B,Baja,2826.13,50.68,7.2,15,6.8,16.03,0.0362,3354.0,0.0,Adecuado
+SKU-0058,La Pradera Queso gauda 1 L,Lacteos,B,Alta,2212.1,57.54,6.3,15,6.8,26.69,0.1052,13062.0,0.0,Riesgo
+SKU-0298,Mar Azul Filete de vacuno 250 g,Carnes,B,Baja,2792.82,47.02,7.8,15,6.8,19.61,0.0206,2203.0,0.0,Adecuado
+SKU-0197,Doña Rosa Atún en agua 400 g,Abarrotes,B,Baja,2795.41,45.76,8.0,15,6.8,18.96,0.1172,13331.0,0.0,Adecuado
+SKU-0383,Doña Rosa Fideos corbata 400 g,Abarrotes,B,Alta,2582.11,55.6,6.6,15,6.8,13.13,0.0447,3139.0,0.0,Adecuado
+SKU-0163,Cumbre Andina Queso gauda 200 g,Lacteos,B,Alta,1505.11,84.99,4.3,15,6.8,32.73,0.0124,1227.0,0.0,Adecuado
+SKU-0178,Cumbre Andina Aceite de oliva 900 ml,Abarrotes,B,Baja,2912.38,48.89,7.5,15,6.8,11.17,0.1782,13282.0,0.0,Adecuado
+SKU-0250,Doña Rosa Queso parmesano 1 L,Lacteos,B,Alta,1393.82,82.73,4.4,15,6.8,42.33,0.0095,1118.0,0.0,Adecuado
+SKU-0365,Valle Sur Carne molida 700 g,Carnes,B,Alta,97.05,1114.01,0.3,15,6.8,675.09,0.787,183367.0,0.0,Riesgo
+SKU-0220,La Pradera esponja multiuso 1 L,Limpieza,B,Alta,1967.11,62.13,5.9,15,6.8,24.68,0.0845,8724.0,0.0,Riesgo
+SKU-0329,Horizonte Cebolla 5 kg,Frutas y verduras,B,Alta,866.63,125.87,2.9,15,6.8,70.93,0.0282,3505.0,0.0,Adecuado
+SKU-0310,Valle Sur Cebolla 500 g,Frutas y verduras,B,Alta,841.18,119.23,3.1,15,6.8,82.73,0.0195,2734.0,0.0,Adecuado
+SKU-0249,Horizonte Salsa de tomate 500 g,Abarrotes,B,Baja,2667.41,52.45,7.0,15,6.8,11.15,0.0722,4550.0,0.0,Riesgo
+SKU-0350,Cumbre Andina Gel de ducha 500 ml,Higiene personal,B,Alta,2103.07,56.3,6.5,15,6.8,22.94,0.0855,8796.0,0.0,Riesgo
+SKU-0108,Doña Rosa Atún en agua 2 kg,Abarrotes,B,Baja,2759.13,46.14,7.9,15,6.8,13.27,0.1555,12628.0,0.0,Adecuado
+SKU-0035,Monte Verde Plátano 1 kg,Frutas y verduras,B,Alta,908.01,127.99,2.9,15,6.8,52.38,0.0281,2692.0,0.0,Adecuado
+SKU-0235,Río Claro Jabón de tocador 250 ml,Higiene personal,B,Alta,2030.18,54.74,6.7,15,6.8,24.09,0.0554,5641.0,0.0,Riesgo
+SKU-0192,Sol Naciente Acondicionador 2 unid,Higiene personal,B,Baja,2406.68,49.0,7.4,15,6.8,17.17,0.0967,8655.0,0.0,Riesgo
+SKU-0358,Valle Sur Detergente líquido 500 ml,Limpieza,B,Alta,1837.09,60.24,6.1,15,6.8,26.13,0.0376,3705.0,0.0,Adecuado
+SKU-0380,Doña Rosa Leche descremada 200 g,Lacteos,B,Alta,1038.38,117.14,3.1,15,6.8,35.19,0.025,1830.0,0.0,Adecuado
+SKU-0165,Cumbre Andina esponja multiuso 500 ml,Limpieza,B,Alta,2087.7,55.11,6.6,15,6.8,19.86,0.0393,3348.0,0.0,Adecuado
+SKU-0152,El Roble Yogur de frutilla 1 kg,Lacteos,B,Alta,1200.97,84.34,4.3,15,6.8,44.86,0.1351,14744.0,0.0,Riesgo
+SKU-0170,El Roble Detergente líquido 500 ml,Limpieza,B,Alta,2022.9,56.0,6.5,15,6.8,20.29,0.065,5582.0,0.0,Riesgo
+SKU-0270,Monte Verde Pan pita 500 g,Panaderia,B,Alta,1023.38,90.51,4.0,15,6.8,60.18,0.0169,2083.0,0.0,Adecuado
+SKU-0371,Río Claro Filete de vacuno 700 g,Carnes,B,Alta,1253.16,91.53,4.0,15,6.8,30.11,0.0403,3041.0,0.0,Adecuado
+SKU-0187,Río Claro Limón 500 g,Frutas y verduras,B,Alta,948.55,115.46,3.2,15,6.8,40.78,0.0266,2080.0,0.0,Adecuado
+SKU-0231,Sol Naciente Helado de chocolate 1 kg,Congelados,B,Baja,2244.17,42.35,8.6,15,6.8,23.46,0.0568,6239.0,0.0,Adecuado
+SKU-0064,Doña Rosa Galleta de vainilla 200 g,Snacks,B,Alta,1532.31,66.1,5.5,15,6.8,28.04,0.109,10216.0,0.0,Riesgo
+SKU-0269,Horizonte Palta hass 1 unid,Frutas y verduras,B,Alta,327.91,262.36,1.4,15,6.8,173.02,0.146,16803.0,0.0,Riesgo
+SKU-0340,Monte Verde Zanahoria 2 kg,Frutas y verduras,B,Alta,1179.94,85.35,4.3,15,6.8,33.37,0.0123,970.0,0.0,Adecuado
+SKU-0378,Mar Azul Jugo de naranja 2 L,Bebidas,B,Baja,2326.43,47.91,7.6,15,6.8,11.72,0.0727,4188.0,0.0,Adecuado
+SKU-0017,Cumbre Andina Panceta 500 g,Carnes,B,Alta,1037.61,99.28,3.7,15,6.8,34.16,0.0328,2326.0,0.0,Adecuado
+SKU-0327,La Pradera Salsa de tomate 2 kg,Abarrotes,B,Baja,2327.05,46.47,7.9,15,6.8,11.99,0.1524,9493.0,0.0,Adecuado
+SKU-0262,"La Pradera Vino tinto reserva 1,5 L",Bebidas,B,Alta,1725.68,58.83,6.2,15,6.8,19.83,0.0842,6134.0,0.0,Riesgo
+SKU-0078,Doña Rosa Limpiador de pisos 1 L,Limpieza,B,Alta,1771.36,58.24,6.3,15,6.8,18.26,0.085,5857.0,0.0,Riesgo
+SKU-0246,Mar Azul Lavaloza 3 L,Limpieza,B,Alta,1991.06,53.81,6.8,15,6.8,13.91,0.1904,12090.0,0.0,Riesgo
+SKU-0364,Monte Verde Fideos corbata 400 g,Abarrotes,B,Baja,2070.28,45.1,8.1,15,6.8,19.31,0.0302,2460.0,0.0,Adecuado
+SKU-0141,Sol Naciente Lavaloza 1 L,Limpieza,B,Baja,2232.88,43.1,8.5,15,6.8,16.59,0.0398,3036.0,0.0,Adecuado
+SKU-0054,Cumbre Andina Máquina de afeitar 100 ml,Higiene personal,B,Alta,1431.55,64.3,5.7,15,6.8,27.98,0.1216,10788.0,0.0,Riesgo
+SKU-0151,La Pradera Tomate 2 kg,Frutas y verduras,B,Alta,833.33,110.76,3.3,15,6.8,46.18,0.0441,3446.0,0.0,Adecuado
+SKU-0322,Mar Azul Pan dulce 700 g,Panaderia,B,Alta,776.2,108.73,3.4,15,6.8,55.81,0.0149,1291.0,0.0,Adecuado
+SKU-0372,Sol Naciente Cerveza lager 1 L,Bebidas,B,Baja,1651.12,53.61,6.8,15,6.8,20.29,0.2471,19889.0,0.0,Riesgo
+SKU-0070,La Pradera Lavaloza 3 L,Limpieza,B,Alta,1463.82,56.62,6.4,15,6.8,25.14,0.064,4944.0,0.0,Riesgo
+SKU-0145,Río Claro Acondicionador 90 g,Higiene personal,B,Baja,2637.57,27.7,13.2,15,6.8,17.67,0.4305,53175.0,0.0,Adecuado
+SKU-0225,Horizonte Jugo de durazno 2 L,Bebidas,B,Baja,2192.72,42.9,8.5,15,6.8,11.01,0.1271,6557.0,0.0,Adecuado
+SKU-0060,El Roble Aceite vegetal 1 kg,Abarrotes,B,Baja,2338.52,37.17,9.8,15,6.8,13.06,0.0206,1272.0,0.0,Adecuado
+SKU-0338,Monte Verde Leche condensada 250 ml,Lacteos,B,Alta,943.12,96.42,3.8,15,6.8,27.87,0.0171,899.0,0.0,Adecuado
+SKU-0046,Monte Verde Cloro 3 L,Limpieza,B,Baja,1887.84,42.96,8.5,15,6.8,17.29,0.0379,2537.0,0.0,Adecuado
+SKU-0290,Horizonte Queso gauda 500 g,Lacteos,B,Alta,1240.98,64.35,5.7,15,6.8,26.98,0.0077,520.0,0.0,Adecuado
+SKU-0179,Horizonte Yogur natural 1 kg,Lacteos,B,Alta,933.19,80.06,4.6,15,6.8,41.3,0.1359,10639.0,0.0,Riesgo
+SKU-0101,Doña Rosa Aceite de oliva 1 kg,Abarrotes,B,Baja,2422.9,33.75,10.8,15,6.8,11.47,0.1143,6796.0,0.0,Adecuado
+SKU-0382,Sol Naciente Limón 500 g,Frutas y verduras,B,Alta,435.57,155.83,2.3,15,6.8,89.25,0.0635,4926.0,0.0,Riesgo
+SKU-0004,Horizonte Pan multigrano 700 g,Panaderia,B,Alta,188.46,401.81,0.9,15,6.8,155.22,0.2026,11808.0,0.0,Riesgo
+SKU-0029,La Pradera Cebolla 1 unid,Frutas y verduras,B,Alta,997.78,74.13,4.9,15,6.8,30.6,0.1141,7066.0,0.0,Riesgo
+SKU-0296,La Pradera Harina sin polvo 1 kg,Abarrotes,B,Baja,1647.55,49.72,7.3,15,6.8,12.99,0.047,2082.0,0.0,Adecuado
+SKU-0209,Horizonte Cebolla 5 kg,Frutas y verduras,B,Alta,715.74,101.84,3.6,15,6.8,40.34,0.039,2269.0,0.0,Adecuado
+SKU-0307,Río Claro Leche condensada 250 ml,Lacteos,B,Alta,808.41,80.02,4.6,15,6.8,42.46,0.11,7528.0,0.0,Riesgo
+SKU-0201,Río Claro Pata de pollo 1 kg,Carnes,B,Alta,500.42,127.95,2.9,15,6.8,65.04,0.0646,4229.0,0.0,Riesgo
+SKU-0006,El Roble Pasta dental 250 ml,Higiene personal,B,Baja,1381.98,46.64,7.8,15,6.8,21.83,0.2603,19580.0,0.0,Adecuado
+SKU-0173,Doña Rosa Limpiador de pisos 3 L,Limpieza,B,Baja,1874.93,38.38,9.5,15,6.8,11.57,0.1445,6962.0,0.0,Adecuado
+SKU-0095,Valle Sur Tomate 5 kg,Frutas y verduras,B,Alta,579.91,117.65,3.1,15,6.8,43.57,0.1605,7995.0,0.0,Riesgo
+SKU-0182,Monte Verde Pan marraqueta 700 g,Panaderia,B,Alta,629.99,106.28,3.4,15,6.8,39.62,0.0155,779.0,0.0,Adecuado
+SKU-0373,Valle Sur Crema corporal 250 ml,Higiene personal,B,Baja,1152.78,52.96,6.9,15,6.8,26.72,0.0898,5949.0,0.0,Riesgo
+SKU-0335,Monte Verde Papas fritas 150 g,Snacks,B,Baja,1232.9,52.14,7.0,15,6.8,22.08,0.0744,4275.0,0.0,Riesgo
+SKU-0212,Mar Azul Cebolla 2 kg,Frutas y verduras,B,Alta,330.26,173.31,2.1,15,6.8,103.72,0.1038,7274.0,0.0,Riesgo
+SKU-0357,Doña Rosa Atún en agua 1 kg,Abarrotes,B,Alta,1190.83,59.49,6.1,15,6.8,16.16,0.1011,4220.0,0.0,Riesgo
+SKU-0244,Cumbre Andina Gaseosa limón 500 ml,Bebidas,B,Baja,1231.93,50.51,7.2,15,6.8,21.77,0.0734,4169.0,0.0,Riesgo
+SKU-0251,Mar Azul Salsa de tomate 2 kg,Abarrotes,B,Baja,1764.57,34.67,10.5,15,6.8,13.79,0.0993,5113.0,0.0,Adecuado
+SKU-0280,Horizonte Detergente líquido 4 unid,Limpieza,B,Baja,1742.05,36.4,10.0,15,6.8,12.51,0.0234,1038.0,0.0,Adecuado
+SKU-0278,Río Claro Zanahoria 1 kg,Frutas y verduras,B,Alta,234.57,243.16,1.5,15,6.8,119.79,0.1433,8312.0,0.0,Riesgo
+SKU-0303,Horizonte Detergente en polvo 12 unid,Limpieza,C,Baja,472.8,49.05,7.4,25,6.8,22.76,0.0535,1197.0,0.0,Riesgo
+SKU-0121,La Pradera Suavizante 1 L,Limpieza,C,Baja,650.88,36.59,10.0,25,6.8,15.33,0.1198,2589.0,0.0,Riesgo
+SKU-0012,Mar Azul Vino blanco 500 ml,Bebidas,C,Baja,573.72,47.65,7.7,25,6.8,10.93,0.2175,3219.0,0.0,Riesgo
+SKU-0341,Sol Naciente Queso fresco 1 kg,Lacteos,B,Baja,1294.58,49.79,7.3,15,6.8,15.78,0.0917,3897.0,0.0,Riesgo
+SKU-0156,Río Claro Chocolate con leche 250 g,Snacks,C,Baja,424.28,47.68,7.7,25,6.8,29.38,0.074,1952.0,0.0,Riesgo
+SKU-0288,Sol Naciente Toalla de papel 1 L,Limpieza,C,Baja,1464.41,17.34,21.1,25,6.8,4.93,0.0093,134.0,0.0,Adecuado
+SKU-0202,Sol Naciente Papas fritas 200 g,Snacks,C,Baja,679.38,32.82,11.1,25,6.8,14.83,0.1461,3286.0,0.0,Riesgo
+SKU-0309,Valle Sur Pan pita 1 kg,Panaderia,C,Alta,146.55,120.64,3.0,25,6.8,96.81,0.0539,1559.0,0.0,Riesgo
+SKU-0216,Valle Sur Pan de hamburguesa 700 g,Panaderia,C,Alta,64.46,341.72,1.1,25,6.8,151.92,0.2811,6010.0,0.0,Riesgo
+SKU-0199,Doña Rosa Pan de molde 300 g,Panaderia,C,Alta,228.18,99.82,3.7,25,6.8,39.55,0.1691,3098.0,0.0,Riesgo
+SKU-0014,Horizonte Mix de frutos secos 150 g,Snacks,C,Baja,361.61,52.32,7.0,25,6.8,35.39,0.0865,2372.0,0.0,Riesgo
+SKU-0157,Río Claro Manzana fuji 5 kg,Frutas y verduras,B,Alta,280.88,195.38,1.9,15,6.8,103.67,0.123,7325.0,0.0,Riesgo
+SKU-0057,El Roble Vino blanco 750 ml,Bebidas,C,Baja,433.88,44.96,8.1,25,6.8,24.69,0.1371,3176.0,0.0,Riesgo
+SKU-0300,El Roble Limpiador de pisos 12 unid,Limpieza,C,Baja,627.76,33.22,11.0,25,6.8,14.47,0.1322,2645.0,0.0,Riesgo
+SKU-0286,Cumbre Andina Desodorante 250 ml,Higiene personal,C,Baja,1201.95,16.05,22.7,25,6.8,8.55,0.0205,428.0,0.0,Adecuado
+SKU-0079,Mar Azul Cebolla 5 kg,Frutas y verduras,B,Alta,163.05,294.82,1.2,15,6.8,206.28,0.3906,31990.0,0.0,Riesgo
+SKU-0397,Mar Azul Yogur de frutilla 1 kg,Lacteos,C,Baja,622.38,30.78,11.9,25,6.8,13.85,0.0354,619.0,0.0,Adecuado
+SKU-0089,Horizonte Tomate 500 g,Frutas y verduras,C,Alta,194.16,108.93,3.4,25,6.8,30.92,0.0257,310.0,0.0,Adecuado
+SKU-0271,El Roble Aceite de oliva 500 g,Abarrotes,C,Baja,1031.37,21.81,16.7,25,6.8,4.46,0.2853,3008.0,0.0,Adecuado
+SKU-0325,Cumbre Andina Mantequilla 1 kg,Lacteos,B,Alta,799.97,72.29,5.0,15,6.8,25.54,0.0947,3854.0,0.0,Riesgo
+SKU-0324,Valle Sur Jugo de naranja 1 L,Bebidas,C,Baja,406.81,46.78,7.8,25,6.8,17.05,0.1828,2893.0,0.0,Riesgo
+SKU-0189,"Monte Verde Papa, saco 5 kg",Frutas y verduras,C,Alta,505.08,110.06,3.3,25,6.8,44.48,0.0265,1200.0,0.0,Adecuado
+SKU-0183,La Pradera Cabritas 150 g,Snacks,C,Baja,1063.02,51.6,7.1,25,6.8,19.41,0.0802,3516.0,0.0,Riesgo
+SKU-0061,Sol Naciente Panceta 250 g,Carnes,C,Baja,406.87,44.47,8.2,25,6.8,18.16,0.0205,298.0,0.0,Adecuado
+SKU-0150,Río Claro Limón 1 unid,Frutas y verduras,C,Alta,317.81,55.01,6.6,25,6.8,23.85,0.0402,603.0,0.0,Adecuado
+SKU-0264,Mar Azul Pan de hamburguesa 500 g,Panaderia,C,Baja,748.4,24.39,15.0,25,6.8,9.09,0.0014,19.0,0.0,Adecuado
+SKU-0272,Río Claro Galleta de chocolate 250 g,Snacks,C,Baja,856.08,21.2,17.2,25,6.8,8.03,0.059,838.0,0.0,Adecuado
+SKU-0242,Monte Verde Galleta de chocolate 40 g,Snacks,C,Baja,794.95,21.56,16.9,25,6.8,9.86,0.0554,892.0,0.0,Adecuado
+SKU-0200,Valle Sur Acondicionador 2 unid,Higiene personal,C,Baja,569.86,27.35,13.3,25,6.8,16.0,0.0975,1898.0,0.0,Adecuado
+SKU-0283,Valle Sur Chocolate con leche 250 g,Snacks,C,Baja,359.3,42.67,8.6,25,6.8,22.42,0.1678,3036.0,0.0,Riesgo
+SKU-0348,Río Claro Pan de molde 300 g,Panaderia,C,Baja,330.94,49.75,7.3,25,6.8,18.35,0.016,192.0,0.0,Adecuado
+SKU-0167,Doña Rosa Salsa de tomate 400 g,Abarrotes,C,Alta,1096.07,56.82,6.4,25,6.8,11.85,0.0585,1590.0,0.0,Riesgo
+SKU-0370,Horizonte Crema corporal 500 ml,Higiene personal,C,Baja,464.38,32.0,11.4,25,6.8,14.68,0.0581,831.0,0.0,Riesgo
+SKU-0243,Cumbre Andina Jugo de durazno 2 L,Bebidas,C,Baja,527.96,30.55,11.9,25,6.8,10.3,0.1177,1383.0,0.0,Riesgo
+SKU-0276,Sol Naciente Pan pita 500 g,Panaderia,C,Alta,47.94,273.39,1.3,25,6.8,174.63,0.5941,12224.0,0.0,Riesgo
+SKU-0275,Monte Verde Detergente líquido 3 L,Limpieza,C,Baja,624.75,26.71,13.7,25,6.8,7.15,0.3053,3027.0,0.0,Adecuado
+SKU-0387,Monte Verde Palta hass 5 kg,Frutas y verduras,C,Alta,261.32,54.5,6.7,25,6.8,25.26,0.0308,398.0,0.0,Adecuado
+SKU-0185,Valle Sur Pizza congelada 800 g,Congelados,C,Baja,1742.85,26.51,13.8,25,6.8,16.14,0.0656,3835.0,0.0,Adecuado
+SKU-0306,Cumbre Andina Pan multigrano 300 g,Panaderia,C,Baja,550.05,26.44,13.8,25,6.8,10.26,0.0,0.0,0.0,Adecuado
+SKU-0279,Horizonte Jabón de tocador 500 ml,Higiene personal,C,Baja,1126.77,41.31,8.8,25,6.8,24.53,0.0632,3663.0,0.0,Riesgo
+SKU-0237,Río Claro Galleta de agua 300 g,Panaderia,C,Baja,552.55,21.53,17.0,25,6.8,14.58,0.0027,44.0,0.0,Adecuado
+SKU-0159,Valle Sur Barra de cereal 500 g,Snacks,C,Baja,314.89,38.83,9.4,25,6.8,23.37,0.1434,2331.0,0.0,Riesgo
+SKU-0361,Horizonte Helado de chocolate 800 g,Congelados,C,Baja,827.87,16.03,22.8,25,6.8,6.89,0.0281,327.0,0.0,Adecuado
+SKU-0143,Mar Azul Papel higiénico 1 L,Limpieza,C,Baja,1076.52,48.42,7.5,25,6.8,20.18,0.0419,1877.0,0.0,Adecuado
+SKU-0112,Horizonte Pan marraqueta 700 g,Panaderia,C,Baja,302.2,36.56,10.0,25,6.8,22.28,0.0088,117.0,0.0,Adecuado
+SKU-0050,Horizonte Detergente en polvo 4 unid,Limpieza,C,Baja,1324.65,39.22,9.3,25,6.8,16.42,0.029,1286.0,0.0,Adecuado
+SKU-0352,La Pradera Yogur de frutilla 500 g,Lacteos,C,Baja,1553.14,36.11,10.1,25,6.8,10.95,0.0122,412.0,0.0,Adecuado
+SKU-0299,Mar Azul Pan pita 300 g,Panaderia,C,Alta,204.11,59.24,6.2,25,6.8,20.45,0.0769,637.0,0.0,Riesgo
+SKU-0369,Cumbre Andina Salsa de tomate 900 ml,Abarrotes,C,Baja,331.82,38.73,9.4,25,6.8,9.1,0.1278,852.0,0.0,Riesgo
+SKU-0135,Doña Rosa Pan integral 1 kg,Panaderia,C,Alta,129.98,73.7,5.0,25,6.8,48.33,0.0732,906.0,0.0,Riesgo
+SKU-0015,Río Claro Queso fresco 250 ml,Lacteos,C,Baja,463.05,24.49,14.9,25,6.8,9.5,0.0018,16.0,0.0,Adecuado
+SKU-0106,Monte Verde Pechuga de pollo 700 g,Carnes,C,Alta,196.46,247.55,1.5,25,6.8,115.98,0.5254,26283.0,0.0,Riesgo
+SKU-0318,Monte Verde Tomate 2 kg,Frutas y verduras,C,Baja,657.54,15.95,22.9,25,6.8,6.22,0.0004,3.0,0.0,Adecuado
+SKU-0196,Río Claro Cabritas 250 g,Snacks,C,Alta,812.84,54.61,6.7,25,6.8,31.07,0.1697,9943.0,0.0,Riesgo
+SKU-0252,Río Claro Arroz integral 2 kg,Abarrotes,C,Baja,643.34,16.65,21.9,25,6.8,4.73,0.0265,164.0,0.0,Adecuado
+SKU-0351,Valle Sur Pan de hamburguesa 500 g,Panaderia,C,Alta,163.06,64.47,5.7,25,6.8,19.75,0.0759,493.0,0.0,Riesgo
+SKU-0355,Cumbre Andina Gaseosa limón 1 L,Bebidas,C,Baja,212.56,49.03,7.4,25,6.8,15.53,0.2248,1755.0,0.0,Riesgo
+SKU-0362,Monte Verde Arvejas congeladas 800 g,Congelados,C,Baja,1156.45,40.63,9.0,25,6.8,19.25,0.136,6600.0,0.0,Riesgo
+SKU-0261,Río Claro Limpiador de pisos 3 L,Limpieza,C,Baja,440.17,23.08,15.8,25,6.8,6.67,0.0271,160.0,0.0,Adecuado
+SKU-0254,La Pradera Toalla de papel 1 L,Limpieza,C,Baja,201.22,45.35,8.0,25,6.8,19.16,0.1297,1086.0,0.0,Riesgo
+SKU-0164,Cumbre Andina Pan pita 1 kg,Panaderia,C,Alta,36.19,250.24,1.5,25,6.8,107.39,0.3451,3283.0,0.0,Riesgo
+SKU-0266,El Roble Jabón de tocador 100 ml,Higiene personal,C,Baja,1105.14,41.07,8.9,25,6.8,21.41,0.1752,9429.0,0.0,Riesgo
+SKU-0161,El Roble Cloro 4 unid,Limpieza,C,Baja,442.36,20.24,18.0,25,6.8,5.92,0.0351,187.0,0.0,Adecuado
+SKU-0137,Mar Azul Tomate 1 kg,Frutas y verduras,C,Alta,469.07,100.51,3.6,25,6.8,46.27,0.0358,1572.0,0.0,Adecuado
+SKU-0111,Valle Sur Manzana fuji 2 kg,Frutas y verduras,C,Alta,343.04,117.35,3.1,25,6.8,79.82,0.0288,1589.0,0.0,Adecuado
+SKU-0385,La Pradera Crema espesa 1 kg,Lacteos,C,Baja,864.15,51.25,7.1,25,6.8,25.53,0.0191,851.0,0.0,Adecuado
+SKU-0140,El Roble Helado de vainilla 800 g,Congelados,C,Baja,799.72,49.56,7.4,25,6.8,33.0,0.0815,4585.0,0.0,Riesgo
+SKU-0055,Sol Naciente Tomate 2 kg,Frutas y verduras,C,Alta,215.76,199.92,1.8,25,6.8,98.36,0.4781,23931.0,0.0,Riesgo
+SKU-0258,Valle Sur Limón 1 kg,Frutas y verduras,C,Alta,127.22,329.08,1.1,25,6.8,176.37,0.6929,40122.0,0.0,Riesgo
+SKU-0221,Monte Verde Leche descremada 250 ml,Lacteos,C,Alta,700.09,67.4,5.4,25,6.8,23.59,0.0096,320.0,0.0,Adecuado
+SKU-0374,Valle Sur Arvejas congeladas 1 kg,Congelados,C,Baja,1790.99,23.99,15.2,25,6.8,11.01,0.0667,2731.0,0.0,Adecuado
+SKU-0115,Monte Verde Cebolla 2 kg,Frutas y verduras,C,Alta,76.22,97.5,3.7,25,6.8,37.79,0.198,1194.0,0.0,Riesgo
+SKU-0294,Río Claro Pasta dental 90 g,Higiene personal,C,Baja,425.33,15.1,24.2,25,6.8,8.46,0.0532,397.0,0.0,Adecuado
+SKU-0257,Sol Naciente Zanahoria 1 unid,Frutas y verduras,C,Alta,172.54,239.62,1.5,25,6.8,122.37,0.1772,7798.0,0.0,Riesgo
+SKU-0067,Cumbre Andina Aceite de oliva 500 g,Abarrotes,C,Baja,1143.45,39.8,9.2,25,6.8,14.68,0.1486,5530.0,0.0,Riesgo
+SKU-0124,Mar Azul Salsa de tomate 400 g,Abarrotes,C,Baja,271.04,28.87,12.6,25,6.8,7.1,0.0087,34.0,0.0,Adecuado
+SKU-0363,Doña Rosa Costilla de cerdo 1 kg,Carnes,C,Baja,1466.92,29.48,12.4,25,6.8,12.05,0.0098,344.0,0.0,Adecuado
+SKU-0019,Mar Azul Bollo de mantequilla 1 kg,Panaderia,C,Alta,522.04,78.47,4.7,25,6.8,37.77,0.075,2909.0,0.0,Riesgo
+SKU-0130,El Roble Vino tinto reserva 1 L,Bebidas,C,Baja,2985.29,15.32,23.8,25,6.8,4.89,0.0224,664.0,0.0,Adecuado
+SKU-0148,Monte Verde Galleta de chocolate 40 g,Snacks,C,Baja,775.09,49.83,7.3,25,6.8,27.89,0.1172,5587.0,0.0,Riesgo
+SKU-0291,La Pradera Limón 1 unid,Frutas y verduras,C,Baja,179.87,37.3,9.8,25,6.8,12.81,0.0054,25.0,0.0,Adecuado
+SKU-0172,Monte Verde Limón 1 unid,Frutas y verduras,C,Alta,46.87,109.58,3.3,25,6.8,81.82,0.0232,178.0,0.0,Adecuado
+SKU-0091,Doña Rosa Jamón laminado 500 g,Carnes,C,Baja,2091.47,20.4,17.9,25,6.8,8.12,0.0003,12.0,0.0,Adecuado
+SKU-0026,Valle Sur Plátano 1 kg,Frutas y verduras,C,Baja,160.7,36.92,9.9,25,6.8,13.6,0.0317,138.0,0.0,Adecuado
+SKU-0239,Cumbre Andina Jugo de naranja 1 L,Bebidas,C,Baja,168.92,33.38,10.9,25,6.8,14.2,0.0639,315.0,0.0,Riesgo
+SKU-0391,Mar Azul Salsa de tomate 900 ml,Abarrotes,C,Baja,2399.35,18.66,19.6,25,6.8,6.08,0.1298,3834.0,0.0,Adecuado
+SKU-0267,Monte Verde Naranja 2 kg,Frutas y verduras,C,Alta,454.48,97.29,3.8,25,6.8,33.14,0.0305,924.0,0.0,Adecuado
+SKU-0023,Horizonte Fideos spaghetti 1 kg,Abarrotes,C,Baja,1517.54,30.5,12.0,25,6.8,8.24,0.0558,1434.0,0.0,Riesgo
+SKU-0238,Horizonte Cebolla 2 kg,Frutas y verduras,C,Baja,100.56,50.38,7.2,25,6.8,21.17,0.0411,173.0,0.0,Adecuado
+SKU-0125,Doña Rosa Bolsas de basura 4 unid,Limpieza,C,Baja,1850.11,23.8,15.3,25,6.8,7.54,0.042,1198.0,0.0,Adecuado
+SKU-0155,Río Claro Lechuga 5 kg,Frutas y verduras,C,Baja,108.81,36.44,10.0,25,6.8,24.25,0.0114,60.0,0.0,Adecuado
+SKU-0301,El Roble Tomate 1 kg,Frutas y verduras,C,Alta,376.03,103.46,3.5,25,6.8,48.93,0.1809,6855.0,0.0,Riesgo
+SKU-0332,Mar Azul Jabón de tocador 100 ml,Higiene personal,C,Baja,838.87,51.8,7.0,25,6.8,16.27,0.1162,3503.0,0.0,Riesgo
+SKU-0282,Horizonte Pan multigrano 8 unid,Panaderia,C,Baja,93.68,40.83,8.9,25,6.8,24.52,0.0172,78.0,0.0,Adecuado
+SKU-0359,Río Claro Zanahoria 500 g,Frutas y verduras,C,Alta,553.17,72.74,5.0,25,6.8,29.37,0.0084,271.0,0.0,Adecuado
+SKU-0328,Río Claro Bolsas de basura 500 ml,Limpieza,C,Baja,1968.71,22.47,16.2,25,6.8,5.83,0.0361,842.0,0.0,Adecuado
+SKU-0253,Sol Naciente Harina sin polvo 900 ml,Abarrotes,C,Baja,1425.52,30.55,11.9,25,6.8,8.2,0.0756,1834.0,0.0,Riesgo
+SKU-0041,Monte Verde Lomo de vacuno 2 kg,Carnes,C,Alta,367.84,93.46,3.9,25,6.8,55.04,0.0209,847.0,0.0,Adecuado
+SKU-0337,Valle Sur Lomo de vacuno 250 g,Carnes,C,Alta,674.44,56.63,6.4,25,6.8,24.03,0.0952,3097.0,0.0,Riesgo
+SKU-0356,Río Claro Pan de hamburguesa 8 unid,Panaderia,C,Alta,34.31,84.92,4.3,25,6.8,49.36,0.0414,142.0,0.0,Adecuado
+SKU-0105,La Pradera Galleta de chocolate 500 g,Snacks,C,Baja,702.55,52.51,7.0,25,6.8,24.44,0.0899,3313.0,0.0,Riesgo
+SKU-0103,Río Claro Desodorante 2 unid,Higiene personal,C,Alta,727.64,55.62,6.6,25,6.8,17.93,0.1333,3896.0,0.0,Riesgo
+SKU-0190,Monte Verde Panceta 2 kg,Carnes,C,Baja,663.82,53.1,6.9,25,6.8,26.67,0.025,861.0,0.0,Adecuado
+SKU-0319,Doña Rosa Desodorante 2 unid,Higiene personal,C,Baja,807.16,43.09,8.5,25,6.8,21.46,0.1976,7964.0,0.0,Riesgo
+SKU-0346,"Cumbre Andina Jugo de durazno 1,5 L",Bebidas,C,Baja,1864.7,18.6,19.6,25,6.8,9.13,0.0105,359.0,0.0,Adecuado
+SKU-0084,Doña Rosa Leche condensada 500 g,Lacteos,C,Baja,1984.65,17.9,20.4,25,6.8,7.64,0.0,0.0,0.0,Adecuado
+SKU-0305,Sol Naciente Cabritas 150 g,Snacks,C,Baja,1035.36,30.54,12.0,25,6.8,18.21,0.0838,3330.0,0.0,Riesgo
+SKU-0287,La Pradera Salchichas 500 g,Carnes,C,Baja,2112.17,16.81,21.7,25,6.8,6.63,0.0017,48.0,0.0,Adecuado
+SKU-0113,Sol Naciente Queso parmesano 500 g,Lacteos,C,Baja,1968.36,17.66,20.7,25,6.8,7.27,0.0047,135.0,0.0,Adecuado
+SKU-0176,Mar Azul Cebolla 1 kg,Frutas y verduras,C,Baja,97.54,26.65,13.7,25,6.8,6.92,0.0098,13.0,0.0,Adecuado
+SKU-0334,Mar Azul Arroz integral 500 g,Abarrotes,C,Baja,1112.14,33.07,11.0,25,6.8,10.43,0.0212,500.0,0.0,Adecuado
+SKU-0001,Sol Naciente Pan pita 8 unid,Panaderia,C,Alta,247.08,121.67,3.0,25,6.8,73.14,0.0633,2332.0,0.0,Riesgo
+SKU-0343,Sol Naciente Atún en agua 1 kg,Abarrotes,C,Baja,1558.54,24.77,14.7,25,6.8,5.71,0.0305,554.0,0.0,Adecuado
+SKU-0092,Doña Rosa Pan multigrano 1 kg,Panaderia,C,Alta,232.38,132.7,2.8,25,6.8,70.05,0.0125,407.0,0.0,Adecuado
+SKU-0312,El Roble Queso parmesano 1 L,Lacteos,C,Baja,764.58,40.18,9.1,25,6.8,20.58,0.0231,726.0,0.0,Adecuado
+SKU-0120,Monte Verde Naranja 1 kg,Frutas y verduras,C,Alta,306.42,94.11,3.9,25,6.8,54.94,0.0285,964.0,0.0,Adecuado
+SKU-0205,La Pradera Fideos corbata 900 ml,Abarrotes,C,Baja,981.64,33.28,11.0,25,6.8,11.38,0.0212,480.0,0.0,Adecuado
+SKU-0022,Río Claro Arvejas congeladas 1 kg,Congelados,C,Baja,554.47,49.26,7.4,25,6.8,28.9,0.0856,2923.0,0.0,Riesgo
+SKU-0074,Monte Verde Lomo de vacuno 2 kg,Carnes,C,Baja,1361.48,21.73,16.8,25,6.8,8.67,0.0043,101.0,0.0,Adecuado
+SKU-0062,Cumbre Andina Bollo de mantequilla 1 kg,Panaderia,C,Alta,37.0,802.03,0.5,25,6.8,298.4,0.7276,31604.0,0.0,Riesgo
+SKU-0229,Mar Azul Pan marraqueta 500 g,Panaderia,C,Alta,184.62,139.35,2.6,25,6.8,77.17,0.0237,675.0,0.0,Adecuado
+SKU-0132,El Roble Gel de ducha 100 ml,Higiene personal,C,Baja,730.12,37.99,9.6,25,6.8,16.67,0.1312,3498.0,0.0,Riesgo
+SKU-0088,"Horizonte Papa, saco 500 g",Frutas y verduras,C,Alta,303.57,83.01,4.4,25,6.8,48.18,0.0391,1157.0,0.0,Adecuado
+SKU-0313,Doña Rosa Acondicionador 100 ml,Higiene personal,C,Baja,1337.5,19.61,18.6,25,6.8,9.74,0.2913,8322.0,0.0,Adecuado
+SKU-0116,Valle Sur Leche descremada 1 L,Lacteos,C,Alta,278.03,101.36,3.6,25,6.8,38.23,0.0222,473.0,0.0,Adecuado
+SKU-0394,Valle Sur Manzana fuji 5 kg,Frutas y verduras,C,Alta,332.83,76.57,4.8,25,6.8,36.04,0.1532,3843.0,0.0,Riesgo
+SKU-0045,Río Claro Salchichas 1 kg,Carnes,C,Baja,1007.75,24.54,14.9,25,6.8,12.43,0.0882,1942.0,0.0,Adecuado
+SKU-0388,Valle Sur Suavizante 3 L,Limpieza,C,Baja,817.36,33.05,11.0,25,6.8,11.94,0.0339,678.0,0.0,Adecuado
+SKU-0081,Cumbre Andina Gaseosa limón 500 ml,Bebidas,C,Baja,719.28,34.63,10.5,25,6.8,16.08,0.0387,921.0,0.0,Adecuado
+SKU-0232,Río Claro Gaseosa limón 750 ml,Bebidas,C,Alta,440.49,58.49,6.2,25,6.8,21.68,0.1027,2125.0,0.0,Riesgo
+SKU-0049,Mar Azul Naranja 5 kg,Frutas y verduras,C,Alta,111.23,233.16,1.6,25,6.8,76.47,0.1478,2543.0,0.0,Riesgo
