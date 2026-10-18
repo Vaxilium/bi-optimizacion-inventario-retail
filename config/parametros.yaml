@@ -90,6 +90,7 @@ caso_negocio:
   costo_implementacion: 380000.0     # licencias, integracion, cambio de procesos
   costo_operacion_anual: 96000.0     # soporte, nube, mantenimiento
   costo_cambio_procesos: 120000.0    # capacitacion y gestion del cambio
+  rampa_beneficios: [0.80, 1.0, 1.0]   # adopcion gradual durante el primer anio
   escenarios:
     conservador: 0.6
     base: 1.0

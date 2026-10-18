@@ -1,0 +1,79 @@
+{
+  "supuestos": {
+    "pares_muestra": 240,
+    "pares_total": 3920,
+    "factor_escala": 16.333333333333332,
+    "ahorro_muestra": 209435.0483493663,
+    "efecto_simulado_pp": 2.584319719232242,
+    "efecto_piloto_pp": 2.238137739177289,
+    "factor_validacion": 0.8660452197618189,
+    "beneficio_anual": 2962543.6337347166,
+    "capital_adicional_muestra": 8096.507586195687,
+    "capital_trabajo": 132242.9572411962,
+    "costo_implementacion": 380000.0,
+    "costo_cambio_procesos": 120000.0,
+    "inversion_inicial": 500000.0,
+    "costo_operacion_anual": 96000.0,
+    "tasa_descuento": 0.12,
+    "tasa_impuesto": 0.27,
+    "anios": 3,
+    "rampa_beneficios": [
+      0.8,
+      1.0,
+      1.0
+    ]
+  },
+  "componentes_muestra": {
+    "costo_orden": 114513.0,
+    "costo_quiebre": 39899.11333333337,
+    "costo_merma": 56561.271457410156,
+    "costo_almacenamiento": -1538.3364413771797
+  },
+  "componentes": {
+    "costo_orden": 1619832.792092891,
+    "costo_quiebre": 564389.1274594507,
+    "costo_merma": 800082.1065658976,
+    "costo_almacenamiento": -21760.392383521863
+  },
+  "escenarios": {
+    "conservador": {
+      "multiplicador": 0.6,
+      "beneficio_anual": 1777526.18024083,
+      "flujos": [
+        -632242.96,
+        1012995.29,
+        1272514.11,
+        1404757.07
+      ],
+      "van": 2286535.9133486697,
+      "tir": 1.6684921961841512,
+      "payback": 0.6241321813056011
+    },
+    "base": {
+      "multiplicador": 1.0,
+      "beneficio_anual": 2962543.6337347166,
+      "flujos": [
+        -632242.96,
+        1705045.48,
+        2137576.85,
+        2269819.81
+      ],
+      "van": 4209795.160182671,
+      "tir": 2.8258162166251237,
+      "payback": 0.3708070942483012
+    },
+    "optimista": {
+      "multiplicador": 1.4,
+      "beneficio_anual": 4147561.0872286027,
+      "flujos": [
+        -632242.96,
+        2397095.67,
+        3002639.59,
+        3134882.55
+      ],
+      "van": 6133054.407016671,
+      "tir": 3.952515205679498,
+      "payback": 0.2637537449642133
+    }
+  }
+}
