@@ -1,0 +1,7 @@
+segmento,modelo,wape_semanal,mejora_vs_actual,series,alternativas
+A-X,media_movil_28_ajustada,0.20407763706471946,0.10076164522376363,21,"media_movil_28_ajustada, ets_ajustada, media_movil_28_sin_censura, naive_estacional, media_movil_28, ets_sin_censura, ets, croston_sba_sin_censura, croston_sba, hgbm_sin_censura, hgbm"
+A-Z,ets_ajustada,0.4178851944336219,0.05921887380520241,1,"ets_ajustada, ets, ets_sin_censura, media_movil_28_ajustada, media_movil_28, croston_sba, naive_estacional, media_movil_28_sin_censura, croston_sba_sin_censura, hgbm_sin_censura, hgbm"
+B-X,media_movil_28_ajustada,0.20491847389390855,0.09774182021366218,19,"media_movil_28_ajustada, ets_ajustada, media_movil_28_sin_censura, media_movil_28, ets_sin_censura, naive_estacional, ets, croston_sba_sin_censura, croston_sba, hgbm, hgbm_sin_censura"
+B-Z,ets_sin_censura,0.3802883869042333,0.04902242788995381,8,"ets_sin_censura, ets_ajustada, media_movil_28_ajustada, media_movil_28_sin_censura, media_movil_28, ets, croston_sba_sin_censura, croston_sba, naive_estacional, hgbm_sin_censura, hgbm"
+C-X,naive_estacional,0.2235370051635112,0.0998483863980939,10,"naive_estacional, media_movil_28_ajustada, ets_ajustada, ets_sin_censura, croston_sba_sin_censura, media_movil_28, croston_sba, media_movil_28_sin_censura, ets, hgbm_sin_censura, hgbm"
+C-Z,ets_ajustada,0.4996216456627525,0.04057211703927954,37,"ets_ajustada, ets, media_movil_28_ajustada, media_movil_28, ets_sin_censura, croston_sba, media_movil_28_sin_censura, croston_sba_sin_censura, hgbm_sin_censura, hgbm, naive_estacional"

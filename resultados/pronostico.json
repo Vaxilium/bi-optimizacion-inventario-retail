@@ -1,0 +1,456 @@
+{
+  "resumen": {
+    "series_muestra": 96,
+    "origenes": 3,
+    "horizonte_dias": 28,
+    "ventana_entrenamiento_dias": 364,
+    "wape_actual": 0.41242058226537825,
+    "wape_mejor": 0.4056652066709018,
+    "mejora_vs_actual": 0.016379821679534,
+    "wape_semanal_actual": 0.25242273343968513,
+    "wape_semanal_mejor": 0.23123730572902446,
+    "mejora_semanal_vs_actual": 0.083928366601429,
+    "mejor_modelo": "media_movil_28_ajustada",
+    "factor_censura": 1.086306921469149,
+    "mae_actual": 6.8606859410430845,
+    "mae_mejor": 6.748309128729513,
+    "sesgo_actual": 0.18910739045517572,
+    "sesgo_mejor": 0.11912174568327726,
+    "sesgo_semanal_actual": 0.18910739045517572,
+    "sesgo_semanal_mejor": 0.11912174568327726,
+    "victorias": {
+      "media_movil_28_ajustada": 23,
+      "ets_ajustada": 21,
+      "naive_estacional": 16,
+      "ets": 7,
+      "croston_sba_sin_censura": 7,
+      "hgbm": 7,
+      "croston_sba": 4,
+      "ets_sin_censura": 4,
+      "media_movil_28": 4,
+      "media_movil_28_sin_censura": 3
+    },
+    "mejora_por_modelo": {
+      "media_movil_28_ajustada": 0.016379821679534,
+      "ets_ajustada": 0.01052801410716464,
+      "media_movil_28_sin_censura": 0.0018373391311534704,
+      "media_movil_28": 0.0,
+      "ets_sin_censura": -0.009539568186656133,
+      "naive_estacional": -0.25362019459191454,
+      "ets": -0.012124042168101923,
+      "croston_sba_sin_censura": -0.014085861049155879,
+      "croston_sba": -0.017488041217977646,
+      "hgbm_sin_censura": -0.0766581172560612,
+      "hgbm": -0.1757736546368931
+    },
+    "mejora_semanal_por_modelo": {
+      "media_movil_28_ajustada": 0.083928366601429,
+      "ets_ajustada": 0.06090312351163851,
+      "media_movil_28_sin_censura": 0.014193110169366419,
+      "media_movil_28": 0.0,
+      "ets_sin_censura": -0.004743344859458265,
+      "naive_estacional": -0.032440972786202726,
+      "ets": -0.03888492872237759,
+      "croston_sba_sin_censura": -0.06326791853673286,
+      "croston_sba": -0.08560179881191021,
+      "hgbm_sin_censura": -0.19809537366017915,
+      "hgbm": -0.3904049576892159
+    }
+  },
+  "modelos": [
+    {
+      "modelo": "media_movil_28_ajustada",
+      "wape": 0.4056652066709018,
+      "wape_semanal": 0.23123730572902446,
+      "mae_medio": 6.748309128729513,
+      "rmse": 13.64955649932843,
+      "mase_medio": 0.8651665124862293,
+      "wape_mediano": 0.6044563991849261,
+      "series": 96,
+      "sesgo": 0.11912174568327726,
+      "sesgo_semanal": 0.11912174568327726
+    },
+    {
+      "modelo": "ets_ajustada",
+      "wape": 0.4080786125572033,
+      "wape_semanal": 0.23704940052786258,
+      "mae_medio": 6.788456542670956,
+      "rmse": 13.877419666876621,
+      "mase_medio": 0.8740486747795396,
+      "wape_mediano": 0.5958788240819244,
+      "series": 96,
+      "sesgo": 0.14316619403243683,
+      "sesgo_semanal": 0.14316619403243683
+    },
+    {
+      "modelo": "media_movil_28_sin_censura",
+      "wape": 0.411662825791089,
+      "wape_semanal": 0.24884006977472306,
+      "mae_medio": 6.848080534297052,
+      "rmse": 14.105047700491802,
+      "mase_medio": 0.8636415924280854,
+      "wape_mediano": 0.6004579071337979,
+      "series": 96,
+      "sesgo": 0.15231091497323815,
+      "sesgo_semanal": 0.15231091497323815
+    },
+    {
+      "modelo": "media_movil_28",
+      "wape": 0.41242058226537825,
+      "wape_semanal": 0.25242273343968513,
+      "mae_medio": 6.8606859410430845,
+      "rmse": 14.256628065804668,
+      "mase_medio": 0.8599171880520843,
+      "wape_mediano": 0.5829420854741236,
+      "series": 96,
+      "sesgo": 0.18910739045517572,
+      "sesgo_semanal": 0.18910739045517572
+    },
+    {
+      "modelo": "ets_sin_censura",
+      "wape": 0.4163548965314793,
+      "wape_semanal": 0.2536200615147567,
+      "mae_medio": 6.9261339223848974,
+      "rmse": 14.232444952370734,
+      "mase_medio": 0.8770730835269211,
+      "wape_mediano": 0.5982227791414004,
+      "series": 96,
+      "sesgo": 0.16117866607606895,
+      "sesgo_semanal": 0.16117866607606895
+    },
+    {
+      "modelo": "naive_estacional",
+      "wape": 0.5170187705932342,
+      "wape_semanal": 0.26061157246582084,
+      "mae_medio": 8.600694444444445,
+      "rmse": 17.004456407024975,
+      "mase_medio": 1.0,
+      "wape_mediano": 0.747743328100471,
+      "series": 96,
+      "sesgo": 0.17305025867338572,
+      "sesgo_semanal": 0.17305025867338572
+    },
+    {
+      "modelo": "ets",
+      "wape": 0.4174207867957569,
+      "wape_semanal": 0.26223817343739503,
+      "mae_medio": 6.943865186694395,
+      "rmse": 14.550256505987095,
+      "mase_medio": 0.8714270589073528,
+      "wape_mediano": 0.5859630682993326,
+      "series": 96,
+      "sesgo": 0.21124151100063004,
+      "sesgo_semanal": 0.21124151100063004
+    },
+    {
+      "modelo": "croston_sba_sin_censura",
+      "wape": 0.4182298812809803,
+      "wape_semanal": 0.2683929943757666,
+      "mae_medio": 6.957324609910513,
+      "rmse": 14.527429926463387,
+      "mase_medio": 0.8781718240907951,
+      "wape_mediano": 0.5887142945162296,
+      "series": 96,
+      "sesgo": 0.20120334330296907,
+      "sesgo_semanal": 0.20120334330296907
+    },
+    {
+      "modelo": "croston_sba",
+      "wape": 0.4196330104071775,
+      "wape_semanal": 0.2740305734831415,
+      "mae_medio": 6.980665899563645,
+      "rmse": 14.710579031726102,
+      "mase_medio": 0.8748452077327362,
+      "wape_mediano": 0.5824843055919177,
+      "series": 96,
+      "sesgo": 0.2296679968396075,
+      "sesgo_semanal": 0.2296679968396075
+    },
+    {
+      "modelo": "hgbm_sin_censura",
+      "wape": 0.44403596761949066,
+      "wape_semanal": 0.30242650914074337,
+      "mae_medio": 7.386613208368576,
+      "rmse": 15.465607703373689,
+      "mase_medio": 0.8882408368799091,
+      "wape_mediano": 0.65729659177337,
+      "series": 96,
+      "sesgo": 0.22484793572486997,
+      "sesgo_semanal": 0.22484793572486997
+    },
+    {
+      "modelo": "hgbm",
+      "wape": 0.48491325525763923,
+      "wape_semanal": 0.35096982000800164,
+      "mae_medio": 8.066613782216178,
+      "rmse": 17.90835861026446,
+      "mase_medio": 0.9069765911198464,
+      "wape_mediano": 0.6665631781638046,
+      "series": 96,
+      "sesgo": 0.31131498043400746,
+      "sesgo_semanal": 0.31131498043400746
+    }
+  ],
+  "seleccion": [
+    {
+      "segmento": "A-X",
+      "modelo": "media_movil_28_ajustada",
+      "wape_semanal": 0.20407763706471946,
+      "mejora_vs_actual": 0.10076164522376363,
+      "series": 21,
+      "alternativas": "media_movil_28_ajustada, ets_ajustada, media_movil_28_sin_censura, naive_estacional, media_movil_28, ets_sin_censura, ets, croston_sba_sin_censura, croston_sba, hgbm_sin_censura, hgbm"
+    },
+    {
+      "segmento": "A-Z",
+      "modelo": "ets_ajustada",
+      "wape_semanal": 0.4178851944336219,
+      "mejora_vs_actual": 0.05921887380520241,
+      "series": 1,
+      "alternativas": "ets_ajustada, ets, ets_sin_censura, media_movil_28_ajustada, media_movil_28, croston_sba, naive_estacional, media_movil_28_sin_censura, croston_sba_sin_censura, hgbm_sin_censura, hgbm"
+    },
+    {
+      "segmento": "B-X",
+      "modelo": "media_movil_28_ajustada",
+      "wape_semanal": 0.20491847389390855,
+      "mejora_vs_actual": 0.09774182021366218,
+      "series": 19,
+      "alternativas": "media_movil_28_ajustada, ets_ajustada, media_movil_28_sin_censura, media_movil_28, ets_sin_censura, naive_estacional, ets, croston_sba_sin_censura, croston_sba, hgbm, hgbm_sin_censura"
+    },
+    {
+      "segmento": "B-Z",
+      "modelo": "ets_sin_censura",
+      "wape_semanal": 0.3802883869042333,
+      "mejora_vs_actual": 0.04902242788995381,
+      "series": 8,
+      "alternativas": "ets_sin_censura, ets_ajustada, media_movil_28_ajustada, media_movil_28_sin_censura, media_movil_28, ets, croston_sba_sin_censura, croston_sba, naive_estacional, hgbm_sin_censura, hgbm"
+    },
+    {
+      "segmento": "C-X",
+      "modelo": "naive_estacional",
+      "wape_semanal": 0.2235370051635112,
+      "mejora_vs_actual": 0.0998483863980939,
+      "series": 10,
+      "alternativas": "naive_estacional, media_movil_28_ajustada, ets_ajustada, ets_sin_censura, croston_sba_sin_censura, media_movil_28, croston_sba, media_movil_28_sin_censura, ets, hgbm_sin_censura, hgbm"
+    },
+    {
+      "segmento": "C-Z",
+      "modelo": "ets_ajustada",
+      "wape_semanal": 0.4996216456627525,
+      "mejora_vs_actual": 0.04057211703927954,
+      "series": 37,
+      "alternativas": "ets_ajustada, ets, media_movil_28_ajustada, media_movil_28, ets_sin_censura, croston_sba, media_movil_28_sin_censura, croston_sba_sin_censura, hgbm_sin_censura, hgbm, naive_estacional"
+    }
+  ],
+  "por_clase_abc": [
+    {
+      "clase_abc": "A",
+      "modelo": "media_movil_28_ajustada",
+      "wape": 0.3336187753913493,
+      "wape_semanal": 0.2093723640652918
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "ets_ajustada",
+      "wape": 0.33841343397255363,
+      "wape_semanal": 0.21758392924963668
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "media_movil_28_sin_censura",
+      "wape": 0.34264436274102045,
+      "wape_semanal": 0.22732619075346455
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "naive_estacional",
+      "wape": 0.42997554442762315,
+      "wape_semanal": 0.22850821008501224
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "media_movil_28",
+      "wape": 0.3436307374935534,
+      "wape_semanal": 0.23190869919645976
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "ets_sin_censura",
+      "wape": 0.34810095048993195,
+      "wape_semanal": 0.23316920133690283
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "ets",
+      "wape": 0.35079028569706605,
+      "wape_semanal": 0.24376506952750748
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "croston_sba_sin_censura",
+      "wape": 0.3509056839215885,
+      "wape_semanal": 0.2494151800911103
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "croston_sba",
+      "wape": 0.35303443197954304,
+      "wape_semanal": 0.2570026651915172
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "hgbm_sin_censura",
+      "wape": 0.37809716315784264,
+      "wape_semanal": 0.26580143974590575
+    },
+    {
+      "clase_abc": "A",
+      "modelo": "hgbm",
+      "wape": 0.4417740831569513,
+      "wape_semanal": 0.3414825988113873
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "media_movil_28_ajustada",
+      "wape": 0.4700625996991093,
+      "wape_semanal": 0.23686393567920824
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "ets_ajustada",
+      "wape": 0.4673964295945194,
+      "wape_semanal": 0.2412596892727094
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "media_movil_28_sin_censura",
+      "wape": 0.4707453093864595,
+      "wape_semanal": 0.25092329762231785
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "media_movil_28",
+      "wape": 0.4726760587945461,
+      "wape_semanal": 0.2564325611207765
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "ets_sin_censura",
+      "wape": 0.47492173209854543,
+      "wape_semanal": 0.2583241155904638
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "ets",
+      "wape": 0.47300085603856556,
+      "wape_semanal": 0.2656826357026082
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "croston_sba_sin_censura",
+      "wape": 0.4776602166751464,
+      "wape_semanal": 0.273636585055225
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "croston_sba",
+      "wape": 0.47864672739087094,
+      "wape_semanal": 0.2767932695932658
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "naive_estacional",
+      "wape": 0.5942374019473187,
+      "wape_semanal": 0.2771724201080487
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "hgbm",
+      "wape": 0.5095910739313153,
+      "wape_semanal": 0.33795852237780205
+    },
+    {
+      "clase_abc": "B",
+      "modelo": "hgbm_sin_censura",
+      "wape": 0.5076332378054457,
+      "wape_semanal": 0.34187259730813435
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "ets_ajustada",
+      "wape": 0.6684227913408223,
+      "wape_semanal": 0.3359057357637188
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "media_movil_28_ajustada",
+      "wape": 0.6684625551007353,
+      "wape_semanal": 0.34038429622775757
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "ets_sin_censura",
+      "wape": 0.6704734495453308,
+      "wape_semanal": 0.3568880586648837
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "ets",
+      "wape": 0.6688609544449826,
+      "wape_semanal": 0.35721880358932356
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "media_movil_28",
+      "wape": 0.6659391662292455,
+      "wape_semanal": 0.3575066073615677
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "croston_sba_sin_censura",
+      "wape": 0.6653782567552221,
+      "wape_semanal": 0.3623676705307558
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "croston_sba",
+      "wape": 0.6636447115638986,
+      "wape_semanal": 0.36245139939339593
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "media_movil_28_sin_censura",
+      "wape": 0.6689242202392464,
+      "wape_semanal": 0.36352736414619996
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "naive_estacional",
+      "wape": 0.8357506607361568,
+      "wape_semanal": 0.4033391349191001
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "hgbm_sin_censura",
+      "wape": 0.6747152544124564,
+      "wape_semanal": 0.42185038088099214
+    },
+    {
+      "clase_abc": "C",
+      "modelo": "hgbm",
+      "wape": 0.671585164951471,
+      "wape_semanal": 0.4309644585957345
+    }
+  ],
+  "despliegue": {
+    "filas": 11200,
+    "productos": 400,
+    "fecha_inicio": "2026-01-01",
+    "fecha_fin": "2026-01-28",
+    "modelos_usados": {
+      "naive_estacional": 143,
+      "media_movil_28_ajustada": 222,
+      "ets_ajustada": 35
+    }
+  },
+  "segundos": 261.6
+}

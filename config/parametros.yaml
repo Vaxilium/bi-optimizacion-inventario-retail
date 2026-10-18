@@ -53,7 +53,8 @@ pronostico:
   croston:
     alpha: 0.15
     intervalo_inicial: 4
-  imputacion_censura: "tasa_llenado_semanal"
+  imputacion_censura: "percentil_90_dias_normales"
+  cuantil_censura: 0.90
 
 inventario:
   # Nivel de servicio objetivo por segmento ABC (para la politica propuesta).
