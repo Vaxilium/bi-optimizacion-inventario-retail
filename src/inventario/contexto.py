@@ -34,14 +34,22 @@ class Contexto:
     factor_censura: float
 
 
-def construir_contexto(con: duckdb.DuckDBPyConnection, parametros: dict) -> Contexto:
+def construir_contexto(
+    con: duckdb.DuckDBPyConnection,
+    parametros: dict,
+    usar_todas: bool = False,
+) -> Contexto:
+    """Arma el contexto; por defecto muestrea 240 series y `usar_todas` toma el surtido completo."""
     config = parametros["inventario"]
     pol = parametros["politica_actual"]
     pares = estadisticas_pares(con)
-    pares = muestrear(
-        pares, config["simulacion"]["n_series"],
-        int(config["simulacion"]["semilla_simulacion"]),
-    )
+    if usar_todas:
+        pares = pares.sort_values(["sucursal_id", "producto_id"]).reset_index(drop=True)
+    else:
+        pares = muestrear(
+            pares, config["simulacion"]["n_series"],
+            int(config["simulacion"]["semilla_simulacion"]),
+        )
     productos = con.execute("SELECT * FROM dim_producto").fetchdf().set_index("producto_id")
     proveedores = con.execute("SELECT * FROM dim_proveedor").fetchdf().set_index("proveedor_id")
     sucursales = con.execute("SELECT * FROM dim_sucursal").fetchdf()
