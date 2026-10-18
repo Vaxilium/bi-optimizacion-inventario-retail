@@ -43,7 +43,7 @@
     "stg_ventas": {
       "capa": "staging",
       "filas": 2842661,
-      "mb": 25.48
+      "mb": 25.43
     },
     "dim_fecha": {
       "capa": "nucleo",
@@ -73,17 +73,17 @@
     "nucleo_hechos_compras": {
       "capa": "nucleo",
       "filas": 704438,
-      "mb": 3.91
+      "mb": 3.88
     },
     "nucleo_hechos_inventario": {
       "capa": "nucleo",
       "filas": 2844060,
-      "mb": 22.38
+      "mb": 22.37
     },
     "nucleo_hechos_ventas": {
       "capa": "nucleo",
       "filas": 2842661,
-      "mb": 25.41
+      "mb": 25.44
     },
     "mart_categoria_dia": {
       "capa": "marts",
@@ -1852,5 +1852,5 @@
     ]
   },
   "tasa_afectadas_global": 0.022148808598943803,
-  "segundos": 11.9
+  "segundos": 12.1
 }

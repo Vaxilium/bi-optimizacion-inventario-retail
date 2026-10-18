@@ -1,11 +1,11 @@
-# 03. Capa de datos: modelo. contratos y calidad
+# 03. Capa de datos: modelo, contratos y calidad
 
-El pipeline implementa cuatro capas sobre DuckDB y Parquet. con contratos de datos
+El pipeline implementa cuatro capas sobre DuckDB y Parquet, con contratos de datos
 verificables y una bitácora de limpieza generada automáticamente en cada ejecución.
 
 - **Filas en la capa núcleo:** 6.402.575
-- **Tablas con contrato validado:** 8 (257 chequeos. 0 fallidos)
-- **Tasa de filas afectadas por defectos inyectados:** 2.21%
+- **Tablas con contrato validado:** 8 (257 chequeos, 0 fallidos)
+- **Tasa de filas afectadas por defectos inyectados:** 2,21%
 
 > Todas las cifras de este documento se generan desde `resultados/capa_datos.json` y
 > los contratos YAML. No se escriben a mano.
@@ -260,31 +260,31 @@ Venta diaria por sucursal y SKU (demanda observada, censurada por quiebre).
 
 | Tabla | Filas crudas | Filas afectadas | Tasa | Filas limpias |
 |---|---:|---:|---:|---:|
-| hechos_ventas | 2.899.906 | 77.120 | 2.66% | 2.842.661 |
-| hechos_inventario | 2.899.906 | 55.846 | 1.93% | 2.844.060 |
-| hechos_compras | 712.907 | 11.286 | 1.58% | 704.438 |
-| dim_producto | 403 | 3 | 0.74% | 400 |
-| dim_sucursal | 12 | 2 | 16.67% | 12 |
-| dim_proveedor | 38 | 2 | 5.26% | 36 |
+| hechos_ventas | 2.899.906 | 77.120 | 2,66% | 2.842.661 |
+| hechos_inventario | 2.899.906 | 55.846 | 1,93% | 2.844.060 |
+| hechos_compras | 712.907 | 11.286 | 1,58% | 704.438 |
+| dim_producto | 403 | 3 | 0,74% | 400 |
+| dim_sucursal | 12 | 2 | 16,67% | 12 |
+| dim_proveedor | 38 | 2 | 5,26% | 36 |
 
 ### Reglas aplicadas
 
 | Tabla | Problema detectado | Regla aplicada | Filas |
 |---|---|---|---:|
-| hechos_ventas | Duplicados de clave (fecha. sucursal. SKU) | Se conserva una fila por clave. priorizando precio no nulo. | 35.246 |
+| hechos_ventas | Duplicados de clave (fecha, sucursal, SKU) | Se conserva una fila por clave, priorizando precio no nulo. | 35.246 |
 | hechos_ventas | Códigos de producto inconsistentes | Normalización con UPPER(TRIM()). | 13.052 |
-| hechos_ventas | Claves nulas | Se descartan las filas sin fecha. sucursal o producto. | 2.893 |
+| hechos_ventas | Claves nulas | Se descartan las filas sin fecha, sucursal o producto. | 2.893 |
 | hechos_ventas | Venta en unidades nula | Se descarta la fila. | 10.119 |
 | hechos_ventas | Precio unitario nulo | Se imputa con precio promocional o precio de lista. | 7.255 |
 | hechos_ventas | Cantidades negativas | Se descartan (no se modelan devoluciones en este proyecto). | 7.259 |
 | hechos_ventas | Fechas fuera del periodo | Se descartan fechas anteriores a 2024 o posteriores a 2025. | 2.898 |
 | hechos_ventas | Claves foráneas inválidas | Se descartan filas con sucursal o producto inexistente. | 0 |
-| hechos_inventario | Duplicados de clave (fecha. sucursal. SKU) | Se conserva una fila por clave. | 34.386 |
+| hechos_inventario | Duplicados de clave (fecha, sucursal, SKU) | Se conserva una fila por clave. | 34.386 |
 | hechos_inventario | Códigos de producto inconsistentes | Normalización con UPPER(TRIM()). | 0 |
 | hechos_inventario | Stock nulo o negativo | Se descarta la fila (stock negativo es error de sistema). | 21.709 |
 | hechos_inventario | Fechas fuera del periodo | Se descartan fechas fuera del periodo. | 0 |
 | hechos_inventario | Claves foráneas inválidas | Se descartan filas con sucursal o producto inexistente. | 0 |
-| hechos_compras | Duplicados de clave (pedido. sucursal. SKU) | Se conserva una fila por clave. | 7.058 |
+| hechos_compras | Duplicados de clave (pedido, sucursal, SKU) | Se conserva una fila por clave. | 7.058 |
 | hechos_compras | Lead time nulo | Se imputa con el lead time medio del proveedor. | 2.851 |
 | hechos_compras | Unidades no positivas | Se descarta la fila. | 1.424 |
 | hechos_compras | Fechas fuera del periodo | Se descartan pedidos fuera del periodo. | 0 |

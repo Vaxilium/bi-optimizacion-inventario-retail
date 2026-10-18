@@ -101,6 +101,10 @@ def generar_documento_datos(capa: dict[str, Any]) -> Path:
     return ruta_salida
 
 
+def _entero(valor: int) -> str:
+    return f"{valor:,}".replace(",", ".")
+
+
 def _encabezado(capa: dict[str, Any]) -> str:
     total = sum(v["filas"] for v in capa["volumenes"].values() if v["capa"] == "nucleo")
     return f"""# 03. Capa de datos: modelo, contratos y calidad
@@ -108,13 +112,13 @@ def _encabezado(capa: dict[str, Any]) -> str:
 El pipeline implementa cuatro capas sobre DuckDB y Parquet, con contratos de datos
 verificables y una bitácora de limpieza generada automáticamente en cada ejecución.
 
-- **Filas en la capa núcleo:** {total:,}
+- **Filas en la capa núcleo:** {_entero(total)}
 - **Tablas con contrato validado:** {capa['contratos']['tablas']} ({capa['contratos']['chequeos']} chequeos, {capa['contratos']['fallidos']} fallidos)
 - **Tasa de filas afectadas por defectos inyectados:** {formato_pct(capa['tasa_afectadas_global'], 2)}
 
 > Todas las cifras de este documento se generan desde `resultados/capa_datos.json` y
 > los contratos YAML. No se escriben a mano.
-""".replace(",", ".")
+"""
 
 
 def _capas_y_linaje() -> str:
@@ -253,8 +257,8 @@ def _calidad(calidad: dict[str, Any], volumenes: dict[str, Any]) -> str:
     ]
     for tabla, datos in calidad.items():
         lineas.append(
-            f"| {tabla} | {datos['filas_crudas']:,} | {datos['filas_afectadas']:,} | "
-            f"{formato_pct(datos['tasa_afectadas'], 2)} | {datos['filas_limpias']:,} |".replace(",", ".")
+            f"| {tabla} | {_entero(datos['filas_crudas'])} | {_entero(datos['filas_afectadas'])} | "
+            f"{formato_pct(datos['tasa_afectadas'], 2)} | {_entero(datos['filas_limpias'])} |"
         )
     lineas.extend(["", "### Reglas aplicadas", ""])
     lineas.append("| Tabla | Problema detectado | Regla aplicada | Filas |")
@@ -262,7 +266,7 @@ def _calidad(calidad: dict[str, Any], volumenes: dict[str, Any]) -> str:
     for tabla, datos in calidad.items():
         for regla in datos["reglas"]:
             lineas.append(
-                f"| {tabla} | {regla['problema']} | {regla['accion']} | {regla['filas']:,} |".replace(",", ".")
+                f"| {tabla} | {regla['problema']} | {regla['accion']} | {_entero(regla['filas'])} |"
             )
     lineas.extend([
         "",
