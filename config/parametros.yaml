@@ -1,0 +1,105 @@
+# Parametros maestros del proyecto. Todo el pipeline lee este archivo.
+# Ningun modulo debe tener constantes magicas: aqui vive la parametrizacion.
+
+proyecto:
+  nombre: "Supermercados Horizonte Sur"
+  repositorio: "bi-optimizacion-inventario-retail"
+  fecha_inicio: "2024-01-01"
+  fecha_fin: "2025-12-31"
+  semilla: 20240101        # semilla fija: reproducibilidad total
+
+generacion:
+  n_sku: 400
+  n_sucursales: 12
+  n_proveedores: 36
+  # Fraccion del surtido que cada sucursal maneja (penetracion).
+  surtido_min: 0.72
+  surtido_max: 0.95
+  # Mezcla de rotacion de SKU (probabilidades): alta, media, baja, muy baja.
+  mezcla_rotacion: [0.18, 0.34, 0.33, 0.15]
+  prob_perecedero: 0.32
+  tendencia_anual: 0.08       # crecimiento interanual esperado
+  ruido_demanda: 0.35         # CV base del ruido diario
+  reabastecimiento: true      # el generador simula reposicion y censura
+  tasa_suciedad: 0.025        # 2.5% de filas con problemas inyectados
+  merma_factor_perecedero: 1.0
+  # Pesos del calendario semanal (lunes a domingo), normalizados luego.
+  peso_semanal: [0.82, 0.80, 0.86, 0.92, 1.12, 1.30, 1.18]
+
+politica_actual:
+  # Politica "como esta hoy": revision semanal, pronostico media movil 4 semanas,
+  # stock de seguridad heuristico (dias de cobertura fijos) y compra por caja.
+  revision_dias: 7
+  ventana_media_movil: 28
+  dias_seguridad_cobertura: 4
+  incluir_fin_de_semana_mm: true
+
+pronostico:
+  # Muestra estratificada por ABC-XYZ para backtesting (series store-SKU).
+  n_sku_muestra: 96
+  origenes: 3
+  horizonte_dias: 28
+  ventana_entrenamiento_dias: 364
+  hgbm:
+    max_iter: 160
+    learning_rate: 0.08
+    max_depth: 6
+    min_samples_leaf: 40
+  ses_alpha_grid: [0.05, 0.1, 0.2, 0.3, 0.5, 0.7]
+  croston:
+    alpha: 0.15
+    intervalo_inicial: 4
+  imputacion_censura: "tasa_llenado_semanal"
+
+inventario:
+  # Nivel de servicio objetivo por segmento ABC (para la politica propuesta).
+  nivel_servicio_objetivo:
+    A: 0.975
+    B: 0.95
+    C: 0.92
+  costo_orden: 42.0            # costo fijo de emitir una orden (unidades monetarias)
+  tasa_almacenamiento_anual: 0.19   # holding: capital + espacio + obsolescencia
+  costo_quiebre_factor_margen: 1.0  # fraccion del margen perdido (1 = margen completo)
+  simulacion:
+    dias: 365
+    replicas: 6
+    n_series: 240
+    semilla_simulacion: 777
+
+piloto:
+  n_tratamiento: 4
+  n_control: 8
+  semanas: 12
+  semanas_pre: 12
+  efecto_esperado: 0.55        # recuperacion esperada de ventas perdidas
+  semilla_piloto: 4242
+  potencia_objetivo: 0.80
+  alfa: 0.05
+
+caso_negocio:
+  anios: 3
+  tasa_descuento: 0.12         # costo de capital / WACC
+  impuesto: 0.27
+  costo_implementacion: 380000.0     # licencias, integracion, cambio de procesos
+  costo_operacion_anual: 96000.0     # soporte, nube, mantenimiento
+  costo_cambio_procesos: 120000.0    # capacitacion y gestion del cambio
+  escenarios:
+    conservador: 0.6
+    base: 1.0
+    optimista: 1.4           # multiplicador sobre beneficios
+
+# Version "rapida" para CI y pruebas unitarias.
+rapido:
+  generacion:
+    n_sku: 40
+    n_sucursales: 4
+    n_proveedores: 8
+  pronostico:
+    n_sku_muestra: 8
+    origenes: 1
+    hgbm:
+      max_iter: 30
+  simulacion:
+    dias: 60
+    replicas: 1
+    n_series: 24

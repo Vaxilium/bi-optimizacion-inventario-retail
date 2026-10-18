@@ -1,0 +1,12 @@
+pandas==2.3.3
+numpy==2.3.4
+duckdb==1.4.1
+scipy==1.16.3
+statsmodels==0.14.5
+scikit-learn==1.7.2
+plotly==6.3.1
+openpyxl==3.1.5
+pyyaml==6.0.3
+pytest==8.4.2
+ruff==0.14.2
+mkdocs-material==9.7.0

@@ -1,0 +1,26 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+.progreso.md
+
+# Datos (pesados, se regeneran con make todo)
+datos/crudo/
+datos/staging/
+datos/nucleo/
+datos/marts/
+datos/verdad_oculta/
+datos/almacen/
+*.duckdb
+*.duckdb.wal
+resultados/*.parquet
+resultados/tablero/
+
+# Muestras pequeñas sí se versionan
+!datos/muestras/
+
+# Salidas de herramientas
+.ruff_cache/
+.pytest_cache/
+site/
+informe.html
