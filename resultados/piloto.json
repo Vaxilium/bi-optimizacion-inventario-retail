@@ -90,10 +90,10 @@
         "factor_demanda": 1.163,
         "tratamiento": 1,
         "fill_pre": 0.961599265671321,
-        "fill_post": 0.970423005021503,
+        "fill_post": 0.9575757752892554,
         "unidades_pre": 39436.083333333336,
-        "unidades_post": 37150.833333333336,
-        "cambio_fill_pp": 0.8823739350181992
+        "unidades_post": 36650.0,
+        "cambio_fill_pp": -0.402349038206562
       },
       {
         "sucursal_id": "SUC-04",
@@ -106,10 +106,10 @@
         "factor_demanda": 1.005,
         "tratamiento": 1,
         "fill_pre": 0.9689648038918612,
-        "fill_post": 0.9687015438143672,
+        "fill_post": 0.9632048387737884,
         "unidades_pre": 35576.166666666664,
-        "unidades_post": 33028.25,
-        "cambio_fill_pp": -0.02632600774939986
+        "unidades_post": 32832.916666666664,
+        "cambio_fill_pp": -0.5759965118072863
       },
       {
         "sucursal_id": "SUC-05",
@@ -218,10 +218,10 @@
         "factor_demanda": 1.516,
         "tratamiento": 1,
         "fill_pre": 0.9613789433943278,
-        "fill_post": 0.9736270789446317,
+        "fill_post": 0.9618261792633317,
         "unidades_pre": 54164.083333333336,
-        "unidades_post": 50951.166666666664,
-        "cambio_fill_pp": 1.2248135550303907
+        "unidades_post": 50333.75,
+        "cambio_fill_pp": 0.044723586900385914
       },
       {
         "sucursal_id": "SUC-12",
@@ -234,23 +234,23 @@
         "factor_demanda": 0.678,
         "tratamiento": 1,
         "fill_pre": 0.9623236743349669,
-        "fill_post": 0.9679584747145508,
+        "fill_post": 0.9544846372645881,
         "unidades_pre": 24103.666666666668,
-        "unidades_post": 22645.416666666668,
-        "cambio_fill_pp": 0.563480037958386
+        "unidades_post": 22326.416666666668,
+        "cambio_fill_pp": -0.7839037070378807
       }
     ]
   },
   "resultado": {
-    "efecto_fill_pp": 2.238137739177289,
+    "efecto_fill_pp": 1.1476709415750634,
     "efecto_fill_ic95": [
-      1.204639864741412,
-      3.2716356136131663
+      0.04385087189409855,
+      2.251491011256028
     ],
-    "efecto_fill_p": 2.190930578826939e-05,
-    "efecto_unidades_semana": 806.6145833333399,
-    "efecto_unidades_pct": 0.024587129280005483,
-    "efecto_unidades_p": 0.09962752122822077,
+    "efecto_fill_p": 0.04156729422098227,
+    "efecto_unidades_semana": 398.46875000000745,
+    "efecto_unidades_pct": 0.012146076791477493,
+    "efecto_unidades_p": 0.4086493005506011,
     "tendencia_pre_coef_pp": -0.6530344796170046,
     "tendencia_pre_p": 0.3125593577594441,
     "tendencias_paralelas": true,
@@ -259,12 +259,12 @@
       "n_control": 8,
       "desvio_cambios_pp": 0.6539846827235289,
       "mde_pp": 1.1219849922143876,
-      "potencia_observada": 0.9998575427592579,
+      "potencia_observada": 0.8174682312509454,
       "alfa": 0.05,
       "potencia_objetivo": 0.8
     },
-    "r2_fill": 0.12380307251193867,
+    "r2_fill": 0.08817521935495787,
     "observaciones": 288
   },
-  "tiempo_segundos": 5.3
+  "tiempo_segundos": 4.6
 }

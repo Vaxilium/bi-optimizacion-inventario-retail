@@ -3,13 +3,13 @@
     "pares_muestra": 240,
     "pares_total": 3920,
     "factor_escala": 16.333333333333332,
-    "ahorro_muestra": 209435.0483493663,
-    "efecto_simulado_pp": 2.584319719232242,
-    "efecto_piloto_pp": 2.238137739177289,
-    "factor_validacion": 0.8660452197618189,
-    "beneficio_anual": 2962543.6337347166,
-    "capital_adicional_muestra": 8096.507586195687,
-    "capital_trabajo": 132242.9572411962,
+    "ahorro_muestra": 186330.81389878376,
+    "efecto_simulado_pp": 1.4179762878724578,
+    "efecto_piloto_pp": 1.1476709415750634,
+    "factor_validacion": 0.8093724495894339,
+    "beneficio_anual": 2463246.7788944417,
+    "capital_adicional_muestra": 118.66774643887766,
+    "capital_trabajo": 1938.2398585016683,
     "costo_implementacion": 380000.0,
     "costo_cambio_procesos": 120000.0,
     "inversion_inicial": 500000.0,
@@ -24,56 +24,56 @@
     ]
   },
   "componentes_muestra": {
-    "costo_orden": 114513.0,
-    "costo_quiebre": 39899.11333333337,
-    "costo_merma": 56561.271457410156,
-    "costo_almacenamiento": -1538.3364413771797
+    "costo_orden": 105007.0,
+    "costo_quiebre": 20785.48000000004,
+    "costo_merma": 60560.88077060705,
+    "costo_almacenamiento": -22.546871823386027
   },
   "componentes": {
-    "costo_orden": 1619832.792092891,
-    "costo_quiebre": 564389.1274594507,
-    "costo_merma": 800082.1065658976,
-    "costo_almacenamiento": -21760.392383521863
+    "costo_orden": 1388166.2892959488,
+    "costo_quiebre": 274778.8494370396,
+    "costo_merma": 800599.7041704645,
+    "costo_almacenamiento": -298.06400901179126
   },
   "escenarios": {
     "conservador": {
       "multiplicador": 0.6,
-      "beneficio_anual": 1777526.18024083,
+      "beneficio_anual": 1477948.067336665,
       "flujos": [
-        -632242.96,
-        1012995.29,
-        1272514.11,
-        1404757.07
+        -501938.24,
+        838041.67,
+        1053822.09,
+        1055760.33
       ],
-      "van": 2286535.9133486697,
-      "tir": 1.6684921961841512,
-      "payback": 0.6241321813056011
+      "van": 1837883.1185664174,
+      "tir": 1.7238796960599863,
+      "payback": 0.5989418640722244
     },
     "base": {
       "multiplicador": 1.0,
-      "beneficio_anual": 2962543.6337347166,
+      "beneficio_anual": 2463246.7788944417,
       "flujos": [
-        -632242.96,
-        1705045.48,
-        2137576.85,
-        2269819.81
+        -501938.24,
+        1413456.12,
+        1773090.15,
+        1775028.39
       ],
-      "van": 4209795.160182671,
-      "tir": 2.8258162166251237,
-      "payback": 0.3708070942483012
+      "van": 3437002.9120932026,
+      "tir": 2.9402761820687338,
+      "payback": 0.35511412975451967
     },
     "optimista": {
       "multiplicador": 1.4,
-      "beneficio_anual": 4147561.0872286027,
+      "beneficio_anual": 3448545.4904522183,
       "flujos": [
-        -632242.96,
-        2397095.67,
-        3002639.59,
-        3134882.55
+        -501938.24,
+        1988870.57,
+        2492358.21,
+        2494296.45
       ],
-      "van": 6133054.407016671,
-      "tir": 3.952515205679498,
-      "payback": 0.2637537449642133
+      "van": 5036122.705619988,
+      "tir": 4.121396144743512,
+      "payback": 0.252373506637991
     }
   }
 }

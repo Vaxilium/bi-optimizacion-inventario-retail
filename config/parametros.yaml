@@ -66,7 +66,7 @@ inventario:
   tasa_almacenamiento_anual: 0.19   # holding: capital + espacio + obsolescencia
   costo_quiebre_factor_margen: 1.0  # fraccion del margen perdido (1 = margen completo)
   cobertura_maxima_dias: 14.0       # tope absoluto de la politica propuesta
-  factor_tope_actual: 1.0           # tope relativo a la cobertura de la politica actual
+  factor_tope_actual: 0.965           # tope relativo: mantiene el capital practicamente neutro
   simulacion:
     dias: 365
     replicas: 6
