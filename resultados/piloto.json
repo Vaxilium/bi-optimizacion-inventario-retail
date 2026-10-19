@@ -57,11 +57,11 @@
         "tamano": "Mediana",
         "factor_demanda": 0.641,
         "tratamiento": 0,
-        "fill_pre": 0.9693940444708272,
-        "fill_post": 0.9604817392880465,
-        "unidades_pre": 22846.833333333332,
-        "unidades_post": 20640.916666666668,
-        "cambio_fill_pp": -0.8912305182780744
+        "fill_pre": 0.9582977340407646,
+        "fill_post": 0.9471446888519144,
+        "unidades_pre": 22580.166666666668,
+        "unidades_post": 20352.75,
+        "cambio_fill_pp": -1.1153045188850186
       },
       {
         "sucursal_id": "SUC-02",
@@ -73,11 +73,11 @@
         "tamano": "Grande",
         "factor_demanda": 0.956,
         "tratamiento": 0,
-        "fill_pre": 0.9601239739688615,
-        "fill_post": 0.950501312875904,
-        "unidades_pre": 34215.583333333336,
-        "unidades_post": 31371.25,
-        "cambio_fill_pp": -0.9622661092957507
+        "fill_pre": 0.9643573903219748,
+        "fill_post": 0.9410948937984398,
+        "unidades_pre": 34383.0,
+        "unidades_post": 31057.583333333332,
+        "cambio_fill_pp": -2.326249652353496
       },
       {
         "sucursal_id": "SUC-03",
@@ -89,11 +89,11 @@
         "tamano": "Grande",
         "factor_demanda": 1.163,
         "tratamiento": 1,
-        "fill_pre": 0.961599265671321,
-        "fill_post": 0.9575757752892554,
-        "unidades_pre": 39436.083333333336,
-        "unidades_post": 36650.0,
-        "cambio_fill_pp": -0.402349038206562
+        "fill_pre": 0.9569885443635952,
+        "fill_post": 0.9632782620770244,
+        "unidades_pre": 39241.333333333336,
+        "unidades_post": 36870.916666666664,
+        "cambio_fill_pp": 0.6289717713429233
       },
       {
         "sucursal_id": "SUC-04",
@@ -105,11 +105,11 @@
         "tamano": "Grande",
         "factor_demanda": 1.005,
         "tratamiento": 1,
-        "fill_pre": 0.9689648038918612,
-        "fill_post": 0.9632048387737884,
-        "unidades_pre": 35576.166666666664,
-        "unidades_post": 32832.916666666664,
-        "cambio_fill_pp": -0.5759965118072863
+        "fill_pre": 0.9645521881700704,
+        "fill_post": 0.958697225743907,
+        "unidades_pre": 35415.166666666664,
+        "unidades_post": 32679.166666666668,
+        "cambio_fill_pp": -0.5854962426163346
       },
       {
         "sucursal_id": "SUC-05",
@@ -121,11 +121,11 @@
         "tamano": "Mediana",
         "factor_demanda": 0.845,
         "tratamiento": 0,
-        "fill_pre": 0.9647208896325469,
-        "fill_post": 0.9549570810344089,
-        "unidades_pre": 27820.833333333332,
-        "unidades_post": 25310.5,
-        "cambio_fill_pp": -0.9763808598137969
+        "fill_pre": 0.961536481619684,
+        "fill_post": 0.9455978867886214,
+        "unidades_pre": 27731.25,
+        "unidades_post": 25066.916666666668,
+        "cambio_fill_pp": -1.5938594831062525
       },
       {
         "sucursal_id": "SUC-06",
@@ -137,11 +137,11 @@
         "tamano": "Metropolitana",
         "factor_demanda": 1.354,
         "tratamiento": 0,
-        "fill_pre": 0.9660849968455935,
-        "fill_post": 0.9484643412792816,
-        "unidades_pre": 53540.916666666664,
-        "unidades_post": 48774.166666666664,
-        "cambio_fill_pp": -1.7620655566311871
+        "fill_pre": 0.9595762500401589,
+        "fill_post": 0.9406536435202518,
+        "unidades_pre": 53179.916666666664,
+        "unidades_post": 48366.583333333336,
+        "cambio_fill_pp": -1.892260651990707
       },
       {
         "sucursal_id": "SUC-07",
@@ -153,11 +153,11 @@
         "tamano": "Grande",
         "factor_demanda": 1.087,
         "tratamiento": 0,
-        "fill_pre": 0.9639869580892255,
-        "fill_post": 0.9446638710278968,
-        "unidades_pre": 37513.666666666664,
-        "unidades_post": 34155.416666666664,
-        "cambio_fill_pp": -1.932308706132868
+        "fill_pre": 0.9680000355713267,
+        "fill_post": 0.9412447784928161,
+        "unidades_pre": 37656.166666666664,
+        "unidades_post": 34029.333333333336,
+        "cambio_fill_pp": -2.6755257078510675
       },
       {
         "sucursal_id": "SUC-08",
@@ -169,11 +169,11 @@
         "tamano": "Grande",
         "factor_demanda": 1.111,
         "tratamiento": 0,
-        "fill_pre": 0.9662984502906364,
-        "fill_post": 0.9381438708955305,
-        "unidades_pre": 39018.833333333336,
-        "unidades_post": 35282.166666666664,
-        "cambio_fill_pp": -2.8154579395105905
+        "fill_pre": 0.9611719980069896,
+        "fill_post": 0.9430699556919317,
+        "unidades_pre": 38804.0,
+        "unidades_post": 35466.083333333336,
+        "cambio_fill_pp": -1.8102042315057854
       },
       {
         "sucursal_id": "SUC-09",
@@ -185,11 +185,11 @@
         "tamano": "Metropolitana",
         "factor_demanda": 1.407,
         "tratamiento": 0,
-        "fill_pre": 0.9696180433981078,
-        "fill_post": 0.9512707079019633,
-        "unidades_pre": 47934.75,
-        "unidades_post": 44040.333333333336,
-        "cambio_fill_pp": -1.8347335496144423
+        "fill_pre": 0.9663292262211405,
+        "fill_post": 0.9463523581945027,
+        "unidades_pre": 47778.25,
+        "unidades_post": 43813.166666666664,
+        "cambio_fill_pp": -1.9976868026637784
       },
       {
         "sucursal_id": "SUC-10",
@@ -201,11 +201,11 @@
         "tamano": "Mediana",
         "factor_demanda": 0.742,
         "tratamiento": 0,
-        "fill_pre": 0.9655217109909514,
-        "fill_post": 0.9511019546546867,
-        "unidades_pre": 25021.166666666668,
-        "unidades_post": 22876.25,
-        "cambio_fill_pp": -1.4419756336264689
+        "fill_pre": 0.9748288871973615,
+        "fill_post": 0.9419195370756411,
+        "unidades_pre": 25258.416666666668,
+        "unidades_post": 22657.0,
+        "cambio_fill_pp": -3.290935012172036
       },
       {
         "sucursal_id": "SUC-11",
@@ -217,11 +217,11 @@
         "tamano": "Metropolitana",
         "factor_demanda": 1.516,
         "tratamiento": 1,
-        "fill_pre": 0.9613789433943278,
-        "fill_post": 0.9618261792633317,
-        "unidades_pre": 54164.083333333336,
-        "unidades_post": 50333.75,
-        "cambio_fill_pp": 0.044723586900385914
+        "fill_pre": 0.963778398182655,
+        "fill_post": 0.9584074803104432,
+        "unidades_pre": 54292.333333333336,
+        "unidades_post": 50144.416666666664,
+        "cambio_fill_pp": -0.5370917872211778
       },
       {
         "sucursal_id": "SUC-12",
@@ -233,38 +233,38 @@
         "tamano": "Mediana",
         "factor_demanda": 0.678,
         "tratamiento": 1,
-        "fill_pre": 0.9623236743349669,
-        "fill_post": 0.9544846372645881,
-        "unidades_pre": 24103.666666666668,
-        "unidades_post": 22326.416666666668,
-        "cambio_fill_pp": -0.7839037070378807
+        "fill_pre": 0.9677997813770279,
+        "fill_post": 0.9621897111648708,
+        "unidades_pre": 24241.916666666668,
+        "unidades_post": 22511.0,
+        "cambio_fill_pp": -0.5610070212157092
       }
     ]
   },
   "resultado": {
-    "efecto_fill_pp": 1.1476709415750634,
+    "efecto_fill_pp": 1.8240974376384327,
     "efecto_fill_ic95": [
-      0.04385087189409855,
-      2.251491011256028
+      0.6958311812560382,
+      2.952363694020827
     ],
-    "efecto_fill_p": 0.04156729422098227,
-    "efecto_unidades_semana": 398.46875000000745,
-    "efecto_unidades_pct": 0.012146076791477493,
-    "efecto_unidades_p": 0.4086493005506011,
-    "tendencia_pre_coef_pp": -0.6530344796170046,
-    "tendencia_pre_p": 0.3125593577594441,
+    "efecto_fill_p": 0.001531092867470199,
+    "efecto_unidades_semana": 573.906250000008,
+    "efecto_unidades_pct": 0.01760385057671447,
+    "efecto_unidades_p": 0.2306577049036811,
+    "tendencia_pre_coef_pp": -0.8803486804827577,
+    "tendencia_pre_p": 0.19178954668746906,
     "tendencias_paralelas": true,
     "potencia": {
       "n_tratamiento": 4,
       "n_control": 8,
-      "desvio_cambios_pp": 0.6539846827235289,
-      "mde_pp": 1.1219849922143876,
-      "potencia_observada": 0.8174682312509454,
+      "desvio_cambios_pp": 0.7373423327466209,
+      "mde_pp": 1.264994507242596,
+      "potencia_observada": 0.9812311481408933,
       "alfa": 0.05,
       "potencia_objetivo": 0.8
     },
-    "r2_fill": 0.08817521935495787,
+    "r2_fill": 0.14233440332878278,
     "observaciones": 288
   },
-  "tiempo_segundos": 4.6
+  "tiempo_segundos": 4.4
 }

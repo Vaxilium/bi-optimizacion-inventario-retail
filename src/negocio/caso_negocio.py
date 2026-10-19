@@ -1,7 +1,7 @@
 """Caso de negocio: beneficios, inversion, escenarios y archivo Excel con formulas.
 
 Uso:
-    python -m src.negocio.caso_negocio
+    python -m src.negocio.caso_negocio [--rapido]
 
 Salidas:
     resultados/negocio.json
@@ -9,6 +9,8 @@ Salidas:
 """
 
 from __future__ import annotations
+
+import argparse
 
 import duckdb
 from scipy.optimize import brentq
@@ -18,8 +20,8 @@ from src.comun.resultados import guardar_json, leer_json
 from src.negocio.excel import generar_excel
 
 
-def ejecutar() -> dict:
-    parametros = cargar_parametros()
+def ejecutar(modo_rapido: bool = False) -> dict:
+    parametros = cargar_parametros(modo_rapido)
     cfg = parametros["caso_negocio"]
     inventario = leer_json("inventario")
     piloto = leer_json("piloto")
@@ -55,7 +57,7 @@ def ejecutar() -> dict:
         propuesta["capital_promedio"] - actual["capital_promedio"]
     )
     beneficio_anual = ahorro_muestra * escala * validacion
-    capital_trabajo = capital_adicional * escala
+    capital_trabajo = max(0.0, capital_adicional * escala)
     escenarios = {}
     for nombre, multiplicador in cfg["escenarios"].items():
         flujos = _flujos(
@@ -148,12 +150,16 @@ def _payback(flujos: list[float]) -> float | None:
 
 def _imprimir(datos: dict) -> None:
     base = datos["escenarios"]["base"]
+    tir = f"{base['tir']:.1%}" if base["tir"] is not None else "n/d"
+    payback = f"{base['payback']:.2f} anios" if base["payback"] is not None else "n/d"
     print(
         f"      beneficio anual {datos['supuestos']['beneficio_anual']:,.0f} UM; "
-        f"VAN {base['van']:,.0f} UM; TIR {base['tir']:.1%}; "
-        f"payback {base['payback']:.2f} anios"
+        f"VAN {base['van']:,.0f} UM; TIR {tir}; payback {payback}"
     )
 
 
 if __name__ == "__main__":
-    ejecutar()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--rapido", action="store_true")
+    args = parser.parse_args()
+    ejecutar(modo_rapido=args.rapido)

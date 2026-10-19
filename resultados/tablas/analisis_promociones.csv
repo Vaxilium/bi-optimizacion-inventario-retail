@@ -366,7 +366,7 @@ PRO-006996,SKU-0271,El Roble Aceite de oliva 500 g,Abarrotes,SUC-07,descuento_15
 PRO-004817,SKU-0185,Valle Sur Pizza congelada 800 g,Congelados,SUC-06,dos_por_uno,0.5,2.2,3.2424,1.5455,3,10.0,11.0,14.0,2.37,8.0,57.6,21.8
 PRO-005395,SKU-0205,La Pradera Fideos corbata 900 ml,Abarrotes,SUC-03,tres_por_dos,0.33,1.95,3.2368,-0.0526,4,46.0,38.0,18.0,10.84,35.0,115.5,29.43
 PRO-006152,SKU-0237,Río Claro Galleta de agua 300 g,Panaderia,SUC-04,descuento_15,0.15,1.5,3.2368,0.2632,4,23.0,19.0,12.0,5.44,18.0,55.8,22.53
-PRO-007936,SKU-0306,Cumbre Andina Pan multigrano 300 g,Panaderia,SUC-01,dos_por_uno,0.5,2.2,3.2059,-0.563,6,33.0,17.0,4.0,7.86,25.0,30.0,8.38
+PRO-007936,SKU-0306,Cumbre Andina Pan multigrano 300 g,Panaderia,SUC-01,dos_por_uno,0.5,2.2,3.2059,-0.563,6,33.0,17.0,4.0,7.86,25.0,30.0,8.39
 PRO-006633,SKU-0256,La Pradera Filete de vacuno 700 g,Carnes,SUC-06,descuento_15,0.15,1.5,3.2,-1.0,5,3.0,2.0,0.0,0.7,2.0,8.6,2.96
 PRO-004829,SKU-0185,Valle Sur Pizza congelada 800 g,Congelados,SUC-09,descuento_25,0.25,1.85,3.2,0.8571,5,21.0,14.0,13.0,5.0,16.0,174.4,65.99
 PRO-003361,SKU-0128,La Pradera Leche descremada 200 g,Lacteos,SUC-10,dos_por_uno,0.5,2.2,3.2,0.2,4,6.0,5.0,3.0,1.44,5.0,19.0,4.14
@@ -1127,7 +1127,7 @@ PRO-008817,SKU-0338,Monte Verde Leche condensada 250 ml,Lacteos,SUC-12,descuento
 PRO-004720,SKU-0181,Sol Naciente Fideos spaghetti 500 g,Abarrotes,SUC-02,descuento_25,0.25,1.85,1.5175,0.4035,3,123.0,228.0,160.0,48.87,74.0,399.6,99.94
 PRO-005695,SKU-0216,Valle Sur Pan de hamburguesa 700 g,Panaderia,SUC-05,descuento_10,0.1,1.35,1.5161,0.7972,3,18.0,31.0,30.0,7.14,11.0,24.2,7.45
 PRO-008419,SKU-0325,Cumbre Andina Mantequilla 1 kg,Lacteos,SUC-01,descuento_15,0.15,1.5,1.5128,-0.6154,3,14.0,26.0,5.0,5.58,8.0,36.0,9.4
-PRO-003447,SKU-0132,El Roble Gel de ducha 100 ml,Higiene personal,SUC-06,tres_por_dos,0.33,1.95,1.5128,0.4872,6,42.0,39.0,29.0,16.74,25.0,55.0,16.77
+PRO-003447,SKU-0132,El Roble Gel de ducha 100 ml,Higiene personal,SUC-06,tres_por_dos,0.33,1.95,1.5128,0.4872,6,42.0,39.0,29.0,16.74,25.0,55.0,16.78
 PRO-005781,SKU-0221,Monte Verde Leche descremada 250 ml,Lacteos,SUC-10,dos_por_uno,0.5,2.2,1.5128,-0.2308,6,28.0,26.0,10.0,11.16,17.0,42.5,11.02
 PRO-002979,SKU-0113,Sol Naciente Queso parmesano 500 g,Lacteos,SUC-04,descuento_15,0.15,1.5,1.5128,0.5385,6,14.0,13.0,10.0,5.58,8.0,62.4,18.2
 PRO-005261,SKU-0200,Valle Sur Acondicionador 2 unid,Higiene personal,SUC-12,tres_por_dos,0.33,1.95,1.5128,-0.8462,6,14.0,13.0,1.0,5.58,8.0,28.8,10.63
@@ -5341,7 +5341,7 @@ PRO-001956,SKU-0077,Río Claro Agua saborizada 750 ml,Bebidas,SUC-06,descuento_1
 PRO-008394,SKU-0324,Valle Sur Jugo de naranja 1 L,Bebidas,SUC-06,descuento_10,0.1,1.35,0.2414,-0.8966,7,36.0,58.0,3.0,28.98,7.0,14.0,3.74
 PRO-001440,SKU-0059,La Pradera Leche condensada 1 L,Lacteos,SUC-08,descuento_15,0.15,1.5,0.2411,-0.1702,6,200.0,376.0,156.0,161.16,39.0,276.9,77.67
 PRO-000080,SKU-0004,Horizonte Pan multigrano 700 g,Panaderia,SUC-06,descuento_20,0.2,1.7,0.241,-0.1306,6,334.0,628.0,234.0,269.16,65.0,58.5,16.3
-PRO-001738,SKU-0070,La Pradera Lavaloza 3 L,Limpieza,SUC-07,descuento_20,0.2,1.7,0.241,0.241,7,103.0,166.0,103.0,83.02,20.0,54.0,16.6
+PRO-001738,SKU-0070,La Pradera Lavaloza 3 L,Limpieza,SUC-07,descuento_20,0.2,1.7,0.241,0.241,7,103.0,166.0,103.0,83.02,20.0,54.0,16.61
 PRO-000379,SKU-0013,Valle Sur Naranja 500 g,Frutas y verduras,SUC-05,descuento_25,0.25,1.85,0.2409,-0.3381,6,969.0,1822.0,603.0,780.84,188.0,451.2,113.52
 PRO-008872,SKU-0340,Monte Verde Zanahoria 2 kg,Frutas y verduras,SUC-12,descuento_15,0.15,1.5,0.2405,-0.1392,6,42.0,79.0,34.0,33.84,8.0,35.2,9.89
 PRO-004412,SKU-0170,El Roble Detergente líquido 500 ml,Limpieza,SUC-04,descuento_15,0.15,1.5,0.2405,-0.1139,7,49.0,79.0,35.0,39.48,10.0,65.0,17.29

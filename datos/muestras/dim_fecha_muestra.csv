@@ -1,192 +1,35 @@
 fecha,fecha_id,anio,mes,dia,trimestre,dia_semana,nombre_dia,semana_iso,es_fin_de_semana,es_feriado,nombre_feriado,es_quincena,temporada
-2024-01-10,20240110,2024,1,10,1,3,miércoles,2,false,false,,false,Verano
-2024-01-12,20240112,2024,1,12,1,5,viernes,2,false,false,,false,Verano
-2024-02-05,20240205,2024,2,5,1,1,lunes,6,false,false,,false,Verano
-2024-03-01,20240301,2024,3,1,1,5,viernes,9,false,false,,false,Verano
-2024-03-10,20240310,2024,3,10,1,7,domingo,10,true,false,,false,Verano
-2024-04-04,20240404,2024,4,4,2,4,jueves,14,false,false,,false,Temporada normal
-2024-04-22,20240422,2024,4,22,2,1,lunes,17,false,false,,false,Temporada normal
-2024-05-13,20240513,2024,5,13,2,1,lunes,20,false,false,,false,Temporada normal
-2024-05-15,20240515,2024,5,15,2,3,miércoles,20,false,false,,true,Temporada normal
-2024-06-05,20240605,2024,6,5,2,3,miércoles,23,false,false,,false,Invierno
-2024-06-07,20240607,2024,6,7,2,5,viernes,23,false,false,,false,Invierno
-2024-06-28,20240628,2024,6,28,2,5,viernes,26,false,false,,false,Invierno
-2024-07-06,20240706,2024,7,6,3,6,sábado,27,true,false,,false,Invierno
-2024-08-15,20240815,2024,8,15,3,4,jueves,33,false,false,,true,Invierno
-2024-08-26,20240826,2024,8,26,3,1,lunes,35,false,false,,false,Invierno
-2024-09-19,20240919,2024,9,19,3,4,jueves,38,false,true,Fiestas Patrias,false,Fiestas Patrias
-2024-09-25,20240925,2024,9,25,3,3,miércoles,39,false,false,,false,Fiestas Patrias
-2024-09-30,20240930,2024,9,30,3,1,lunes,40,false,false,,true,Fiestas Patrias
-2025-01-23,20250123,2025,1,23,1,4,jueves,4,false,false,,false,Verano
-2025-01-28,20250128,2025,1,28,1,2,martes,5,false,false,,false,Verano
-2025-01-31,20250131,2025,1,31,1,5,viernes,5,false,false,,true,Verano
-2025-02-24,20250224,2025,2,24,1,1,lunes,9,false,false,,false,Verano
-2025-03-29,20250329,2025,3,29,1,6,sábado,13,true,false,,true,Verano
-2025-04-10,20250410,2025,4,10,2,4,jueves,15,false,false,,false,Temporada normal
-2025-05-01,20250501,2025,5,1,2,4,jueves,18,false,true,Día del Trabajador,false,Temporada normal
-2025-05-13,20250513,2025,5,13,2,2,martes,20,false,false,,false,Temporada normal
-2025-05-16,20250516,2025,5,16,2,5,viernes,20,false,false,,true,Temporada normal
-2025-05-22,20250522,2025,5,22,2,4,jueves,21,false,false,,false,Temporada normal
-2025-07-05,20250705,2025,7,5,3,6,sábado,27,true,false,,false,Invierno
-2025-07-08,20250708,2025,7,8,3,2,martes,28,false,false,,false,Invierno
-2025-07-24,20250724,2025,7,24,3,4,jueves,30,false,false,,false,Invierno
-2025-08-05,20250805,2025,8,5,3,2,martes,32,false,false,,false,Invierno
-2025-08-19,20250819,2025,8,19,3,2,martes,34,false,false,,false,Invierno
-2025-09-26,20250926,2025,9,26,3,5,viernes,39,false,false,,false,Fiestas Patrias
-2025-10-08,20251008,2025,10,8,4,3,miércoles,41,false,false,,false,Temporada normal
-2025-10-14,20251014,2025,10,14,4,2,martes,42,false,false,,true,Temporada normal
-2025-10-17,20251017,2025,10,17,4,5,viernes,42,false,false,,false,Temporada normal
-2025-10-20,20251020,2025,10,20,4,1,lunes,43,false,false,,false,Temporada normal
-2025-11-01,20251101,2025,11,1,4,6,sábado,44,true,false,,false,Temporada normal
-2025-11-05,20251105,2025,11,5,4,3,miércoles,45,false,false,,false,Temporada normal
-2025-11-16,20251116,2025,11,16,4,7,domingo,46,true,false,,true,Temporada normal
-2025-11-19,20251119,2025,11,19,4,3,miércoles,47,false,false,,false,Temporada normal
-2025-11-20,20251120,2025,11,20,4,4,jueves,47,false,false,,false,Temporada normal
-2025-11-22,20251122,2025,11,22,4,6,sábado,47,true,false,,false,Temporada normal
-2024-01-02,20240102,2024,1,2,1,2,martes,1,false,false,,false,Verano
-2024-01-03,20240103,2024,1,3,1,3,miércoles,1,false,false,,false,Verano
-2024-01-05,20240105,2024,1,5,1,5,viernes,1,false,false,,false,Verano
-2024-01-23,20240123,2024,1,23,1,2,martes,4,false,false,,false,Verano
-2024-01-25,20240125,2024,1,25,1,4,jueves,4,false,false,,false,Verano
-2024-01-31,20240131,2024,1,31,1,3,miércoles,5,false,false,,true,Verano
-2024-02-07,20240207,2024,2,7,1,3,miércoles,6,false,false,,false,Verano
-2024-03-24,20240324,2024,3,24,1,7,domingo,12,true,false,,false,Verano
-2024-05-02,20240502,2024,5,2,2,4,jueves,18,false,false,,false,Temporada normal
-2024-05-03,20240503,2024,5,3,2,5,viernes,18,false,false,,false,Temporada normal
-2024-05-31,20240531,2024,5,31,2,5,viernes,22,false,false,,true,Temporada normal
-2024-06-29,20240629,2024,6,29,2,6,sábado,26,true,false,,true,Invierno
-2024-07-25,20240725,2024,7,25,3,4,jueves,30,false,false,,false,Invierno
-2024-07-26,20240726,2024,7,26,3,5,viernes,30,false,false,,false,Invierno
-2024-08-08,20240808,2024,8,8,3,4,jueves,32,false,false,,false,Invierno
-2024-08-20,20240820,2024,8,20,3,2,martes,34,false,false,,false,Invierno
-2024-08-22,20240822,2024,8,22,3,4,jueves,34,false,false,,false,Invierno
-2024-09-28,20240928,2024,9,28,3,6,sábado,39,true,false,,false,Fiestas Patrias
-2024-10-27,20241027,2024,10,27,4,7,domingo,43,true,false,,false,Temporada normal
-2024-10-28,20241028,2024,10,28,4,1,lunes,44,false,false,,false,Temporada normal
-2024-10-30,20241030,2024,10,30,4,3,miércoles,44,false,false,,true,Temporada normal
-2024-11-01,20241101,2024,11,1,4,5,viernes,44,false,false,,false,Temporada normal
-2024-11-03,20241103,2024,11,3,4,7,domingo,44,true,false,,false,Temporada normal
-2024-11-14,20241114,2024,11,14,4,4,jueves,46,false,false,,true,Temporada normal
-2024-11-15,20241115,2024,11,15,4,5,viernes,46,false,false,,true,Temporada normal
-2024-11-24,20241124,2024,11,24,4,7,domingo,47,true,false,,false,Temporada normal
-2024-12-06,20241206,2024,12,6,4,5,viernes,49,false,false,,false,Navidad
-2024-12-09,20241209,2024,12,9,4,1,lunes,50,false,false,,false,Navidad
-2024-12-25,20241225,2024,12,25,4,3,miércoles,52,false,true,Navidad,false,Navidad
-2024-12-27,20241227,2024,12,27,4,5,viernes,52,false,false,,false,Navidad
-2025-01-06,20250106,2025,1,6,1,1,lunes,2,false,false,,false,Verano
-2025-02-14,20250214,2025,2,14,1,5,viernes,7,false,false,,true,Verano
-2025-02-17,20250217,2025,2,17,1,1,lunes,8,false,false,,false,Verano
-2025-02-23,20250223,2025,2,23,1,7,domingo,8,true,false,,false,Verano
-2025-03-02,20250302,2025,3,2,1,7,domingo,9,true,false,,false,Verano
-2025-03-03,20250303,2025,3,3,1,1,lunes,10,false,true,Carnaval,false,Verano
-2025-04-19,20250419,2025,4,19,2,6,sábado,16,true,false,,false,Temporada normal
-2025-04-30,20250430,2025,4,30,2,3,miércoles,18,false,false,,true,Temporada normal
-2025-06-13,20250613,2025,6,13,2,5,viernes,24,false,false,,false,Invierno
-2025-06-23,20250623,2025,6,23,2,1,lunes,26,false,false,,false,Invierno
-2025-07-27,20250727,2025,7,27,3,7,domingo,30,true,false,,false,Invierno
-2025-08-07,20250807,2025,8,7,3,4,jueves,32,false,false,,false,Invierno
-2025-08-10,20250810,2025,8,10,3,7,domingo,32,true,false,,false,Invierno
-2025-09-10,20250910,2025,9,10,3,3,miércoles,37,false,false,,false,Fiestas Patrias
-2025-09-17,20250917,2025,9,17,3,3,miércoles,38,false,false,,false,Fiestas Patrias
-2025-09-24,20250924,2025,9,24,3,3,miércoles,39,false,false,,false,Fiestas Patrias
-2025-10-04,20251004,2025,10,4,4,6,sábado,40,true,false,,false,Temporada normal
-2025-10-05,20251005,2025,10,5,4,7,domingo,40,true,false,,false,Temporada normal
-2025-10-19,20251019,2025,10,19,4,7,domingo,42,true,false,,false,Temporada normal
-2025-12-07,20251207,2025,12,7,4,7,domingo,49,true,false,,false,Navidad
-2025-12-12,20251212,2025,12,12,4,5,viernes,50,false,false,,false,Navidad
-2025-12-21,20251221,2025,12,21,4,7,domingo,51,true,false,,false,Navidad
-2024-01-11,20240111,2024,1,11,1,4,jueves,2,false,false,,false,Verano
-2024-01-18,20240118,2024,1,18,1,4,jueves,3,false,false,,false,Verano
-2024-01-29,20240129,2024,1,29,1,1,lunes,5,false,false,,true,Verano
-2024-02-04,20240204,2024,2,4,1,7,domingo,5,true,false,,false,Verano
-2024-02-17,20240217,2024,2,17,1,6,sábado,7,true,false,,false,Verano
-2024-03-11,20240311,2024,3,11,1,1,lunes,11,false,false,,false,Verano
-2024-03-31,20240331,2024,3,31,1,7,domingo,13,true,false,,true,Verano
-2024-04-09,20240409,2024,4,9,2,2,martes,15,false,false,,false,Temporada normal
-2024-04-29,20240429,2024,4,29,2,1,lunes,18,false,false,,true,Temporada normal
-2024-05-18,20240518,2024,5,18,2,6,sábado,20,true,false,,false,Temporada normal
-2024-05-19,20240519,2024,5,19,2,7,domingo,20,true,false,,false,Temporada normal
-2024-05-26,20240526,2024,5,26,2,7,domingo,21,true,false,,false,Temporada normal
-2024-06-03,20240603,2024,6,3,2,1,lunes,23,false,false,,false,Invierno
-2024-06-13,20240613,2024,6,13,2,4,jueves,24,false,false,,false,Invierno
-2024-07-07,20240707,2024,7,7,3,7,domingo,27,true,false,,false,Invierno
-2024-07-16,20240716,2024,7,16,3,2,martes,29,false,false,,true,Invierno
-2024-08-09,20240809,2024,8,9,3,5,viernes,32,false,false,,false,Invierno
-2024-08-10,20240810,2024,8,10,3,6,sábado,32,true,false,,false,Invierno
-2024-08-24,20240824,2024,8,24,3,6,sábado,34,true,false,,false,Invierno
-2024-11-09,20241109,2024,11,9,4,6,sábado,45,true,false,,false,Temporada normal
-2024-11-13,20241113,2024,11,13,4,3,miércoles,46,false,false,,false,Temporada normal
-2024-11-23,20241123,2024,11,23,4,6,sábado,47,true,false,,false,Temporada normal
-2024-12-14,20241214,2024,12,14,4,6,sábado,50,true,false,,true,Navidad
-2024-12-20,20241220,2024,12,20,4,5,viernes,51,false,false,,false,Navidad
-2024-12-28,20241228,2024,12,28,4,6,sábado,52,true,false,,false,Navidad
-2025-01-17,20250117,2025,1,17,1,5,viernes,3,false,false,,false,Verano
-2025-01-30,20250130,2025,1,30,1,4,jueves,5,false,false,,true,Verano
-2025-02-28,20250228,2025,2,28,1,5,viernes,9,false,false,,false,Verano
-2025-03-10,20250310,2025,3,10,1,1,lunes,11,false,false,,false,Verano
-2025-03-14,20250314,2025,3,14,1,5,viernes,11,false,false,,true,Verano
-2025-04-13,20250413,2025,4,13,2,7,domingo,15,true,false,,false,Temporada normal
-2025-04-21,20250421,2025,4,21,2,1,lunes,17,false,false,,false,Temporada normal
-2025-05-23,20250523,2025,5,23,2,5,viernes,21,false,false,,false,Temporada normal
-2025-05-29,20250529,2025,5,29,2,4,jueves,22,false,false,,true,Temporada normal
-2025-05-31,20250531,2025,5,31,2,6,sábado,22,true,false,,true,Temporada normal
-2025-06-17,20250617,2025,6,17,2,2,martes,25,false,false,,false,Invierno
-2025-07-19,20250719,2025,7,19,3,6,sábado,29,true,false,,false,Invierno
-2025-08-29,20250829,2025,8,29,3,5,viernes,35,false,false,,true,Invierno
-2025-09-04,20250904,2025,9,4,3,4,jueves,36,false,false,,false,Fiestas Patrias
-2025-09-06,20250906,2025,9,6,3,6,sábado,36,true,false,,false,Fiestas Patrias
-2025-09-12,20250912,2025,9,12,3,5,viernes,37,false,false,,false,Fiestas Patrias
-2025-10-12,20251012,2025,10,12,4,7,domingo,41,true,false,,false,Temporada normal
-2025-10-25,20251025,2025,10,25,4,6,sábado,43,true,false,,false,Temporada normal
-2025-10-29,20251029,2025,10,29,4,3,miércoles,44,false,false,,true,Temporada normal
-2025-11-21,20251121,2025,11,21,4,5,viernes,47,false,false,,false,Temporada normal
-2025-11-25,20251125,2025,11,25,4,2,martes,48,false,false,,false,Temporada normal
-2025-12-19,20251219,2025,12,19,4,5,viernes,51,false,false,,false,Navidad
-2025-12-28,20251228,2025,12,28,4,7,domingo,52,true,false,,false,Navidad
-2024-03-08,20240308,2024,3,8,1,5,viernes,10,false,false,,false,Verano
-2024-03-13,20240313,2024,3,13,1,3,miércoles,11,false,false,,false,Verano
-2024-03-23,20240323,2024,3,23,1,6,sábado,12,true,false,,false,Verano
-2024-03-29,20240329,2024,3,29,1,5,viernes,13,false,true,Viernes Santo,true,Verano
-2024-05-12,20240512,2024,5,12,2,7,domingo,19,true,true,Día de la Madre,false,Temporada normal
-2024-05-14,20240514,2024,5,14,2,2,martes,20,false,false,,true,Temporada normal
-2024-06-16,20240616,2024,6,16,2,7,domingo,24,true,true,Día del Padre,true,Invierno
-2024-07-09,20240709,2024,7,9,3,2,martes,28,false,false,,false,Invierno
-2024-07-21,20240721,2024,7,21,3,7,domingo,29,true,false,,false,Invierno
-2024-07-23,20240723,2024,7,23,3,2,martes,30,false,false,,false,Invierno
-2024-09-23,20240923,2024,9,23,3,1,lunes,39,false,false,,false,Fiestas Patrias
-2024-10-02,20241002,2024,10,2,4,3,miércoles,40,false,false,,false,Temporada normal
-2024-10-09,20241009,2024,10,9,4,3,miércoles,41,false,false,,false,Temporada normal
-2024-10-29,20241029,2024,10,29,4,2,martes,44,false,false,,true,Temporada normal
-2024-11-02,20241102,2024,11,2,4,6,sábado,44,true,false,,false,Temporada normal
-2024-11-30,20241130,2024,11,30,4,6,sábado,48,true,false,,true,Temporada normal
-2024-12-26,20241226,2024,12,26,4,4,jueves,52,false,false,,false,Navidad
-2025-01-12,20250112,2025,1,12,1,7,domingo,2,true,false,,false,Verano
-2025-01-27,20250127,2025,1,27,1,1,lunes,5,false,false,,false,Verano
-2025-03-01,20250301,2025,3,1,1,6,sábado,9,true,false,,false,Verano
-2025-03-05,20250305,2025,3,5,1,3,miércoles,10,false,false,,false,Verano
-2025-03-07,20250307,2025,3,7,1,5,viernes,10,false,false,,false,Verano
-2025-03-16,20250316,2025,3,16,1,7,domingo,11,true,false,,true,Verano
-2025-04-08,20250408,2025,4,8,2,2,martes,15,false,false,,false,Temporada normal
-2025-04-17,20250417,2025,4,17,2,4,jueves,16,false,true,Jueves Santo,false,Temporada normal
-2025-04-26,20250426,2025,4,26,2,6,sábado,17,true,false,,false,Temporada normal
-2025-04-28,20250428,2025,4,28,2,1,lunes,18,false,false,,false,Temporada normal
-2025-05-04,20250504,2025,5,4,2,7,domingo,18,true,false,,false,Temporada normal
-2025-05-05,20250505,2025,5,5,2,1,lunes,19,false,false,,false,Temporada normal
-2025-06-03,20250603,2025,6,3,2,2,martes,23,false,false,,false,Invierno
-2025-08-12,20250812,2025,8,12,3,2,martes,33,false,false,,false,Invierno
-2025-08-18,20250818,2025,8,18,3,1,lunes,34,false,false,,false,Invierno
-2025-08-31,20250831,2025,8,31,3,7,domingo,35,true,false,,true,Invierno
-2025-09-15,20250915,2025,9,15,3,1,lunes,38,false,false,,true,Fiestas Patrias
-2025-09-20,20250920,2025,9,20,3,6,sábado,38,true,false,,false,Fiestas Patrias
-2025-10-18,20251018,2025,10,18,4,6,sábado,42,true,false,,false,Temporada normal
-2025-11-04,20251104,2025,11,4,4,2,martes,45,false,false,,false,Temporada normal
-2025-11-06,20251106,2025,11,6,4,4,jueves,45,false,false,,false,Temporada normal
-2025-11-10,20251110,2025,11,10,4,1,lunes,46,false,false,,false,Temporada normal
-2025-11-12,20251112,2025,11,12,4,3,miércoles,46,false,false,,false,Temporada normal
-2025-11-13,20251113,2025,11,13,4,4,jueves,46,false,false,,false,Temporada normal
-2025-11-17,20251117,2025,11,17,4,1,lunes,47,false,false,,false,Temporada normal
-2025-12-02,20251202,2025,12,2,4,2,martes,49,false,false,,false,Navidad
-2025-12-20,20251220,2025,12,20,4,6,sábado,51,true,false,,false,Navidad
+2024-02-12,20240212,2024,2,12,1,1,lunes,7,false,true,Carnaval,false,Verano
+2024-02-19,20240219,2024,2,19,1,1,lunes,8,false,false,,false,Verano
+2024-02-23,20240223,2024,2,23,1,5,viernes,8,false,false,,false,Verano
+2024-04-06,20240406,2024,4,6,2,6,sábado,14,true,false,,false,Temporada normal
+2024-04-10,20240410,2024,4,10,2,3,miércoles,15,false,false,,false,Temporada normal
+2024-04-11,20240411,2024,4,11,2,4,jueves,15,false,false,,false,Temporada normal
+2024-05-07,20240507,2024,5,7,2,2,martes,19,false,false,,false,Temporada normal
+2024-05-16,20240516,2024,5,16,2,4,jueves,20,false,false,,true,Temporada normal
+2024-05-22,20240522,2024,5,22,2,3,miércoles,21,false,false,,false,Temporada normal
+2024-07-14,20240714,2024,7,14,3,7,domingo,28,true,false,,true,Invierno
+2024-07-15,20240715,2024,7,15,3,1,lunes,29,false,false,,true,Invierno
+2024-08-06,20240806,2024,8,6,3,2,martes,32,false,false,,false,Invierno
+2024-10-06,20241006,2024,10,6,4,7,domingo,40,true,false,,false,Temporada normal
+2024-10-11,20241011,2024,10,11,4,5,viernes,41,false,false,,false,Temporada normal
+2024-11-10,20241110,2024,11,10,4,7,domingo,45,true,false,,false,Temporada normal
+2024-11-18,20241118,2024,11,18,4,1,lunes,47,false,false,,false,Temporada normal
+2024-11-29,20241129,2024,11,29,4,5,viernes,48,false,false,,true,Temporada normal
+2025-01-11,20250111,2025,1,11,1,6,sábado,2,true,false,,false,Verano
+2025-02-04,20250204,2025,2,4,1,2,martes,6,false,false,,false,Verano
+2025-04-18,20250418,2025,4,18,2,5,viernes,16,false,true,Viernes Santo,false,Temporada normal
+2025-05-06,20250506,2025,5,6,2,2,martes,19,false,false,,false,Temporada normal
+2025-05-28,20250528,2025,5,28,2,3,miércoles,22,false,false,,false,Temporada normal
+2025-06-24,20250624,2025,6,24,2,2,martes,26,false,false,,false,Invierno
+2025-07-07,20250707,2025,7,7,3,1,lunes,28,false,false,,false,Invierno
+2025-08-28,20250828,2025,8,28,3,4,jueves,35,false,false,,false,Invierno
+2025-09-08,20250908,2025,9,8,3,1,lunes,37,false,false,,false,Fiestas Patrias
+2025-09-29,20250929,2025,9,29,3,1,lunes,40,false,false,,true,Fiestas Patrias
+2025-10-09,20251009,2025,10,9,4,4,jueves,41,false,false,,false,Temporada normal
+2025-11-24,20251124,2025,11,24,4,1,lunes,48,false,false,,false,Temporada normal
+2025-11-27,20251127,2025,11,27,4,4,jueves,48,false,false,,false,Temporada normal
+2025-12-25,20251225,2025,12,25,4,4,jueves,52,false,true,Navidad,false,Navidad
 2024-01-04,20240104,2024,1,4,1,4,jueves,1,false,false,,false,Verano
 2024-01-20,20240120,2024,1,20,1,6,sábado,3,true,false,,false,Verano
 2024-01-24,20240124,2024,1,24,1,3,miércoles,4,false,false,,false,Verano
@@ -240,62 +83,219 @@ fecha,fecha_id,anio,mes,dia,trimestre,dia_semana,nombre_dia,semana_iso,es_fin_de
 2025-12-06,20251206,2025,12,6,4,6,sábado,49,true,false,,false,Navidad
 2025-12-14,20251214,2025,12,14,4,7,domingo,50,true,false,,true,Navidad
 2025-12-22,20251222,2025,12,22,4,1,lunes,52,false,false,,false,Navidad
-2024-01-14,20240114,2024,1,14,1,7,domingo,2,true,false,,true,Verano
-2024-01-27,20240127,2024,1,27,1,6,sábado,4,true,false,,false,Verano
-2024-02-10,20240210,2024,2,10,1,6,sábado,6,true,false,,false,Verano
-2024-02-15,20240215,2024,2,15,1,4,jueves,7,false,false,,true,Verano
-2024-03-06,20240306,2024,3,6,1,3,miércoles,10,false,false,,false,Verano
-2024-03-12,20240312,2024,3,12,1,2,martes,11,false,false,,false,Verano
-2024-03-22,20240322,2024,3,22,1,5,viernes,12,false,false,,false,Verano
-2024-05-09,20240509,2024,5,9,2,4,jueves,19,false,false,,false,Temporada normal
-2024-05-20,20240520,2024,5,20,2,1,lunes,21,false,false,,false,Temporada normal
-2024-06-21,20240621,2024,6,21,2,5,viernes,25,false,false,,false,Invierno
-2024-07-20,20240720,2024,7,20,3,6,sábado,29,true,false,,false,Invierno
-2024-07-22,20240722,2024,7,22,3,1,lunes,30,false,false,,false,Invierno
-2024-08-01,20240801,2024,8,1,3,4,jueves,31,false,false,,false,Invierno
-2024-08-29,20240829,2024,8,29,3,4,jueves,35,false,false,,true,Invierno
-2024-09-05,20240905,2024,9,5,3,4,jueves,36,false,false,,false,Fiestas Patrias
-2024-09-11,20240911,2024,9,11,3,3,miércoles,37,false,false,,false,Fiestas Patrias
-2024-10-25,20241025,2024,10,25,4,5,viernes,43,false,false,,false,Temporada normal
-2024-10-31,20241031,2024,10,31,4,4,jueves,44,false,false,,true,Temporada normal
-2024-11-08,20241108,2024,11,8,4,5,viernes,45,false,false,,false,Temporada normal
-2024-12-04,20241204,2024,12,4,4,3,miércoles,49,false,false,,false,Navidad
-2024-12-18,20241218,2024,12,18,4,3,miércoles,51,false,false,,false,Navidad
-2024-12-19,20241219,2024,12,19,4,4,jueves,51,false,false,,false,Navidad
-2025-01-02,20250102,2025,1,2,1,4,jueves,1,false,false,,false,Verano
-2025-01-13,20250113,2025,1,13,1,1,lunes,3,false,false,,false,Verano
-2025-02-15,20250215,2025,2,15,1,6,sábado,7,true,false,,true,Verano
-2025-02-16,20250216,2025,2,16,1,7,domingo,7,true,false,,true,Verano
-2025-02-22,20250222,2025,2,22,1,6,sábado,8,true,false,,false,Verano
-2025-03-30,20250330,2025,3,30,1,7,domingo,13,true,false,,true,Verano
-2025-04-04,20250404,2025,4,4,2,5,viernes,14,false,false,,false,Temporada normal
-2025-04-23,20250423,2025,4,23,2,3,miércoles,17,false,false,,false,Temporada normal
-2025-05-12,20250512,2025,5,12,2,1,lunes,20,false,false,,false,Temporada normal
-2025-05-30,20250530,2025,5,30,2,5,viernes,22,false,false,,true,Temporada normal
-2025-06-04,20250604,2025,6,4,2,3,miércoles,23,false,false,,false,Invierno
-2025-06-09,20250609,2025,6,9,2,1,lunes,24,false,false,,false,Invierno
-2025-07-01,20250701,2025,7,1,3,2,martes,27,false,false,,false,Invierno
-2025-07-10,20250710,2025,7,10,3,4,jueves,28,false,false,,false,Invierno
-2025-07-11,20250711,2025,7,11,3,5,viernes,28,false,false,,false,Invierno
-2025-07-30,20250730,2025,7,30,3,3,miércoles,31,false,false,,true,Invierno
-2025-08-02,20250802,2025,8,2,3,6,sábado,31,true,false,,false,Invierno
-2025-08-03,20250803,2025,8,3,3,7,domingo,31,true,false,,false,Invierno
-2025-08-15,20250815,2025,8,15,3,5,viernes,33,false,false,,true,Invierno
-2025-08-22,20250822,2025,8,22,3,5,viernes,34,false,false,,false,Invierno
-2025-08-27,20250827,2025,8,27,3,3,miércoles,35,false,false,,false,Invierno
-2025-10-27,20251027,2025,10,27,4,1,lunes,44,false,false,,false,Temporada normal
-2025-11-02,20251102,2025,11,2,4,7,domingo,44,true,false,,false,Temporada normal
-2025-11-28,20251128,2025,11,28,4,5,viernes,48,false,false,,false,Temporada normal
-2025-12-26,20251226,2025,12,26,4,5,viernes,52,false,false,,false,Navidad
-2024-02-12,20240212,2024,2,12,1,1,lunes,7,false,true,Carnaval,false,Verano
-2024-02-19,20240219,2024,2,19,1,1,lunes,8,false,false,,false,Verano
-2024-02-23,20240223,2024,2,23,1,5,viernes,8,false,false,,false,Verano
-2024-04-06,20240406,2024,4,6,2,6,sábado,14,true,false,,false,Temporada normal
-2024-04-10,20240410,2024,4,10,2,3,miércoles,15,false,false,,false,Temporada normal
-2024-04-11,20240411,2024,4,11,2,4,jueves,15,false,false,,false,Temporada normal
-2024-05-07,20240507,2024,5,7,2,2,martes,19,false,false,,false,Temporada normal
-2024-05-16,20240516,2024,5,16,2,4,jueves,20,false,false,,true,Temporada normal
-2024-05-22,20240522,2024,5,22,2,3,miércoles,21,false,false,,false,Temporada normal
-2024-07-14,20240714,2024,7,14,3,7,domingo,28,true,false,,true,Invierno
-2024-07-15,20240715,2024,7,15,3,1,lunes,29,false,false,,true,Invierno
-2024-08-06,20240806,2024,8,6,3,2,martes,32,false,false,,false,Invierno
+2024-01-11,20240111,2024,1,11,1,4,jueves,2,false,false,,false,Verano
+2024-01-18,20240118,2024,1,18,1,4,jueves,3,false,false,,false,Verano
+2024-01-29,20240129,2024,1,29,1,1,lunes,5,false,false,,true,Verano
+2024-02-04,20240204,2024,2,4,1,7,domingo,5,true,false,,false,Verano
+2024-02-17,20240217,2024,2,17,1,6,sábado,7,true,false,,false,Verano
+2024-03-11,20240311,2024,3,11,1,1,lunes,11,false,false,,false,Verano
+2024-03-31,20240331,2024,3,31,1,7,domingo,13,true,false,,true,Verano
+2024-04-09,20240409,2024,4,9,2,2,martes,15,false,false,,false,Temporada normal
+2024-04-29,20240429,2024,4,29,2,1,lunes,18,false,false,,true,Temporada normal
+2024-05-18,20240518,2024,5,18,2,6,sábado,20,true,false,,false,Temporada normal
+2024-05-19,20240519,2024,5,19,2,7,domingo,20,true,false,,false,Temporada normal
+2024-05-26,20240526,2024,5,26,2,7,domingo,21,true,false,,false,Temporada normal
+2024-06-03,20240603,2024,6,3,2,1,lunes,23,false,false,,false,Invierno
+2024-06-13,20240613,2024,6,13,2,4,jueves,24,false,false,,false,Invierno
+2024-07-07,20240707,2024,7,7,3,7,domingo,27,true,false,,false,Invierno
+2024-07-16,20240716,2024,7,16,3,2,martes,29,false,false,,true,Invierno
+2024-08-09,20240809,2024,8,9,3,5,viernes,32,false,false,,false,Invierno
+2024-08-10,20240810,2024,8,10,3,6,sábado,32,true,false,,false,Invierno
+2024-08-24,20240824,2024,8,24,3,6,sábado,34,true,false,,false,Invierno
+2024-11-09,20241109,2024,11,9,4,6,sábado,45,true,false,,false,Temporada normal
+2024-11-13,20241113,2024,11,13,4,3,miércoles,46,false,false,,false,Temporada normal
+2024-11-23,20241123,2024,11,23,4,6,sábado,47,true,false,,false,Temporada normal
+2024-12-14,20241214,2024,12,14,4,6,sábado,50,true,false,,true,Navidad
+2024-12-20,20241220,2024,12,20,4,5,viernes,51,false,false,,false,Navidad
+2024-12-28,20241228,2024,12,28,4,6,sábado,52,true,false,,false,Navidad
+2025-01-17,20250117,2025,1,17,1,5,viernes,3,false,false,,false,Verano
+2025-01-30,20250130,2025,1,30,1,4,jueves,5,false,false,,true,Verano
+2025-02-28,20250228,2025,2,28,1,5,viernes,9,false,false,,false,Verano
+2025-03-10,20250310,2025,3,10,1,1,lunes,11,false,false,,false,Verano
+2025-03-14,20250314,2025,3,14,1,5,viernes,11,false,false,,true,Verano
+2025-04-13,20250413,2025,4,13,2,7,domingo,15,true,false,,false,Temporada normal
+2025-04-21,20250421,2025,4,21,2,1,lunes,17,false,false,,false,Temporada normal
+2025-05-23,20250523,2025,5,23,2,5,viernes,21,false,false,,false,Temporada normal
+2025-05-29,20250529,2025,5,29,2,4,jueves,22,false,false,,true,Temporada normal
+2025-05-31,20250531,2025,5,31,2,6,sábado,22,true,false,,true,Temporada normal
+2025-06-17,20250617,2025,6,17,2,2,martes,25,false,false,,false,Invierno
+2025-07-19,20250719,2025,7,19,3,6,sábado,29,true,false,,false,Invierno
+2025-08-29,20250829,2025,8,29,3,5,viernes,35,false,false,,true,Invierno
+2025-09-04,20250904,2025,9,4,3,4,jueves,36,false,false,,false,Fiestas Patrias
+2025-09-06,20250906,2025,9,6,3,6,sábado,36,true,false,,false,Fiestas Patrias
+2025-09-12,20250912,2025,9,12,3,5,viernes,37,false,false,,false,Fiestas Patrias
+2025-10-12,20251012,2025,10,12,4,7,domingo,41,true,false,,false,Temporada normal
+2025-10-25,20251025,2025,10,25,4,6,sábado,43,true,false,,false,Temporada normal
+2025-10-29,20251029,2025,10,29,4,3,miércoles,44,false,false,,true,Temporada normal
+2025-11-21,20251121,2025,11,21,4,5,viernes,47,false,false,,false,Temporada normal
+2025-11-25,20251125,2025,11,25,4,2,martes,48,false,false,,false,Temporada normal
+2025-12-19,20251219,2025,12,19,4,5,viernes,51,false,false,,false,Navidad
+2025-12-28,20251228,2025,12,28,4,7,domingo,52,true,false,,false,Navidad
+2024-01-09,20240109,2024,1,9,1,2,martes,2,false,false,,false,Verano
+2024-01-16,20240116,2024,1,16,1,2,martes,3,false,false,,true,Verano
+2024-01-22,20240122,2024,1,22,1,1,lunes,4,false,false,,false,Verano
+2024-02-08,20240208,2024,2,8,1,4,jueves,6,false,false,,false,Verano
+2024-02-16,20240216,2024,2,16,1,5,viernes,7,false,false,,true,Verano
+2024-04-03,20240403,2024,4,3,2,3,miércoles,14,false,false,,false,Temporada normal
+2024-04-15,20240415,2024,4,15,2,1,lunes,16,false,false,,true,Temporada normal
+2024-04-18,20240418,2024,4,18,2,4,jueves,16,false,false,,false,Temporada normal
+2024-05-29,20240529,2024,5,29,2,3,miércoles,22,false,false,,true,Temporada normal
+2024-05-30,20240530,2024,5,30,2,4,jueves,22,false,false,,true,Temporada normal
+2024-06-06,20240606,2024,6,6,2,4,jueves,23,false,false,,false,Invierno
+2024-06-20,20240620,2024,6,20,2,4,jueves,25,false,false,,false,Invierno
+2024-06-22,20240622,2024,6,22,2,6,sábado,25,true,false,,false,Invierno
+2024-06-23,20240623,2024,6,23,2,7,domingo,25,true,false,,false,Invierno
+2024-06-25,20240625,2024,6,25,2,2,martes,26,false,false,,false,Invierno
+2024-06-27,20240627,2024,6,27,2,4,jueves,26,false,false,,false,Invierno
+2024-08-12,20240812,2024,8,12,3,1,lunes,33,false,false,,false,Invierno
+2024-08-16,20240816,2024,8,16,3,5,viernes,33,false,false,,true,Invierno
+2024-08-28,20240828,2024,8,28,3,3,miércoles,35,false,false,,false,Invierno
+2024-10-01,20241001,2024,10,1,4,2,martes,40,false,false,,false,Temporada normal
+2024-10-04,20241004,2024,10,4,4,5,viernes,40,false,false,,false,Temporada normal
+2024-10-24,20241024,2024,10,24,4,4,jueves,43,false,false,,false,Temporada normal
+2024-11-12,20241112,2024,11,12,4,2,martes,46,false,false,,false,Temporada normal
+2024-12-11,20241211,2024,12,11,4,3,miércoles,50,false,false,,false,Navidad
+2024-12-12,20241212,2024,12,12,4,4,jueves,50,false,false,,false,Navidad
+2024-12-21,20241221,2024,12,21,4,6,sábado,51,true,false,,false,Navidad
+2025-01-04,20250104,2025,1,4,1,6,sábado,1,true,false,,false,Verano
+2025-02-26,20250226,2025,2,26,1,3,miércoles,9,false,false,,false,Verano
+2025-03-06,20250306,2025,3,6,1,4,jueves,10,false,false,,false,Verano
+2025-03-08,20250308,2025,3,8,1,6,sábado,10,true,false,,false,Verano
+2025-03-24,20250324,2025,3,24,1,1,lunes,13,false,false,,false,Verano
+2025-03-25,20250325,2025,3,25,1,2,martes,13,false,false,,false,Verano
+2025-04-09,20250409,2025,4,9,2,3,miércoles,15,false,false,,false,Temporada normal
+2025-04-25,20250425,2025,4,25,2,5,viernes,17,false,false,,false,Temporada normal
+2025-06-01,20250601,2025,6,1,2,7,domingo,22,true,false,,false,Invierno
+2025-06-08,20250608,2025,6,8,2,7,domingo,23,true,false,,false,Invierno
+2025-06-14,20250614,2025,6,14,2,6,sábado,24,true,false,,true,Invierno
+2025-07-04,20250704,2025,7,4,3,5,viernes,27,false,false,,false,Invierno
+2025-07-18,20250718,2025,7,18,3,5,viernes,29,false,false,,false,Invierno
+2025-07-31,20250731,2025,7,31,3,4,jueves,31,false,false,,true,Invierno
+2025-08-01,20250801,2025,8,1,3,5,viernes,31,false,false,,false,Invierno
+2025-09-02,20250902,2025,9,2,3,2,martes,36,false,false,,false,Fiestas Patrias
+2025-09-28,20250928,2025,9,28,3,7,domingo,39,true,false,,false,Fiestas Patrias
+2025-10-03,20251003,2025,10,3,4,5,viernes,40,false,false,,false,Temporada normal
+2025-11-11,20251111,2025,11,11,4,2,martes,46,false,false,,false,Temporada normal
+2025-11-14,20251114,2025,11,14,4,5,viernes,46,false,false,,true,Temporada normal
+2025-11-23,20251123,2025,11,23,4,7,domingo,47,true,false,,false,Temporada normal
+2025-11-30,20251130,2025,11,30,4,7,domingo,48,true,false,,true,Temporada normal
+2025-12-11,20251211,2025,12,11,4,4,jueves,50,false,false,,false,Navidad
+2025-12-30,20251230,2025,12,30,4,2,martes,1,false,false,,true,Navidad
+2024-01-15,20240115,2024,1,15,1,1,lunes,3,false,false,,true,Verano
+2024-03-09,20240309,2024,3,9,1,6,sábado,10,true,false,,false,Verano
+2024-03-17,20240317,2024,3,17,1,7,domingo,11,true,false,,false,Verano
+2024-03-20,20240320,2024,3,20,1,3,miércoles,12,false,false,,false,Verano
+2024-03-30,20240330,2024,3,30,1,6,sábado,13,true,false,,true,Verano
+2024-04-28,20240428,2024,4,28,2,7,domingo,17,true,false,,false,Temporada normal
+2024-05-17,20240517,2024,5,17,2,5,viernes,20,false,false,,false,Temporada normal
+2024-05-27,20240527,2024,5,27,2,1,lunes,22,false,false,,false,Temporada normal
+2024-07-27,20240727,2024,7,27,3,6,sábado,30,true,false,,false,Invierno
+2024-07-28,20240728,2024,7,28,3,7,domingo,30,true,false,,false,Invierno
+2024-09-08,20240908,2024,9,8,3,7,domingo,36,true,false,,false,Fiestas Patrias
+2024-09-12,20240912,2024,9,12,3,4,jueves,37,false,false,,false,Fiestas Patrias
+2024-09-14,20240914,2024,9,14,3,6,sábado,37,true,false,,true,Fiestas Patrias
+2024-10-08,20241008,2024,10,8,4,2,martes,41,false,false,,false,Temporada normal
+2024-10-14,20241014,2024,10,14,4,1,lunes,42,false,false,,true,Temporada normal
+2024-11-06,20241106,2024,11,6,4,3,miércoles,45,false,false,,false,Temporada normal
+2024-11-11,20241111,2024,11,11,4,1,lunes,46,false,false,,false,Temporada normal
+2024-12-03,20241203,2024,12,3,4,2,martes,49,false,false,,false,Navidad
+2024-12-29,20241229,2024,12,29,4,7,domingo,52,true,false,,true,Navidad
+2025-01-03,20250103,2025,1,3,1,5,viernes,1,false,false,,false,Verano
+2025-01-25,20250125,2025,1,25,1,6,sábado,4,true,false,,false,Verano
+2025-02-02,20250202,2025,2,2,1,7,domingo,5,true,false,,false,Verano
+2025-02-19,20250219,2025,2,19,1,3,miércoles,8,false,false,,false,Verano
+2025-03-04,20250304,2025,3,4,1,2,martes,10,false,false,,false,Verano
+2025-03-13,20250313,2025,3,13,1,4,jueves,11,false,false,,false,Verano
+2025-03-19,20250319,2025,3,19,1,3,miércoles,12,false,false,,false,Verano
+2025-03-20,20250320,2025,3,20,1,4,jueves,12,false,false,,false,Verano
+2025-03-23,20250323,2025,3,23,1,7,domingo,12,true,false,,false,Verano
+2025-04-20,20250420,2025,4,20,2,7,domingo,16,true,false,,false,Temporada normal
+2025-05-02,20250502,2025,5,2,2,5,viernes,18,false,false,,false,Temporada normal
+2025-05-18,20250518,2025,5,18,2,7,domingo,20,true,false,,false,Temporada normal
+2025-05-24,20250524,2025,5,24,2,6,sábado,21,true,false,,false,Temporada normal
+2025-06-16,20250616,2025,6,16,2,1,lunes,25,false,false,,true,Invierno
+2025-06-21,20250621,2025,6,21,2,6,sábado,25,true,false,,false,Invierno
+2025-06-25,20250625,2025,6,25,2,3,miércoles,26,false,false,,false,Invierno
+2025-07-21,20250721,2025,7,21,3,1,lunes,30,false,false,,false,Invierno
+2025-07-28,20250728,2025,7,28,3,1,lunes,31,false,false,,false,Invierno
+2025-09-09,20250909,2025,9,9,3,2,martes,37,false,false,,false,Fiestas Patrias
+2025-10-01,20251001,2025,10,1,4,3,miércoles,40,false,false,,false,Temporada normal
+2025-10-11,20251011,2025,10,11,4,6,sábado,41,true,false,,false,Temporada normal
+2024-01-08,20240108,2024,1,8,1,1,lunes,2,false,false,,false,Verano
+2024-01-21,20240121,2024,1,21,1,7,domingo,3,true,false,,false,Verano
+2024-01-28,20240128,2024,1,28,1,7,domingo,4,true,false,,false,Verano
+2024-02-11,20240211,2024,2,11,1,7,domingo,6,true,false,,false,Verano
+2024-03-15,20240315,2024,3,15,1,5,viernes,11,false,false,,true,Verano
+2024-03-28,20240328,2024,3,28,1,4,jueves,13,false,true,Jueves Santo,false,Verano
+2024-04-02,20240402,2024,4,2,2,2,martes,14,false,false,,false,Temporada normal
+2024-04-07,20240407,2024,4,7,2,7,domingo,14,true,false,,false,Temporada normal
+2024-04-12,20240412,2024,4,12,2,5,viernes,15,false,false,,false,Temporada normal
+2024-04-25,20240425,2024,4,25,2,4,jueves,17,false,false,,false,Temporada normal
+2024-05-01,20240501,2024,5,1,2,3,miércoles,18,false,true,Día del Trabajador,false,Temporada normal
+2024-05-06,20240506,2024,5,6,2,1,lunes,19,false,false,,false,Temporada normal
+2024-05-08,20240508,2024,5,8,2,3,miércoles,19,false,false,,false,Temporada normal
+2024-05-11,20240511,2024,5,11,2,6,sábado,19,true,false,,false,Temporada normal
+2024-06-14,20240614,2024,6,14,2,5,viernes,24,false,false,,true,Invierno
+2024-06-26,20240626,2024,6,26,2,3,miércoles,26,false,false,,false,Invierno
+2024-07-08,20240708,2024,7,8,3,1,lunes,28,false,false,,false,Invierno
+2024-07-24,20240724,2024,7,24,3,3,miércoles,30,false,false,,false,Invierno
+2024-08-07,20240807,2024,8,7,3,3,miércoles,32,false,false,,false,Invierno
+2024-09-02,20240902,2024,9,2,3,1,lunes,36,false,false,,false,Fiestas Patrias
+2024-09-16,20240916,2024,9,16,3,1,lunes,38,false,false,,true,Fiestas Patrias
+2024-10-15,20241015,2024,10,15,4,2,martes,42,false,false,,true,Temporada normal
+2024-10-22,20241022,2024,10,22,4,2,martes,43,false,false,,false,Temporada normal
+2024-10-26,20241026,2024,10,26,4,6,sábado,43,true,false,,false,Temporada normal
+2024-11-19,20241119,2024,11,19,4,2,martes,47,false,false,,false,Temporada normal
+2025-01-01,20250101,2025,1,1,1,3,miércoles,1,false,true,Año Nuevo,false,Verano
+2025-02-07,20250207,2025,2,7,1,5,viernes,6,false,false,,false,Verano
+2025-02-13,20250213,2025,2,13,1,4,jueves,7,false,false,,false,Verano
+2025-03-17,20250317,2025,3,17,1,1,lunes,12,false,false,,false,Verano
+2025-03-28,20250328,2025,3,28,1,5,viernes,13,false,false,,false,Verano
+2025-03-31,20250331,2025,3,31,1,1,lunes,14,false,false,,true,Verano
+2025-04-01,20250401,2025,4,1,2,2,martes,14,false,false,,false,Temporada normal
+2025-04-03,20250403,2025,4,3,2,4,jueves,14,false,false,,false,Temporada normal
+2025-04-06,20250406,2025,4,6,2,7,domingo,14,true,false,,false,Temporada normal
+2025-04-11,20250411,2025,4,11,2,5,viernes,15,false,false,,false,Temporada normal
+2025-05-07,20250507,2025,5,7,2,3,miércoles,19,false,false,,false,Temporada normal
+2025-06-07,20250607,2025,6,7,2,6,sábado,23,true,false,,false,Invierno
+2025-07-03,20250703,2025,7,3,3,4,jueves,27,false,false,,false,Invierno
+2025-08-06,20250806,2025,8,6,3,3,miércoles,32,false,false,,false,Invierno
+2025-08-20,20250820,2025,8,20,3,3,miércoles,34,false,false,,false,Invierno
+2025-08-21,20250821,2025,8,21,3,4,jueves,34,false,false,,false,Invierno
+2025-09-03,20250903,2025,9,3,3,3,miércoles,36,false,false,,false,Fiestas Patrias
+2025-10-06,20251006,2025,10,6,4,1,lunes,41,false,false,,false,Temporada normal
+2025-10-07,20251007,2025,10,7,4,2,martes,41,false,false,,false,Temporada normal
+2025-10-15,20251015,2025,10,15,4,3,miércoles,42,false,false,,true,Temporada normal
+2025-11-15,20251115,2025,11,15,4,6,sábado,46,true,false,,true,Temporada normal
+2025-11-18,20251118,2025,11,18,4,2,martes,47,false,false,,false,Temporada normal
+2025-12-05,20251205,2025,12,5,4,5,viernes,49,false,false,,false,Navidad
+2025-12-13,20251213,2025,12,13,4,6,sábado,50,true,false,,false,Navidad
+2025-12-18,20251218,2025,12,18,4,4,jueves,51,false,false,,false,Navidad
+2024-02-26,20240226,2024,2,26,1,1,lunes,9,false,false,,false,Verano
+2024-04-01,20240401,2024,4,1,2,1,lunes,14,false,false,,false,Temporada normal
+2024-04-24,20240424,2024,4,24,2,3,miércoles,17,false,false,,false,Temporada normal
+2024-04-30,20240430,2024,4,30,2,2,martes,18,false,false,,true,Temporada normal
+2024-06-04,20240604,2024,6,4,2,2,martes,23,false,false,,false,Invierno
+2024-06-08,20240608,2024,6,8,2,6,sábado,23,true,false,,false,Invierno
+2024-06-11,20240611,2024,6,11,2,2,martes,24,false,false,,false,Invierno
+2024-06-18,20240618,2024,6,18,2,2,martes,25,false,false,,false,Invierno
+2024-07-12,20240712,2024,7,12,3,5,viernes,28,false,false,,false,Invierno
+2024-07-31,20240731,2024,7,31,3,3,miércoles,31,false,false,,true,Invierno
+2024-08-05,20240805,2024,8,5,3,1,lunes,32,false,false,,false,Invierno
+2024-08-11,20240811,2024,8,11,3,7,domingo,32,true,false,,false,Invierno
+2024-08-18,20240818,2024,8,18,3,7,domingo,33,true,true,Día del Niño,false,Invierno
+2024-08-19,20240819,2024,8,19,3,1,lunes,34,false,false,,false,Invierno
+2024-08-25,20240825,2024,8,25,3,7,domingo,34,true,false,,false,Invierno
+2024-09-03,20240903,2024,9,3,3,2,martes,36,false,false,,false,Fiestas Patrias
+2024-09-21,20240921,2024,9,21,3,6,sábado,38,true,false,,false,Fiestas Patrias
+2024-10-23,20241023,2024,10,23,4,3,miércoles,43,false,false,,false,Temporada normal
+2024-11-17,20241117,2024,11,17,4,7,domingo,46,true,false,,false,Temporada normal
+2024-11-25,20241125,2024,11,25,4,1,lunes,48,false,false,,false,Temporada normal
+2024-12-07,20241207,2024,12,7,4,6,sábado,49,true,false,,false,Navidad
+2024-12-10,20241210,2024,12,10,4,2,martes,50,false,false,,false,Navidad
+2024-12-30,20241230,2024,12,30,4,1,lunes,1,false,false,,true,Navidad
+2025-01-05,20250105,2025,1,5,1,7,domingo,1,true,false,,false,Verano
+2025-01-15,20250115,2025,1,15,1,3,miércoles,3,false,false,,true,Verano
+2025-01-26,20250126,2025,1,26,1,7,domingo,4,true,false,,false,Verano
+2025-02-06,20250206,2025,2,6,1,4,jueves,6,false,false,,false,Verano
+2025-02-09,20250209,2025,2,9,1,7,domingo,6,true,false,,false,Verano

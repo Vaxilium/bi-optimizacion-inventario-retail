@@ -64,6 +64,13 @@ def clases_abc(con: duckdb.DuckDBPyConnection) -> pd.DataFrame:
     """Clasifica el surtido en A, B o C segun la participacion acumulada de ventas."""
     return con.execute(
         """
+        WITH base AS (
+            SELECT
+                producto_id,
+                CAST(ROUND(SUM(ventas), 2) AS DECIMAL(18, 2)) AS ventas
+            FROM mart_sku_resumen
+            GROUP BY 1
+        )
         SELECT producto_id, clase_abc
         FROM (
             SELECT
@@ -75,7 +82,7 @@ def clases_abc(con: duckdb.DuckDBPyConnection) -> pd.DataFrame:
                          / SUM(ventas) OVER () <= 0.95 THEN 'B'
                     ELSE 'C'
                 END AS clase_abc
-            FROM mart_sku_resumen
+            FROM base
         )
         """
     ).fetchdf()
@@ -98,7 +105,7 @@ def estadisticas_pares(con: duckdb.DuckDBPyConnection) -> pd.DataFrame:
     ).fetchdf()
     df = df.merge(clases_abc(con), on="producto_id", how="inner")
     df["adi"] = df["dias"] / df["dias_con_venta"].clip(lower=1)
-    df["cv2"] = (df["sd_no_cero"] / df["media_no_cero"].clip(lower=1e-9)) ** 2
+    df["cv2"] = ((df["sd_no_cero"] / df["media_no_cero"].clip(lower=1e-9)) ** 2).round(8)
     df["clase_xyz"] = np.where(
         (df["adi"] > 1.32) | (df["cv2"] >= 1.0), "Z",
         np.where(df["cv2"] < 0.5, "X", "Y"),
@@ -141,14 +148,18 @@ def muestrear(pares: pd.DataFrame, n: int, semilla: int) -> pd.DataFrame:
     cuotas = _cuotas(tamanos, n)
     generador = np.random.default_rng(semilla)
     elegidos = []
-    for (abc, xyz), tamano in tamanos.items():
+    for abc, xyz in sorted(tamanos):
         grupo = pares[(pares["clase_abc"] == abc) & (pares["clase_xyz"] == xyz)]
         cantidad = min(cuotas[(abc, xyz)], len(grupo))
         if cantidad == 0:
             continue
         indices = generador.choice(len(grupo), size=cantidad, replace=False)
         elegidos.append(grupo.iloc[indices])
-    return pd.concat(elegidos, ignore_index=True)
+    return (
+        pd.concat(elegidos, ignore_index=True)
+        .sort_values(["sucursal_id", "producto_id"])
+        .reset_index(drop=True)
+    )
 
 
 def construir_series(

@@ -77,7 +77,7 @@ pruebas:
 	$(PY) -m pytest -q pruebas
 
 lint:
-	$(RUFF) check src pruebas
+	$(RUFF) check src pruebas tareas.py
 
 limpiar:
 	rm -rf datos/crudo datos/staging datos/nucleo datos/marts datos/verdad_oculta datos/almacen

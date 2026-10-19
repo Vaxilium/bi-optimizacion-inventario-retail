@@ -1,7 +1,7 @@
 """Diseno y evaluacion del piloto controlado de 12 semanas.
 
 Uso:
-    python -m src.piloto.ejecutar
+    python -m src.piloto.ejecutar [--rapido]
 
 Salidas:
     resultados/piloto.json
@@ -11,6 +11,7 @@ Salidas:
 
 from __future__ import annotations
 
+import argparse
 import time
 
 import duckdb
@@ -23,9 +24,9 @@ from src.piloto.estimacion import estimar
 from src.piloto.simulacion import simular_piloto
 
 
-def ejecutar() -> dict:
+def ejecutar(modo_rapido: bool = False) -> dict:
     inicio = time.time()
-    parametros = cargar_parametros()
+    parametros = cargar_parametros(modo_rapido)
     asegurar_directorios()
     cfg = parametros["piloto"]
     con = duckdb.connect(str(RUTA_ALMACEN), read_only=True)
@@ -100,4 +101,7 @@ def _imprimir(resultado: dict) -> None:
 
 
 if __name__ == "__main__":
-    ejecutar()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--rapido", action="store_true")
+    args = parser.parse_args()
+    ejecutar(modo_rapido=args.rapido)

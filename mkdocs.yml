@@ -1,0 +1,87 @@
+site_name: Optimización de inventario y pronóstico
+site_description: Caso de portafolio de analítica de abastecimiento con datos sintéticos, simulación y piloto.
+site_author: Franco Tilleria Centurión
+site_url: https://vaxilium.github.io/bi-optimizacion-inventario-retail/
+repo_url: https://github.com/Vaxilium/bi-optimizacion-inventario-retail
+repo_name: Vaxilium/bi-optimizacion-inventario-retail
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.highlight
+    - toc.follow
+
+nav:
+  - Inicio: index.md
+  - Proyecto:
+      - Marco del proyecto: 01-marco-del-proyecto.md
+      - Datos sintéticos: 02-datos.md
+      - Capa de datos: 03-capa-de-datos.md
+  - Análisis:
+      - Análisis exploratorio: 04-analisis.md
+      - Pronóstico: 05-pronostico.md
+  - Solución:
+      - Optimización de inventario: 06-inventario.md
+      - Piloto controlado: 07-piloto.md
+      - Caso de negocio: 08-caso-negocio.md
+  - Implementación:
+      - Plan de implementación: 09-implementacion/plan-de-implementacion.md
+      - Trazabilidad: 09-implementacion/trazabilidad.md
+  - Resumen ejecutivo: 10-resumen-ejecutivo.md
+  - Tablero: tablero.html
+  - Decisiones:
+      - 0001 DuckDB y Parquet: decisiones/0001-almacen-duckdb-parquet.md
+      - 0002 Datos con censura: decisiones/0002-datos-sinteticos-con-censura.md
+      - 0003 Validación retrospectiva: decisiones/0003-validacion-retrospectiva-origen-movil.md
+      - 0004 Política (s, S): decisiones/0004-politica-sS-por-segmento.md
+      - 0005 Piloto DiD: decisiones/0005-piloto-diferencias-en-diferencias.md
+      - 0006 Documentos generados: decisiones/0006-documentos-generados-desde-codigo.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Vaxilium
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/franco-tilleria-centurion
+      name: LinkedIn

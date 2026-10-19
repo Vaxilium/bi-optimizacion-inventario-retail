@@ -112,3 +112,5 @@ rapido:
       dias: 60
       replicas: 1
       n_series: 24
+  piloto:
+    n_tratamiento: 1
